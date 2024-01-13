@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_demofirefly_fa fa-plus-circle</name>
+   <tag></tag>
+   <elementGuidId>2d80fbc0-cfa9-4a37-b240-8306cc18ee48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.fa.fa-plus-circle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='sidebar-toggle']/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6999a352-abee-44ad-bdb7-41aa8687a0dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus-circle</value>
+      <webElementGuid>320a7b78-3329-45b1-abf5-8825a88b2cb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-toggle&quot;)/a[1]/span[@class=&quot;fa fa-plus-circle&quot;]</value>
+      <webElementGuid>b1d6c1b0-6e58-4ed6-861e-fc527bace4ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='sidebar-toggle']/a/span</value>
+      <webElementGuid>38e47957-9466-4ec8-9c5e-561de939d02f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/span</value>
+      <webElementGuid>0a627c90-73df-4be5-a0ad-57540875f618</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_New bill</name>
+   <tag></tag>
+   <elementGuidId>17ec8210-3691-4e8f-afc8-b6b3f7a03b2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(11) > a > div.menu-info > h4.control-sidebar-subheading</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='control-sidebar-home-tab']/ul/li[11]/a/div/h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>8941e24a-b148-465e-a0b3-9977e5aa3468</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>control-sidebar-subheading</value>
+      <webElementGuid>14edc50d-4bce-4b36-8618-1ec4ce9c197a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New bill</value>
+      <webElementGuid>1fad6269-d2d6-480f-abce-5d282113577c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;control-sidebar-home-tab&quot;)/ul[@class=&quot;control-sidebar-menu&quot;]/li[11]/a[1]/div[@class=&quot;menu-info&quot;]/h4[@class=&quot;control-sidebar-subheading&quot;]</value>
+      <webElementGuid>40f0ff12-b973-4e31-8caf-698c3581d2bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='control-sidebar-home-tab']/ul/li[11]/a/div/h4</value>
+      <webElementGuid>935bb961-57d7-4b5c-8df7-828497d3a432</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New piggy bank'])[1]/following::h4[1]</value>
+      <webElementGuid>f0510709-e1fd-4cfb-937f-508d2c9beda0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New category'])[1]/following::h4[2]</value>
+      <webElementGuid>04d939bd-f515-49ed-8e5b-1c7930157d54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New rule'])[1]/preceding::h4[1]</value>
+      <webElementGuid>7f46bbdc-bcc8-4fbb-96f6-a870f497aa35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New recurring transaction'])[1]/preceding::h4[2]</value>
+      <webElementGuid>1e1ef3c9-c42b-4a97-a61c-7ad798271ecd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='New bill']/parent::*</value>
+      <webElementGuid>d3264251-c3b5-43e8-bbbb-964896a9718e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[11]/a/div/h4</value>
+      <webElementGuid>db751031-5e05-4df6-a073-4f4f791b11f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'New bill' or . = 'New bill')]</value>
+      <webElementGuid>a77e91e9-ab5d-4311-8283-2e52e42ab92a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

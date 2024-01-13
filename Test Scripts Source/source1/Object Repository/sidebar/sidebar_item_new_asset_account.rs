@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sidebar_item_new_asset_account</name>
+   <tag></tag>
+   <elementGuidId>3ee7a139-0236-435e-9c60-7b6304273ad1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(4) > a > div.menu-info > h4.control-sidebar-subheading</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='control-sidebar-home-tab']/ul/li[4]/a/div/h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>1821c05f-3c61-44dc-acde-a895a1e48203</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>control-sidebar-subheading</value>
+      <webElementGuid>a1480823-d95b-4122-8d3d-a6d68a771191</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New asset account</value>
+      <webElementGuid>7c6ca18e-63e8-41f8-a262-ec103826854f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;control-sidebar-home-tab&quot;)/ul[@class=&quot;control-sidebar-menu&quot;]/li[4]/a[1]/div[@class=&quot;menu-info&quot;]/h4[@class=&quot;control-sidebar-subheading&quot;]</value>
+      <webElementGuid>9b51c372-1386-4df3-966c-7d69cb885564</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='control-sidebar-home-tab']/ul/li[4]/a/div/h4</value>
+      <webElementGuid>ce947aeb-6bc6-4b25-9b0a-ddc08a04b5d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/div/h4</value>
+      <webElementGuid>54bb35ab-3550-43ac-b1b7-06ea53b65a19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'New asset account' or . = 'New asset account')]</value>
+      <webElementGuid>2b837296-877d-4f96-a24d-eb217a5ca2f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

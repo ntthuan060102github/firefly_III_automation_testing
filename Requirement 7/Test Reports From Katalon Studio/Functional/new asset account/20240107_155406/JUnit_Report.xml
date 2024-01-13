@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="new asset account" time="265.151" tests="20" failures="1" errors="0">
+   <testsuite name="new asset account" tests="20" failures="1" errors="0" time="265.151" skipped="0" timestamp="2024-01-07 15:54:15" hostname="Thuan - Revision-PC" id="Test Suites/Functional/new asset account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_155405\\Functional\\new asset account\\20240107_155406"/>
+         <property name="logFiles" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_155405\\Functional\\new asset account\\20240107_155406\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_155405\\Functional\\new asset account\\20240107_155406\\1704617874799.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_155405\\Functional\\new asset account\\20240107_155406\\1704617885881.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_155405\\Functional\\new asset account\\20240107_155406\\1704617897007.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_155405\\Functional\\new asset account\\20240107_155406\\1704617909016.png"/>
+         <property name="hostName" value="Thuan - Revision-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.28.16.1"/>
+         <property name="sessionId" value="2d1f4512fc839406b66e35cf97b9f18f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Functional/new asset account/TC1" time="11.118" classname="Test Cases/Functional/new asset account/TC1" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:54:16 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC1: Test Cases/Functional/new asset account/TC1
+
+2024-01-07 15:54:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:54:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:54:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:54:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:54:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:54:20 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:54:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:54:21 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:54:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), "test"): Text 'test' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:54:26 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:54:26 - [TEST_STEP][PASSED] - actual_text = getAttribute(findTestObject("create_new_asset_account/input_name"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_name' is: 'test'
+
+2024-01-07 15:54:26 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_name' is: 'test'
+
+2024-01-07 15:54:26 - [TEST_STEP][PASSED] - verifyEqual(actual_text, expected_text): Actual object 'test' and expected object 'test' are equal
+
+2024-01-07 15:54:26 - [MESSAGE][PASSED] - Actual object 'test' and expected object 'test' are equal
+
+2024-01-07 15:54:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:54:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC2_TC3_TC4" time="10.779" classname="Test Cases/Functional/new asset account/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:54:27 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC2_TC3_TC4: Test Cases/Functional/new asset account/TC2_TC3_TC4
+
+2024-01-07 15:54:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:54:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:54:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:54:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:54:29 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:54:30 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:54:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:54:30 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:54:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:54:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'this is desc' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:54:35 - [MESSAGE][PASSED] - Text 'this is desc' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:54:35 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:54:36 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'Success! New account "this is desc" stored!' is present on page 
+
+2024-01-07 15:54:37 - [MESSAGE][PASSED] - Text 'Success! New account "this is desc" stored!' is present on page 
+
+2024-01-07 15:54:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:54:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC2_TC3_TC4" time="10.46" classname="Test Cases/Functional/new asset account/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:54:38 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC2_TC3_TC4: Test Cases/Functional/new asset account/TC2_TC3_TC4
+
+2024-01-07 15:54:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:54:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:54:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:54:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:54:39 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:54:41 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:54:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:54:41 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:54:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:54:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:54:45 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:54:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text '' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:54:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:54:46 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:54:47 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'The name field is required.' is present on page 
+
+2024-01-07 15:54:48 - [MESSAGE][PASSED] - Text 'The name field is required.' is present on page 
+
+2024-01-07 15:54:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:54:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC2_TC3_TC4" time="11.24" classname="Test Cases/Functional/new asset account/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:54:48 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC2_TC3_TC4: Test Cases/Functional/new asset account/TC2_TC3_TC4
+
+2024-01-07 15:54:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:54:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:54:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:54:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:54:49 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:54:51 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:54:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:54:51 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:54:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:54:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'Tet is the biggest traditional festival in Vietnam. This is an opportunity for people to enjoy a happy and relaxing period of time with their family and friends. There are some differences between Tet in the North and the South of Vietnam. In the North, the traditional food of Tet is Chung cake – a rectangular sticky rice cake with meat, which is wrapped in phrynium. People usually buy the cakes with some cherry blossom branches as a symbol of Tet to decorate their houses. In the South, people consider apricots and Tet cakes are the symbols of Tet. Tet cake is also made from sticky rice, and the inside can be sweet beans, bananas, or even meat. On New Year’s Eve, most families gather together to have a warm dinner and a traditional ritual in order to commemorate our ancestors. On the first day of New Year, youngsters will give their best greetings to oldsters and receive lucky money. In the rest time of Tet, people can go to pagodas to pray for good things, peace, and health. Tet is an important occasion for families and friends to be together after a year of hard work, and it can motivate people to try harder in the next year.' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:54:57 - [MESSAGE][PASSED] - Text 'Tet is the biggest traditional festival in Vietnam. This is an opportunity for people to enjoy a happy and relaxing period of time with their family and friends. There are some differences between Tet in the North and the South of Vietnam. In the North, the traditional food of Tet is Chung cake – a rectangular sticky rice cake with meat, which is wrapped in phrynium. People usually buy the cakes with some cherry blossom branches as a symbol of Tet to decorate their houses. In the South, people consider apricots and Tet cakes are the symbols of Tet. Tet cake is also made from sticky rice, and the inside can be sweet beans, bananas, or even meat. On New Year’s Eve, most families gather together to have a warm dinner and a traditional ritual in order to commemorate our ancestors. On the first day of New Year, youngsters will give their best greetings to oldsters and receive lucky money. In the rest time of Tet, people can go to pagodas to pray for good things, peace, and health. Tet is an important occasion for families and friends to be together after a year of hard work, and it can motivate people to try harder in the next year.' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:54:57 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:54:58 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'The name may not be greater than 1024 characters.' is present on page 
+
+2024-01-07 15:54:59 - [MESSAGE][PASSED] - Text 'The name may not be greater than 1024 characters.' is present on page 
+
+2024-01-07 15:54:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:55:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC2_TC3_TC4" time="11.181" classname="Test Cases/Functional/new asset account/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:55:00 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC2_TC3_TC4: Test Cases/Functional/new asset account/TC2_TC3_TC4
+
+2024-01-07 15:55:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:55:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:55:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:55:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:55:01 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:03 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:55:03 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:55:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'Cash wallet' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:55:08 - [MESSAGE][PASSED] - Text 'Cash wallet' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:55:08 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:55:09 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'This account name is already in use.' is present on page 
+
+2024-01-07 15:55:10 - [MESSAGE][PASSED] - Text 'This account name is already in use.' is present on page 
+
+2024-01-07 15:55:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:55:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC5" time="10.03" classname="Test Cases/Functional/new asset account/TC5" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:55:11 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC5: Test Cases/Functional/new asset account/TC5
+
+2024-01-07 15:55:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:55:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:55:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:55:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:55:12 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:14 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:55:14 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:55:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_currency"), currency, false): All options with label 'Euro (€)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:19 - [MESSAGE][PASSED] - All options with label 'Euro (€)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:19 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_currency"), expected_result, false, 0): All options with label 'Euro (€)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 15:55:20 - [MESSAGE][PASSED] - All options with label 'Euro (€)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:55:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC5" time="8.674" classname="Test Cases/Functional/new asset account/TC5" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:55:21 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC5: Test Cases/Functional/new asset account/TC5
+
+2024-01-07 15:55:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:55:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:55:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:55:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:55:22 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:23 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:55:23 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:55:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_currency"), currency, false): All options with label 'British Pound (£)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:28 - [MESSAGE][PASSED] - All options with label 'British Pound (£)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:28 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_currency"), expected_result, false, 0): All options with label 'British Pound (£)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 15:55:29 - [MESSAGE][PASSED] - All options with label 'British Pound (£)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:55:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC5" time="9.022" classname="Test Cases/Functional/new asset account/TC5" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:55:30 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC5: Test Cases/Functional/new asset account/TC5
+
+2024-01-07 15:55:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:55:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:55:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:55:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:55:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:32 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:55:32 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_currency"), currency, false): All options with label 'Hungarian forint (Ft)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:37 - [MESSAGE][PASSED] - All options with label 'Hungarian forint (Ft)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:37 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_currency"), expected_result, false, 0): All options with label 'Hungarian forint (Ft)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 15:55:38 - [MESSAGE][PASSED] - All options with label 'Hungarian forint (Ft)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:55:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC5" time="9.296" classname="Test Cases/Functional/new asset account/TC5" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:55:39 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC5: Test Cases/Functional/new asset account/TC5
+
+2024-01-07 15:55:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:55:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:55:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:55:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:55:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:41 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:55:41 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_currency"), currency, false): All options with label 'US Dollar ($)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:46 - [MESSAGE][PASSED] - All options with label 'US Dollar ($)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:46 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_currency"), expected_result, false, 0): All options with label 'US Dollar ($)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 15:55:47 - [MESSAGE][PASSED] - All options with label 'US Dollar ($)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 15:55:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:55:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" time="13.526" classname="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:55:48 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10: Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10
+
+2024-01-07 15:55:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:55:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:55:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:55:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:55:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:51 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:55:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:55:51 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:55:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name1' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:55:56 - [MESSAGE][PASSED] - Text 'test name1' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:55:56 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_iban"), IBAN): Text 'NL23SNSB0637723916' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:55:57 - [MESSAGE][PASSED] - Text 'NL23SNSB0637723916' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:55:57 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_BIC"), BIC): Text '' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:55:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:55:58 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_account_number"), account_number): Text '' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:55:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:55:58 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:00 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'Success! New account "test name1" stored!' is present on page 
+
+2024-01-07 15:56:01 - [MESSAGE][PASSED] - Text 'Success! New account "test name1" stored!' is present on page 
+
+2024-01-07 15:56:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:56:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" time="14.488" classname="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:56:01 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10: Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10
+
+2024-01-07 15:56:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:56:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:56:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:56:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:56:03 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:06 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:56:06 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:56:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:09 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:56:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name2' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:56:11 - [MESSAGE][PASSED] - Text 'test name2' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:56:11 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_iban"), IBAN): Text 'abc' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:56:12 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:56:12 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_BIC"), BIC): Text '' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:56:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:56:13 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_account_number"), account_number): Text '' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:56:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:56:13 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:15 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'This is not a valid IBAN.' is present on page 
+
+2024-01-07 15:56:15 - [MESSAGE][PASSED] - Text 'This is not a valid IBAN.' is present on page 
+
+2024-01-07 15:56:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:56:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" time="12.483" classname="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:56:16 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10: Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10
+
+2024-01-07 15:56:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:56:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:56:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:56:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:56:17 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:19 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:56:19 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:56:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:56:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name3' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:56:23 - [MESSAGE][PASSED] - Text 'test name3' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:56:23 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_iban"), IBAN): Text '' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:56:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:56:24 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_BIC"), BIC): Text 'ASCBVNVX' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:56:25 - [MESSAGE][PASSED] - Text 'ASCBVNVX' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:56:25 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_account_number"), account_number): Text '' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:56:25 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:56:25 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:27 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'Success! New account "test name3" stored!' is present on page 
+
+2024-01-07 15:56:28 - [MESSAGE][PASSED] - Text 'Success! New account "test name3" stored!' is present on page 
+
+2024-01-07 15:56:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:56:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" time="11.955" classname="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:56:29 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10: Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10
+
+2024-01-07 15:56:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:56:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:56:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:56:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:56:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:31 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:56:31 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:56:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name4' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:56:36 - [MESSAGE][PASSED] - Text 'test name4' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:56:36 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_iban"), IBAN): Text '' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:56:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:56:37 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_BIC"), BIC): Text 'test BIC' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:56:37 - [MESSAGE][PASSED] - Text 'test BIC' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:56:37 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_account_number"), account_number): Text '' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:56:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:56:38 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:39 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'This is not a valid BIC.' is present on page 
+
+2024-01-07 15:56:40 - [MESSAGE][PASSED] - Text 'This is not a valid BIC.' is present on page 
+
+2024-01-07 15:56:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:56:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" time="12.438" classname="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:56:41 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10: Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10
+
+2024-01-07 15:56:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:56:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:56:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:56:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:56:42 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:43 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:56:43 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:56:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:46 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:56:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name5' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:56:48 - [MESSAGE][PASSED] - Text 'test name5' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:56:48 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_iban"), IBAN): Text '' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:56:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:56:48 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_BIC"), BIC): Text '' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:56:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:56:49 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_account_number"), account_number): Text '123456' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:56:50 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:56:50 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:56:51 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'Success! New account "test name5" stored!' is present on page 
+
+2024-01-07 15:56:52 - [MESSAGE][PASSED] - Text 'Success! New account "test name5" stored!' is present on page 
+
+2024-01-07 15:56:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:56:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" time="13.343" classname="Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:56:53 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10: Test Cases/Functional/new asset account/TC6_TC7_TC8_TC9_TC10
+
+2024-01-07 15:56:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:56:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:56:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:56:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:56:54 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:56 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:56:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:56:56 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:56:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:57:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name6' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:57:01 - [MESSAGE][PASSED] - Text 'test name6' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_iban"), IBAN): Text '' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:57:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 15:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_BIC"), BIC): Text '' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:57:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 15:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_account_number"), account_number): Text 'abcd' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:57:03 - [MESSAGE][PASSED] - Text 'abcd' is set on object 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 15:57:03 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:57:04 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'Success! New account "test name6" stored!' is present on page 
+
+2024-01-07 15:57:06 - [MESSAGE][PASSED] - Text 'Success! New account "test name6" stored!' is present on page 
+
+2024-01-07 15:57:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:57:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC11_TC12_TC13" time="11.611" classname="Test Cases/Functional/new asset account/TC11_TC12_TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:57:06 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC11_TC12_TC13: Test Cases/Functional/new asset account/TC11_TC12_TC13
+
+2024-01-07 15:57:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:57:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:57:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:57:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:57:08 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:57:09 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:57:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:57:09 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:57:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name10' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:57:13 - [MESSAGE][PASSED] - Text 'test name10' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:57:13 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_balance_opening_balance"), opening_balance): Text '1' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:57:14 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:57:14 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_date_picker"), opening_balance_date): Text '12/31/2023' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:57:15 - [MESSAGE][PASSED] - Text '12/31/2023' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:57:15 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:57:16 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'Success! New account "test name10" stored!' is present on page 
+
+2024-01-07 15:57:17 - [MESSAGE][PASSED] - Text 'Success! New account "test name10" stored!' is present on page 
+
+2024-01-07 15:57:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:57:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC11_TC12_TC13" time="13.252" classname="Test Cases/Functional/new asset account/TC11_TC12_TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:57:18 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC11_TC12_TC13: Test Cases/Functional/new asset account/TC11_TC12_TC13
+
+2024-01-07 15:57:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:57:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:57:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:57:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:57:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:57:21 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:57:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:57:21 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:57:24 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:57:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name11' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:57:27 - [MESSAGE][PASSED] - Text 'test name11' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_balance_opening_balance"), opening_balance): Text '100000' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:57:27 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_date_picker"), opening_balance_date): Text '12/31/2023' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:57:28 - [MESSAGE][PASSED] - Text '12/31/2023' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:57:28 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:57:29 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'Success! New account "test name11" stored!' is present on page 
+
+2024-01-07 15:57:31 - [MESSAGE][PASSED] - Text 'Success! New account "test name11" stored!' is present on page 
+
+2024-01-07 15:57:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:57:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC11_TC12_TC13" time="12.055" classname="Test Cases/Functional/new asset account/TC11_TC12_TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:57:31 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC11_TC12_TC13: Test Cases/Functional/new asset account/TC11_TC12_TC13
+
+2024-01-07 15:57:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:57:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:57:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:57:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:57:33 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:57:34 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:57:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:57:34 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:57:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:57:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:57:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name12' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:57:39 - [MESSAGE][PASSED] - Text 'test name12' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_balance_opening_balance"), opening_balance): Text '-100' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:57:40 - [MESSAGE][PASSED] - Text '-100' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:57:40 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_date_picker"), opening_balance_date): Text '12/31/2023' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:57:40 - [MESSAGE][PASSED] - Text '12/31/2023' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:57:40 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:57:42 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'Success! New account "test name12" stored!' is present on page 
+
+2024-01-07 15:57:43 - [MESSAGE][PASSED] - Text 'Success! New account "test name12" stored!' is present on page 
+
+2024-01-07 15:57:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:57:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC11_TC12_TC13" time="11.99" classname="Test Cases/Functional/new asset account/TC11_TC12_TC13" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Functional/new asset account/TC11_TC12_TC13 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The opening balance may not be greater than 1000000000.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC11_TC12_TC13.run(TC11_TC12_TC13:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704617646920.run(TempTestSuite1704617646920.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The opening balance may not be greater than 1000000000.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-01-07 15:58:17 - [TEST_CASE][FAILED] - Test Cases/Functional/new asset account/TC11_TC12_TC13: Test Cases/Functional/new asset account/TC11_TC12_TC13 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The opening balance may not be greater than 1000000000.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC11_TC12_TC13.run(TC11_TC12_TC13:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704617646920.run(TempTestSuite1704617646920.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The opening balance may not be greater than 1000000000.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-01-07 15:58:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:58:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-07 15:58:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:58:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:58:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:58:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:58:20 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:58:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:58:21 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name13' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:58:25 - [MESSAGE][PASSED] - Text 'test name13' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:58:25 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_balance_opening_balance"), opening_balance): Text '10000000000' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:58:26 - [MESSAGE][PASSED] - Text '10000000000' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:58:26 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_date_picker"), opening_balance_date): Text '12/31/2023' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:58:27 - [MESSAGE][PASSED] - Text '12/31/2023' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:58:27 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:58:28 - [TEST_STEP][FAILED] - verifyTextPresent(expected_result, false): Unable to verify text 'The opening balance may not be greater than 1000000000.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The opening balance may not be greater than 1000000000.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC11_TC12_TC13.run(TC11_TC12_TC13:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704617646920.run(TempTestSuite1704617646920.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The opening balance may not be greater than 1000000000.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2024-01-07 15:58:29 - [MESSAGE][FAILED] - Text 'The opening balance may not be greater than 1000000000.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'The opening balance may not be greater than 1000000000.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC11_TC12_TC13.run(TC11_TC12_TC13:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704617646920.run(TempTestSuite1704617646920.groovy:36)
+)
+
+2024-01-07 15:58:29 - [MESSAGE][FAILED] - Unable to verify text 'The opening balance may not be greater than 1000000000.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The opening balance may not be greater than 1000000000.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC11_TC12_TC13.run(TC11_TC12_TC13:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704617646920.run(TempTestSuite1704617646920.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The opening balance may not be greater than 1000000000.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_155405\\Functional\\new asset account\\20240107_155406\\1704617909016.png]]]]></system-out>
+         <system-err><![CDATA[2024-01-07 15:58:17 - [TEST_CASE][FAILED] - Test Cases/Functional/new asset account/TC11_TC12_TC13: Test Cases/Functional/new asset account/TC11_TC12_TC13 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The opening balance may not be greater than 1000000000.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC11_TC12_TC13.run(TC11_TC12_TC13:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704617646920.run(TempTestSuite1704617646920.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The opening balance may not be greater than 1000000000.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/new asset account/TC11_TC12_TC13" time="11.927" classname="Test Cases/Functional/new asset account/TC11_TC12_TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 15:58:29 - [TEST_CASE][PASSED] - Test Cases/Functional/new asset account/TC11_TC12_TC13: Test Cases/Functional/new asset account/TC11_TC12_TC13
+
+2024-01-07 15:58:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 15:58:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-07 15:58:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 15:58:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 15:58:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 15:58:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:58:32 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 15:58:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 15:58:32 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 15:58:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 15:58:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 15:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 15:58:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/create_new_asset_account/input_name"), Name): Text 'test name14' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:58:37 - [MESSAGE][PASSED] - Text 'test name14' is set on object 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 15:58:37 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_balance_opening_balance"), opening_balance): Text '10' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:58:37 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 15:58:37 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_asset_account/input_date_picker"), opening_balance_date): Text '' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:58:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 15:58:38 - [TEST_STEP][PASSED] - click(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clicked on
+
+2024-01-07 15:58:39 - [TEST_STEP][PASSED] - verifyTextPresent(expected_result, false): Text 'The opening balance date field is required when opening balance is present.' is present on page 
+
+2024-01-07 15:58:40 - [MESSAGE][PASSED] - Text 'The opening balance date field is required when opening balance is present.' is present on page 
+
+2024-01-07 15:58:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 15:58:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-07 15:54:15 - [TEST_SUITE][FAILED] - new asset account: Test Cases/Functional/new asset account/TC11_TC12_TC13 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The opening balance may not be greater than 1000000000.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC11_TC12_TC13.run(TC11_TC12_TC13:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704617646920.run(TempTestSuite1704617646920.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The opening balance may not be greater than 1000000000.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-01-07 15:54:15 - [TEST_SUITE][FAILED] - new asset account: Test Cases/Functional/new asset account/TC11_TC12_TC13 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The opening balance may not be greater than 1000000000.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC11_TC12_TC13.run(TC11_TC12_TC13:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704617646920.run(TempTestSuite1704617646920.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The opening balance may not be greater than 1000000000.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

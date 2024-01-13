@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6383284-2277-409c-a154-db227c8aba83</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>af3d05a4-264c-4373-a100-1f1fb00d5b40</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/GUI_Usability/new transaction - transfer/input_amount</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>af3d05a4-264c-4373-a100-1f1fb00d5b40</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>test_value</value>
+      <variableId>714894a7-828d-45c1-8f9e-9ea73f9e6ad0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>af3d05a4-264c-4373-a100-1f1fb00d5b40</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>3c89f102-c23f-465b-9039-f2e715415897</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>714894a7-828d-45c1-8f9e-9ea73f9e6ad0</id>
+      <masked>false</masked>
+      <name>test_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c89f102-c23f-465b-9039-f2e715415897</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

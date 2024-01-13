@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_This is not a valid IBAN</name>
+   <tag></tag>
+   <elementGuidId>e96fa1d3-26eb-4d85-b57f-a7ebed1bac48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-danger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='iban_holder']/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>89910ce8-420e-43fe-b778-69564c0cf6c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-danger</value>
+      <webElementGuid>e4553fab-7e52-4778-a791-6b41b6070296</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This is not a valid IBAN.</value>
+      <webElementGuid>f53072b6-fbf1-4cd5-8846-7853a8d59dc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;iban_holder&quot;)/div[@class=&quot;col-sm-8&quot;]/p[@class=&quot;text-danger&quot;]</value>
+      <webElementGuid>948cfc36-4563-4f42-b94b-d9cdf671e523</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='iban_holder']/div/p</value>
+      <webElementGuid>434aa39f-6dcf-4159-9c1a-8cd1d45dadb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IBAN'])[1]/following::p[1]</value>
+      <webElementGuid>78bb6682-a14d-428a-bffe-57cf70911bcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Optional fields'])[1]/following::p[1]</value>
+      <webElementGuid>a7939025-0d44-4c2f-b0d4-807f92118165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BIC'])[1]/preceding::p[1]</value>
+      <webElementGuid>6a8430d2-c02a-4d5d-8b5d-5ba70367c4c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account number'])[1]/preceding::p[2]</value>
+      <webElementGuid>0b666392-ab02-4acd-9ca4-b84620ff84e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='This is not a valid IBAN.']/parent::*</value>
+      <webElementGuid>72798178-3712-4593-8bef-3373ad862a5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/p</value>
+      <webElementGuid>4f7dbbc2-ab03-4ad2-85eb-96d4db742ed5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'This is not a valid IBAN.' or . = 'This is not a valid IBAN.')]</value>
+      <webElementGuid>624f41bb-9a0a-4d8d-a19e-0a25fe8465a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

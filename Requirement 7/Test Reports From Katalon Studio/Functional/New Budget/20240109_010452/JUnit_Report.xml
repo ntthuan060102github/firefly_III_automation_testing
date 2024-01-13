@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Budget" time="282.847" tests="21" failures="2" errors="0">
+   <testsuite name="New Budget" tests="21" failures="2" errors="0" time="282.847" skipped="0" timestamp="09-01-2024T01:05:01" hostname="pt071 - DESKTOP-BERKFUC" id="Test Suites/New Budget">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452"/>
+         <property name="logFiles" value="C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737216001.png, C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737226838.png, C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737236193.png, C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737245966.png, C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737292691.png, C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737302384.png, C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737311971.png, C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737321473.png"/>
+         <property name="hostName" value="pt071 - DESKTOP-BERKFUC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 120"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="e53741c34fdc00f6eba52d2141edcfc4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Budget/TC1 - Check field Name input" time="11.367" classname="Test Cases/New Budget/TC1 - Check field Name input" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:05:01 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC1 - Check field Name input: Test Cases/New Budget/TC1 - Check field Name input
+
+09-01-2024T01:05:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:05:03 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:05:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:05:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:05:05 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:06 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "test"): Text 'test' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:05:12 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:05:12 - [TEST_STEP][PASSED] - inputFieldTo = findTestObject("Object Repository/Page Create new budget/input_Name_name"): null
+
+09-01-2024T01:05:12 - [TEST_STEP][PASSED] - expectedValue = "test": null
+
+09-01-2024T01:05:12 - [TEST_STEP][PASSED] - verifyInputFieldValue(inputFieldTo, expectedValue): null
+
+09-01-2024T01:05:12 - [TEST_STEP][PASSED] - actualValue = getAttribute(to, "value"): Attribute 'value' of object 'Object Repository/Page Create new budget/input_Name_name' is: 'test'
+
+09-01-2024T01:05:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Create new budget/input_Name_name' is: 'test'
+
+09-01-2024T01:05:12 - [TEST_STEP][PASSED] - if (actualValue != expectedValue): null
+
+09-01-2024T01:05:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:05:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC2 - Check empty input field Name" time="10.169" classname="Test Cases/New Budget/TC2 - Check empty input field Name" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:05:13 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC2 - Check empty input field Name: Test Cases/New Budget/TC2 - Check empty input field Name
+
+09-01-2024T01:05:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:05:13 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:05:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:05:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:05:14 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:15 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:05:22 - [TEST_STEP][PASSED] - errorMessageTo = findTestObject("Object Repository/Page Create new budget/p_The name field is required"): null
+
+09-01-2024T01:05:22 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessageTo): Object 'Object Repository/Page Create new budget/p_The name field is required' is visible
+
+09-01-2024T01:05:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/p_The name field is required' is visible
+
+09-01-2024T01:05:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:05:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC3 - Check name is exist" time="11.041" classname="Test Cases/New Budget/TC3 - Check name is exist" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:05:23 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC3 - Check name is exist: Test Cases/New Budget/TC3 - Check name is exist
+
+09-01-2024T01:05:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:05:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:05:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:05:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:05:24 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:26 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "Car"): Text 'Car' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:05:32 - [MESSAGE][PASSED] - Text 'Car' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:05:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:05:33 - [TEST_STEP][PASSED] - errorMessageTo = findTestObject("Object Repository/Page Create new budget/p_This name is already in use"): null
+
+09-01-2024T01:05:33 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessageTo): Object 'Object Repository/Page Create new budget/p_This name is already in use' is visible
+
+09-01-2024T01:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/p_This name is already in use' is visible
+
+09-01-2024T01:05:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:05:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC4 - Check name value length is greater than 100" time="11.657" classname="Test Cases/New Budget/TC4 - Check name value length is greater than 100" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:05:34 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC4 - Check name value length is greater than 100: Test Cases/New Budget/TC4 - Check name value length is greater than 100
+
+09-01-2024T01:05:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:05:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:05:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:05:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:05:35 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:37 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "jdsanjdjasdksajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"): Text 'jdsanjdjasdksajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:05:44 - [MESSAGE][PASSED] - Text 'jdsanjdjasdksajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:05:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:05:45 - [TEST_STEP][PASSED] - errorMessageTo = findTestObject("Object Repository/Page Create new budget/p_The name must be between 1 and 100 characters"): null
+
+09-01-2024T01:05:45 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessageTo): Object 'Object Repository/Page Create new budget/p_The name must be between 1 and 100 characters' is visible
+
+09-01-2024T01:05:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/p_The name must be between 1 and 100 characters' is visible
+
+09-01-2024T01:05:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:05:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC5 - Check name value length is 100" time="10.716" classname="Test Cases/New Budget/TC5 - Check name value length is 100" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:05:46 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC5 - Check name value length is 100: Test Cases/New Budget/TC5 - Check name value length is 100
+
+09-01-2024T01:05:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:05:46 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:05:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:05:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:05:47 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:48 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:05:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "purem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m"): Text 'purem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:05:54 - [MESSAGE][PASSED] - Text 'purem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:05:55 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"): null
+
+09-01-2024T01:05:55 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' is visible
+
+09-01-2024T01:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' is visible
+
+09-01-2024T01:05:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:05:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC6 - Check name value length is 1" time="11.473" classname="Test Cases/New Budget/TC6 - Check name value length is 1" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:05:56 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC6 - Check name value length is 1: Test Cases/New Budget/TC6 - Check name value length is 1
+
+09-01-2024T01:05:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:05:57 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:05:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:05:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:05:58 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:59 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:06:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "l"): Text 'l' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:06:05 - [MESSAGE][PASSED] - Text 'l' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:06:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:06:07 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"): null
+
+09-01-2024T01:06:07 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' is visible
+
+09-01-2024T01:06:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' is visible
+
+09-01-2024T01:06:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:06:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC7 - Check Auto-budget amount is smaller than 0" time="12.417" classname="Test Cases/New Budget/TC7 - Check Auto-budget amount is smaller than 0" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:06:08 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC7 - Check Auto-budget amount is smaller than 0: Test Cases/New Budget/TC7 - Check Auto-budget amount is smaller than 0
+
+09-01-2024T01:06:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:06:08 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:06:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:06:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:06:09 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:06:10 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:06:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "abc"): Text 'abc' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:06:16 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:06:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:06:17 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/auto_budget_amount_input new budget"), "-1828"): Text '-1828' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:06:18 - [MESSAGE][PASSED] - Text '-1828' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:06:19 - [TEST_STEP][PASSED] - errorMessageTo = findTestObject("Object Repository/Page Create new budget/p_The value must be more than zero"): null
+
+09-01-2024T01:06:20 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessageTo): Object 'Object Repository/Page Create new budget/p_The value must be more than zero' is visible
+
+09-01-2024T01:06:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/p_The value must be more than zero' is visible
+
+09-01-2024T01:06:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:06:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC8 - Check Auto-budget amount is 0" time="12.936" classname="Test Cases/New Budget/TC8 - Check Auto-budget amount is 0" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:06:20 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC8 - Check Auto-budget amount is 0: Test Cases/New Budget/TC8 - Check Auto-budget amount is 0
+
+09-01-2024T01:06:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:06:21 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:06:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:06:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:06:22 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:06:23 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:06:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "abc"): Text 'abc' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:06:29 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:06:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:06:30 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/auto_budget_amount_input new budget"), "0"): Text '0' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:06:31 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:06:32 - [TEST_STEP][PASSED] - errorMessageTo = findTestObject("Object Repository/Page Create new budget/p_The value must be more than zero"): null
+
+09-01-2024T01:06:33 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessageTo): Object 'Object Repository/Page Create new budget/p_The value must be more than zero' is visible
+
+09-01-2024T01:06:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/p_The value must be more than zero' is visible
+
+09-01-2024T01:06:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:06:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC9 - Check Auto-budget amount greater than 0 and smaller than 100001709" time="13.342" classname="Test Cases/New Budget/TC9 - Check Auto-budget amount greater than 0 and smaller than 100001709" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:06:33 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC9 - Check Auto-budget amount greater than 0 and smaller than 100001709: Test Cases/New Budget/TC9 - Check Auto-budget amount greater than 0 and smaller than 100001709
+
+09-01-2024T01:06:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:06:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:06:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:06:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:06:35 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:06:36 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:06:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "hahaho"): Text 'hahaho' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:06:41 - [MESSAGE][PASSED] - Text 'hahaho' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:06:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "2", true): All options with value '2' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:06:43 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/auto_budget_amount_input new budget"), "3231"): Text '3231' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:06:44 - [MESSAGE][PASSED] - Text '3231' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:06:45 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"): null
+
+09-01-2024T01:06:45 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' is visible
+
+09-01-2024T01:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' is visible
+
+09-01-2024T01:06:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:06:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709" time="9.689" classname="Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at TC10 - Check Auto-budget amount is 100001709.run(TC10 - Check Auto-budget amount is 100001709:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[09-01-2024T01:07:16 - [TEST_CASE][FAILED] - Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709: Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TC10 - Check Auto-budget amount is 100001709.run(TC10 - Check Auto-budget amount is 100001709:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+09-01-2024T01:07:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:07:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-01-2024T01:07:16 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:07:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:07:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:07:18 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:07:19 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:07:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "fff"): Text 'fff' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:07:24 - [MESSAGE][PASSED] - Text 'fff' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:07:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:07:25 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:07:25 - [TEST_STEP][FAILED] - setText(findTestObject("Object RepselectOptionByValueository/Page Create new budget/auto_budget_amount_input new budget"), "100001709"): Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TC10 - Check Auto-budget amount is 100001709.run(TC10 - Check Auto-budget amount is 100001709:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1704385038109.run(Script1704385038109.groovy:35)
+	... 18 more
+)
+
+09-01-2024T01:07:25 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Object RepselectOptionByValueository/Page Create new budget/auto_budget_amount_input new budget' does not exist
+
+09-01-2024T01:07:25 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+09-01-2024T01:07:26 - [MESSAGE][FAILED] - Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TC10 - Check Auto-budget amount is 100001709.run(TC10 - Check Auto-budget amount is 100001709:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at Script1704385038109.run(Script1704385038109.groovy:35)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737245966.png]]]]></system-out>
+         <system-err><![CDATA[09-01-2024T01:07:16 - [TEST_CASE][FAILED] - Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709: Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TC10 - Check Auto-budget amount is 100001709.run(TC10 - Check Auto-budget amount is 100001709:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC11 - Check Auto-budget amount is greater than 100001709" time="13.799" classname="Test Cases/New Budget/TC11 - Check Auto-budget amount is greater than 100001709" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:07:26 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC11 - Check Auto-budget amount is greater than 100001709: Test Cases/New Budget/TC11 - Check Auto-budget amount is greater than 100001709
+
+09-01-2024T01:07:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:07:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-01-2024T01:07:26 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:07:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:07:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:07:27 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:07:29 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:07:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:07:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:07:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "fff"): Text 'fff' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:07:34 - [MESSAGE][PASSED] - Text 'fff' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:07:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:07:36 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:07:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/auto_budget_amount_input new budget"), "100001710"): Text '100001710' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:07:37 - [MESSAGE][PASSED] - Text '100001710' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:07:39 - [TEST_STEP][PASSED] - errorMessage = findTestObject("Object Repository/Page Create new budget/p_The auto budget amount must be less than _50a2a2"): null
+
+09-01-2024T01:07:39 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessage): Object 'Object Repository/Page Create new budget/p_The auto budget amount must be less than _50a2a2' is visible
+
+09-01-2024T01:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/p_The auto budget amount must be less than _50a2a2' is visible
+
+09-01-2024T01:07:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:07:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC12 - Check file size is smaller 2MB" time="10.992" classname="Test Cases/New Budget/TC12 - Check file size is smaller 2MB" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:07:40 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC12 - Check file size is smaller 2MB: Test Cases/New Budget/TC12 - Check file size is smaller 2MB
+
+09-01-2024T01:07:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:07:40 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:07:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:07:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:07:41 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:07:42 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:07:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:07:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "newname"): Text 'newname' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:07:47 - [MESSAGE][PASSED] - Text 'newname' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:07:47 - [TEST_STEP][PASSED] - fileInput = findTestObject("Object Repository/Page Create new budget/file_attachments_input new budget"): null
+
+09-01-2024T01:07:47 - [TEST_STEP][PASSED] - filePath = "C:/Users/pt071/abc.txt": null
+
+09-01-2024T01:07:47 - [TEST_STEP][PASSED] - uploadFile(fileInput, filePath): File 'C:/Users/pt071/abc.txt' sent to object: 'Object Repository/Page Create new budget/file_attachments_input new budget'
+
+09-01-2024T01:07:48 - [MESSAGE][PASSED] - File 'C:/Users/pt071/abc.txt' sent to object: 'Object Repository/Page Create new budget/file_attachments_input new budget'
+
+09-01-2024T01:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:07:49 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"): null
+
+09-01-2024T01:07:49 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' is visible
+
+09-01-2024T01:07:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' is visible
+
+09-01-2024T01:07:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:07:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC13 - Check file size is greater than 2MB" time="12.693" classname="Test Cases/New Budget/TC13 - Check file size is greater than 2MB" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:07:51 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC13 - Check file size is greater than 2MB: Test Cases/New Budget/TC13 - Check file size is greater than 2MB
+
+09-01-2024T01:07:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:07:51 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:07:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:07:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:07:52 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:07:53 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:07:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "oldname"): Text 'oldname' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:07:59 - [MESSAGE][PASSED] - Text 'oldname' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:07:59 - [TEST_STEP][PASSED] - fileInput = findTestObject("Object Repository/Page Create new budget/file_attachments_input new budget"): null
+
+09-01-2024T01:07:59 - [TEST_STEP][PASSED] - filePath = "C:/Users/pt071/file5mb.png": null
+
+09-01-2024T01:07:59 - [TEST_STEP][PASSED] - uploadFile(fileInput, filePath): File 'C:/Users/pt071/file5mb.png' sent to object: 'Object Repository/Page Create new budget/file_attachments_input new budget'
+
+09-01-2024T01:07:59 - [MESSAGE][PASSED] - File 'C:/Users/pt071/file5mb.png' sent to object: 'Object Repository/Page Create new budget/file_attachments_input new budget'
+
+09-01-2024T01:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:08:02 - [TEST_STEP][PASSED] - fileTooLargeError = findTestObject("Object Repository/Page_413 Request Entity Too Large/h1_413 Request Entity Too Large"): null
+
+09-01-2024T01:08:03 - [TEST_STEP][PASSED] - verifyElementVisible(fileTooLargeError): Object 'Object Repository/Page_413 Request Entity Too Large/h1_413 Request Entity Too Large' is visible
+
+09-01-2024T01:08:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_413 Request Entity Too Large/h1_413 Request Entity Too Large' is visible
+
+09-01-2024T01:08:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:08:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC14 - Check button new Budget" time="9.477" classname="Test Cases/New Budget/TC14 - Check button new Budget" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New Budget/TC14 - Check button new Budget FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object is visible&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)&#xa;	at TC14 - Check button new Budget.run(TC14 - Check button new Budget:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:75)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[09-01-2024T01:08:32 - [TEST_CASE][FAILED] - Test Cases/New Budget/TC14 - Check button new Budget: Test Cases/New Budget/TC14 - Check button new Budget FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at TC14 - Check button new Budget.run(TC14 - Check button new Budget:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+09-01-2024T01:08:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:08:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-01-2024T01:08:32 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:08:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:08:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:08:33 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:08:34 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:08:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:08:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/input_Name_name"), "hihihi"): Text 'hihihi' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:08:40 - [MESSAGE][PASSED] - Text 'hihihi' is set on object 'Object Repository/Page Create new budget/input_Name_name'
+
+09-01-2024T01:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new budget/button_Store new budget")): Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new budget/button_Store new budget' is clicked on
+
+09-01-2024T01:08:41 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("OObject Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"): Test object with id 'Object Repository/OObject Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' does not exist
+
+09-01-2024T01:08:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/OObject Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget' does not exist
+
+09-01-2024T01:08:41 - [TEST_STEP][FAILED] - verifyElementVisible(successMessageTo): Unable to verify object is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at TC14 - Check button new Budget.run(TC14 - Check button new Budget:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Script1704301960778.run(Script1704301960778.groovy:35)
+	... 18 more
+)
+
+09-01-2024T01:08:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+09-01-2024T01:08:41 - [MESSAGE][FAILED] - Unable to verify object is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at TC14 - Check button new Budget.run(TC14 - Check button new Budget:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at Script1704301960778.run(Script1704301960778.groovy:35)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_010452\\New Budget\\20240109_010452\\1704737321473.png]]]]></system-out>
+         <system-err><![CDATA[09-01-2024T01:08:32 - [TEST_CASE][FAILED] - Test Cases/New Budget/TC14 - Check button new Budget: Test Cases/New Budget/TC14 - Check button new Budget FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:415)
+	at TC14 - Check button new Budget.run(TC14 - Check button new Budget:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC15 - Check Currency field 1" time="7.497" classname="Test Cases/New Budget/TC15 - Check Currency field 1" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:08:41 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC15 - Check Currency field 1: Test Cases/New Budget/TC15 - Check Currency field 1
+
+09-01-2024T01:08:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:08:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+09-01-2024T01:08:42 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:08:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:08:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:08:43 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:08:43 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:08:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:08:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:08:48 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Object Repository/Page Create new budget/Currency_input new budget")): Object 'Object Repository/Page Create new budget/Currency_input new budget' is NOT clickable
+
+09-01-2024T01:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/Currency_input new budget' is NOT clickable
+
+09-01-2024T01:08:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:08:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC16 - Check Auto-budget amount field 1" time="7.506" classname="Test Cases/New Budget/TC16 - Check Auto-budget amount field 1" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:08:49 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC16 - Check Auto-budget amount field 1: Test Cases/New Budget/TC16 - Check Auto-budget amount field 1
+
+09-01-2024T01:08:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:08:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:08:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:08:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:08:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:08:51 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:08:55 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Object Repository/Page Create new budget/auto_budget_amount_input new budget")): Object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget' is NOT clickable
+
+09-01-2024T01:08:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget' is NOT clickable
+
+09-01-2024T01:08:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:08:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC17 - Check Auto-budget period field 1" time="8.807" classname="Test Cases/New Budget/TC17 - Check Auto-budget period field 1" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:08:56 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC17 - Check Auto-budget period field 1: Test Cases/New Budget/TC17 - Check Auto-budget period field 1
+
+09-01-2024T01:08:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:08:56 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:08:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:08:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:08:57 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:08:58 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:04 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Object Repository/Page Create new budget/auto_budget_period_input new budget")): Object 'Object Repository/Page Create new budget/auto_budget_period_input new budget' is NOT clickable
+
+09-01-2024T01:09:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new budget/auto_budget_period_input new budget' is NOT clickable
+
+09-01-2024T01:09:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:09:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC18 - Check Auto-budget field" time="9.283" classname="Test Cases/New Budget/TC18 - Check Auto-budget field" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:09:05 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC18 - Check Auto-budget field: Test Cases/New Budget/TC18 - Check Auto-budget field
+
+09-01-2024T01:09:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:09:05 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:09:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:09:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:09:06 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:09:07 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:09:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:09:13 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:09:13 - [TEST_STEP][PASSED] - inputFieldTo = findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"): null
+
+09-01-2024T01:09:14 - [TEST_STEP][PASSED] - expectedValue = "1": null
+
+09-01-2024T01:09:14 - [TEST_STEP][PASSED] - verifyInputFieldValue(inputFieldTo, expectedValue): null
+
+09-01-2024T01:09:14 - [TEST_STEP][PASSED] - actualValue = getAttribute(to, "value"): Attribute 'value' of object 'Object Repository/Page Create new budget/auto_budget_input new budget' is: '1'
+
+09-01-2024T01:09:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Create new budget/auto_budget_input new budget' is: '1'
+
+09-01-2024T01:09:14 - [TEST_STEP][PASSED] - if (actualValue != expectedValue): null
+
+09-01-2024T01:09:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:09:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC19 - Check Currency field 2" time="10.044" classname="Test Cases/New Budget/TC19 - Check Currency field 2" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:09:14 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC19 - Check Currency field 2: Test Cases/New Budget/TC19 - Check Currency field 2
+
+09-01-2024T01:09:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:09:14 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:09:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:09:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:09:15 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:09:16 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:09:22 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:09:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/Currency_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/Currency_input new budget'  using regular expression
+
+09-01-2024T01:09:24 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/Currency_input new budget'  using regular expression
+
+09-01-2024T01:09:24 - [TEST_STEP][PASSED] - inputFieldTo = findTestObject("Object Repository/Page Create new budget/Currency_input new budget"): null
+
+09-01-2024T01:09:24 - [TEST_STEP][PASSED] - expectedValue = "1": null
+
+09-01-2024T01:09:24 - [TEST_STEP][PASSED] - verifyInputFieldValue(inputFieldTo, expectedValue): null
+
+09-01-2024T01:09:24 - [TEST_STEP][PASSED] - actualValue = getAttribute(to, "value"): Attribute 'value' of object 'Object Repository/Page Create new budget/Currency_input new budget' is: '1'
+
+09-01-2024T01:09:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Create new budget/Currency_input new budget' is: '1'
+
+09-01-2024T01:09:24 - [TEST_STEP][PASSED] - if (actualValue != expectedValue): null
+
+09-01-2024T01:09:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:09:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC20 - Check Auto-budget amount field 2" time="9.789" classname="Test Cases/New Budget/TC20 - Check Auto-budget amount field 2" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:09:24 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC20 - Check Auto-budget amount field 2: Test Cases/New Budget/TC20 - Check Auto-budget amount field 2
+
+09-01-2024T01:09:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:09:25 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:09:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:09:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:09:26 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:09:27 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:09:32 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:09:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new budget/auto_budget_amount_input new budget"), "3333"): Text '3333' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:09:33 - [MESSAGE][PASSED] - Text '3333' is set on object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget'
+
+09-01-2024T01:09:33 - [TEST_STEP][PASSED] - inputFieldTo = findTestObject("Object Repository/Page Create new budget/auto_budget_amount_input new budget"): null
+
+09-01-2024T01:09:33 - [TEST_STEP][PASSED] - expectedValue = "3333": null
+
+09-01-2024T01:09:33 - [TEST_STEP][PASSED] - verifyInputFieldValue(inputFieldTo, expectedValue): null
+
+09-01-2024T01:09:33 - [TEST_STEP][PASSED] - actualValue = getAttribute(to, "value"): Attribute 'value' of object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget' is: '3333'
+
+09-01-2024T01:09:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Create new budget/auto_budget_amount_input new budget' is: '3333'
+
+09-01-2024T01:09:34 - [TEST_STEP][PASSED] - if (actualValue != expectedValue): null
+
+09-01-2024T01:09:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:09:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Budget/TC21 - Check Auto-budget period field 2" time="9.851" classname="Test Cases/New Budget/TC21 - Check Auto-budget period field 2" status="PASSED">
+         <system-out><![CDATA[09-01-2024T01:09:34 - [TEST_CASE][PASSED] - Test Cases/New Budget/TC21 - Check Auto-budget period field 2: Test Cases/New Budget/TC21 - Check Auto-budget period field 2
+
+09-01-2024T01:09:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T01:09:34 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T01:09:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T01:09:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T01:09:35 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:09:36 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T01:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T01:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T01:09:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New budget")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New budget' is clicked on
+
+09-01-2024T01:09:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_input new budget"), "1", true): All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:09:42 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page Create new budget/auto_budget_input new budget'  using regular expression
+
+09-01-2024T01:09:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page Create new budget/auto_budget_period_input new budget"), "half_year", true): All options with value 'half_year' are selected in object 'Object Repository/Page Create new budget/auto_budget_period_input new budget'  using regular expression
+
+09-01-2024T01:09:43 - [MESSAGE][PASSED] - All options with value 'half_year' are selected in object 'Object Repository/Page Create new budget/auto_budget_period_input new budget'  using regular expression
+
+09-01-2024T01:09:43 - [TEST_STEP][PASSED] - inputFieldTo = findTestObject("Object Repository/Page Create new budget/auto_budget_period_input new budget"): null
+
+09-01-2024T01:09:43 - [TEST_STEP][PASSED] - expectedValue = "half_year": null
+
+09-01-2024T01:09:43 - [TEST_STEP][PASSED] - verifyInputFieldValue(inputFieldTo, expectedValue): null
+
+09-01-2024T01:09:43 - [TEST_STEP][PASSED] - actualValue = getAttribute(to, "value"): Attribute 'value' of object 'Object Repository/Page Create new budget/auto_budget_period_input new budget' is: 'half_year'
+
+09-01-2024T01:09:44 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Create new budget/auto_budget_period_input new budget' is: 'half_year'
+
+09-01-2024T01:09:44 - [TEST_STEP][PASSED] - if (actualValue != expectedValue): null
+
+09-01-2024T01:09:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T01:09:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-01-2024T01:05:01 - [TEST_SUITE][FAILED] - New Budget: Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TC10 - Check Auto-budget amount is 100001709.run(TC10 - Check Auto-budget amount is 100001709:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[09-01-2024T01:05:01 - [TEST_SUITE][FAILED] - New Budget: Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at TC10 - Check Auto-budget amount is 100001709.run(TC10 - Check Auto-budget amount is 100001709:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704737092753.run(TempTestSuite1704737092753.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>small_Whats playing</name>
+   <tag></tag>
+   <elementGuidId>4b0dbd67-e189-48ed-a142-a059bb2dc0ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#subTitle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//small[@id='subTitle']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>b44a28cd-667e-40ff-9bcc-4b636e2399b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>subTitle</value>
+      <webElementGuid>5bebca33-cd29-452e-af19-9f87cfdbfe52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+What's playing?
+</value>
+      <webElementGuid>0461236c-5fb7-4d5b-a203-5069f457266d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;subTitle&quot;)</value>
+      <webElementGuid>05bae59b-371d-428d-b322-11615459d9fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//small[@id='subTitle']</value>
+      <webElementGuid>87426ebe-2536-4d21-8751-c35a20e367ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/section/h1/small</value>
+      <webElementGuid>e935e38c-69f6-4bb4-87d1-5a0a2b0760fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::small[1]</value>
+      <webElementGuid>9dee819c-8c2b-4710-baa3-d0991dbb54da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::small[1]</value>
+      <webElementGuid>ecbd33e9-6de7-4322-9874-e3e98a7d450d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Firefly III'])[1]/preceding::small[1]</value>
+      <webElementGuid>0cc2b81d-2a52-43d0-891c-73db44d1d23c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//small</value>
+      <webElementGuid>e961ded2-70aa-441e-b6a1-7f1bbc719e70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//small[@id = 'subTitle' and (text() = concat(&quot;
+What&quot; , &quot;'&quot; , &quot;s playing?
+&quot;) or . = concat(&quot;
+What&quot; , &quot;'&quot; , &quot;s playing?
+&quot;))]</value>
+      <webElementGuid>662f6446-52ed-4169-b554-b867245d6380</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

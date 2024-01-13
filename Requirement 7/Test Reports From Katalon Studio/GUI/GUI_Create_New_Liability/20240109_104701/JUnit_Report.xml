@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GUI_Create_New_Liability" time="181.899" tests="17" failures="0" errors="0">
+   <testsuite name="GUI_Create_New_Liability" tests="17" failures="0" errors="0" time="181.899" skipped="0" timestamp="2024-01-09 10:47:10" hostname="qui7d - MSI" id="Test Suites/GUI_Create_New_Liability">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_104701\\GUI_Create_New_Liability\\20240109_104701"/>
+         <property name="logFiles" value="C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_104701\\GUI_Create_New_Liability\\20240109_104701\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="qui7d - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.237.1"/>
+         <property name="sessionId" value="2a79904f722a037e17e67af2a064b72b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.01" time="10.471" classname="Test Cases/GUI_Create_New_Liability/TC_10.01" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:47:10 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.01: Test Cases/GUI_Create_New_Liability/TC_10.01
+
+2024-01-09 10:47:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:47:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:47:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:47:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:47:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:13 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.01/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.01/a_Demo' is clicked on
+
+2024-01-09 10:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.01/a_Demo' is clicked on
+
+2024-01-09 10:47:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.01/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.01/button_Sign in' is clicked on
+
+2024-01-09 10:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.01/button_Sign in' is clicked on
+
+2024-01-09 10:47:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.01/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.01/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.01/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.01/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.01/h4_New liability' is clicked on
+
+2024-01-09 10:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.01/h4_New liability' is clicked on
+
+2024-01-09 10:47:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.01/small_Create a new liability"), "Create a new liability"): Actual text and expected text of test object 'Object Repository/GUI_Create_New_Liability/TC_10.01/small_Create a new liability' are matched.
+
+2024-01-09 10:47:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI_Create_New_Liability/TC_10.01/small_Create a new liability' are matched.
+
+2024-01-09 10:47:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:47:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.02" time="10.346" classname="Test Cases/GUI_Create_New_Liability/TC_10.02" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:47:20 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.02: Test Cases/GUI_Create_New_Liability/TC_10.02
+
+2024-01-09 10:47:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:47:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:47:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:47:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:47:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:22 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.02/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.02/a_Demo' is clicked on
+
+2024-01-09 10:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.02/a_Demo' is clicked on
+
+2024-01-09 10:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.02/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.02/button_Sign in' is clicked on
+
+2024-01-09 10:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.02/button_Sign in' is clicked on
+
+2024-01-09 10:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.02/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.02/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.02/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.02/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.02/h4_New liability' is clicked on
+
+2024-01-09 10:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.02/h4_New liability' is clicked on
+
+2024-01-09 10:47:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.02/input_Name_name"), "Aston Martin"): Text 'Aston Martin' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.02/input_Name_name'
+
+2024-01-09 10:47:30 - [MESSAGE][PASSED] - Text 'Aston Martin' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.02/input_Name_name'
+
+2024-01-09 10:47:30 - [TEST_STEP][PASSED] - actual_name = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.02/input_Name_name"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.02/input_Name_name' is: 'Aston Martin'
+
+2024-01-09 10:47:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.02/input_Name_name' is: 'Aston Martin'
+
+2024-01-09 10:47:30 - [TEST_STEP][PASSED] - verifyEqual(actual_name, expected_name): Actual object 'Aston Martin' and expected object 'Aston Martin' are equal
+
+2024-01-09 10:47:30 - [MESSAGE][PASSED] - Actual object 'Aston Martin' and expected object 'Aston Martin' are equal
+
+2024-01-09 10:47:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:47:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.03" time="10.477" classname="Test Cases/GUI_Create_New_Liability/TC_10.03" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:47:31 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.03: Test Cases/GUI_Create_New_Liability/TC_10.03
+
+2024-01-09 10:47:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:47:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:47:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:47:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:47:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:33 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.03/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.03/a_Demo' is clicked on
+
+2024-01-09 10:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.03/a_Demo' is clicked on
+
+2024-01-09 10:47:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.03/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.03/button_Sign in' is clicked on
+
+2024-01-09 10:47:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.03/button_Sign in' is clicked on
+
+2024-01-09 10:47:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.03/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.03/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.03/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:47:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.03/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.03/h4_New liability' is clicked on
+
+2024-01-09 10:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.03/h4_New liability' is clicked on
+
+2024-01-09 10:47:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.03/select_Chinese yuan ()Euro ()British Pound _e5e925"), "1", true): All options with value '1' are selected in object 'Object Repository/GUI_Create_New_Liability/TC_10.03/select_Chinese yuan ()Euro ()British Pound _e5e925'  using regular expression
+
+2024-01-09 10:47:40 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/GUI_Create_New_Liability/TC_10.03/select_Chinese yuan ()Euro ()British Pound _e5e925'  using regular expression
+
+2024-01-09 10:47:40 - [TEST_STEP][PASSED] - actual_currency = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.03/select_Chinese yuan ()Euro ()British Pound _e5e925"), "value", STOP_ON_FAILURE): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.03/select_Chinese yuan ()Euro ()British Pound _e5e925' is: '1'
+
+2024-01-09 10:47:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.03/select_Chinese yuan ()Euro ()British Pound _e5e925' is: '1'
+
+2024-01-09 10:47:40 - [TEST_STEP][PASSED] - verifyEqual(actual_currency, expected_currency): Actual object '1' and expected object '1' are equal
+
+2024-01-09 10:47:40 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2024-01-09 10:47:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:47:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.04" time="14.447" classname="Test Cases/GUI_Create_New_Liability/TC_10.04" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:47:41 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.04: Test Cases/GUI_Create_New_Liability/TC_10.04
+
+2024-01-09 10:47:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:47:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:47:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:47:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:47:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:47 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.04/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.04/a_Demo' is clicked on
+
+2024-01-09 10:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.04/a_Demo' is clicked on
+
+2024-01-09 10:47:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.04/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.04/button_Sign in' is clicked on
+
+2024-01-09 10:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.04/button_Sign in' is clicked on
+
+2024-01-09 10:47:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.04/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.04/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.04/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:47:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.04/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.04/h4_New liability' is clicked on
+
+2024-01-09 10:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.04/h4_New liability' is clicked on
+
+2024-01-09 10:47:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.04/select_DebtLoanMortgage"), "9", true): All options with value '9' are selected in object 'Object Repository/GUI_Create_New_Liability/TC_10.04/select_DebtLoanMortgage'  using regular expression
+
+2024-01-09 10:47:55 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/GUI_Create_New_Liability/TC_10.04/select_DebtLoanMortgage'  using regular expression
+
+2024-01-09 10:47:55 - [TEST_STEP][PASSED] - actual_liability_types = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.04/select_DebtLoanMortgage"), "value", STOP_ON_FAILURE): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.04/select_DebtLoanMortgage' is: '9'
+
+2024-01-09 10:47:55 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.04/select_DebtLoanMortgage' is: '9'
+
+2024-01-09 10:47:55 - [TEST_STEP][PASSED] - verifyEqual(actual_liability_types, expected_liability_types): Actual object '9' and expected object '9' are equal
+
+2024-01-09 10:47:55 - [MESSAGE][PASSED] - Actual object '9' and expected object '9' are equal
+
+2024-01-09 10:47:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:47:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.05" time="10.999" classname="Test Cases/GUI_Create_New_Liability/TC_10.05" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:47:56 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.05: Test Cases/GUI_Create_New_Liability/TC_10.05
+
+2024-01-09 10:47:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:47:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:47:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:47:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:47:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:59 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.05/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.05/a_Demo' is clicked on
+
+2024-01-09 10:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.05/a_Demo' is clicked on
+
+2024-01-09 10:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.05/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.05/button_Sign in' is clicked on
+
+2024-01-09 10:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.05/button_Sign in' is clicked on
+
+2024-01-09 10:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.05/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.05/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.05/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.05/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.05/h4_New liability' is clicked on
+
+2024-01-09 10:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.05/h4_New liability' is clicked on
+
+2024-01-09 10:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.05/input_I owe amount_opening_balance"), "17"): Text '17' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.05/input_I owe amount_opening_balance'
+
+2024-01-09 10:48:06 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.05/input_I owe amount_opening_balance'
+
+2024-01-09 10:48:06 - [TEST_STEP][PASSED] - actual_amount = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.05/input_I owe amount_opening_balance"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.05/input_I owe amount_opening_balance' is: '17'
+
+2024-01-09 10:48:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.05/input_I owe amount_opening_balance' is: '17'
+
+2024-01-09 10:48:06 - [TEST_STEP][PASSED] - verifyEqual(actual_amount, expected_amount): Actual object '17' and expected object '17' are equal
+
+2024-01-09 10:48:06 - [MESSAGE][PASSED] - Actual object '17' and expected object '17' are equal
+
+2024-01-09 10:48:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:48:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.06" time="10.732" classname="Test Cases/GUI_Create_New_Liability/TC_10.06" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:48:07 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.06: Test Cases/GUI_Create_New_Liability/TC_10.06
+
+2024-01-09 10:48:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:48:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:48:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:48:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:48:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:09 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.06/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.06/a_Demo' is clicked on
+
+2024-01-09 10:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.06/a_Demo' is clicked on
+
+2024-01-09 10:48:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.06/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.06/button_Sign in' is clicked on
+
+2024-01-09 10:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.06/button_Sign in' is clicked on
+
+2024-01-09 10:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.06/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.06/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.06/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.06/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.06/h4_New liability' is clicked on
+
+2024-01-09 10:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.06/h4_New liability' is clicked on
+
+2024-01-09 10:48:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.06/select_I owe this debt to somebody elseI am_93cb18"), "credit", true): All options with value 'credit' are selected in object 'Object Repository/GUI_Create_New_Liability/TC_10.06/select_I owe this debt to somebody elseI am_93cb18'  using regular expression
+
+2024-01-09 10:48:16 - [MESSAGE][PASSED] - All options with value 'credit' are selected in object 'Object Repository/GUI_Create_New_Liability/TC_10.06/select_I owe this debt to somebody elseI am_93cb18'  using regular expression
+
+2024-01-09 10:48:16 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.06/select_I owe this debt to somebody elseI am_93cb18"), "value", STOP_ON_FAILURE): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.06/select_I owe this debt to somebody elseI am_93cb18' is: 'credit'
+
+2024-01-09 10:48:17 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.06/select_I owe this debt to somebody elseI am_93cb18' is: 'credit'
+
+2024-01-09 10:48:17 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object 'credit' and expected object 'credit' are equal
+
+2024-01-09 10:48:17 - [MESSAGE][PASSED] - Actual object 'credit' and expected object 'credit' are equal
+
+2024-01-09 10:48:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:48:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.07" time="10.056" classname="Test Cases/GUI_Create_New_Liability/TC_10.07" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:48:17 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.07: Test Cases/GUI_Create_New_Liability/TC_10.07
+
+2024-01-09 10:48:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:48:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:48:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:48:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:48:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:19 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.07/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.07/a_Demo' is clicked on
+
+2024-01-09 10:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.07/a_Demo' is clicked on
+
+2024-01-09 10:48:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.07/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.07/button_Sign in' is clicked on
+
+2024-01-09 10:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.07/button_Sign in' is clicked on
+
+2024-01-09 10:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.07/a")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.07/a' is clicked on
+
+2024-01-09 10:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.07/a' is clicked on
+
+2024-01-09 10:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.07/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.07/h4_New liability' is clicked on
+
+2024-01-09 10:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.07/h4_New liability' is clicked on
+
+2024-01-09 10:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.07/input_Start date of debt_opening_balance_date"), "07/06/2023"): Text '07/06/2023' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.07/input_Start date of debt_opening_balance_date'
+
+2024-01-09 10:48:26 - [MESSAGE][PASSED] - Text '07/06/2023' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.07/input_Start date of debt_opening_balance_date'
+
+2024-01-09 10:48:26 - [TEST_STEP][PASSED] - actual_date = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.07/input_Start date of debt_opening_balance_date"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.07/input_Start date of debt_opening_balance_date' is: '2023-07-06'
+
+2024-01-09 10:48:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.07/input_Start date of debt_opening_balance_date' is: '2023-07-06'
+
+2024-01-09 10:48:27 - [TEST_STEP][PASSED] - verifyEqual(actual_date, expected_date): Actual object '2023-07-06' and expected object '2023-07-06' are equal
+
+2024-01-09 10:48:27 - [MESSAGE][PASSED] - Actual object '2023-07-06' and expected object '2023-07-06' are equal
+
+2024-01-09 10:48:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:48:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.08" time="9.668" classname="Test Cases/GUI_Create_New_Liability/TC_10.08" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:48:27 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.08: Test Cases/GUI_Create_New_Liability/TC_10.08
+
+2024-01-09 10:48:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:48:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:48:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:48:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:48:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:29 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.08/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.08/a_Demo' is clicked on
+
+2024-01-09 10:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.08/a_Demo' is clicked on
+
+2024-01-09 10:48:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.08/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.08/button_Sign in' is clicked on
+
+2024-01-09 10:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.08/button_Sign in' is clicked on
+
+2024-01-09 10:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.08/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.08/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.08/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.08/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.08/h4_New liability' is clicked on
+
+2024-01-09 10:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.08/h4_New liability' is clicked on
+
+2024-01-09 10:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.08/input_Interest_interest"), "10"): Text '10' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.08/input_Interest_interest'
+
+2024-01-09 10:48:36 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.08/input_Interest_interest'
+
+2024-01-09 10:48:36 - [TEST_STEP][PASSED] - actual_interest = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.08/input_Interest_interest"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.08/input_Interest_interest' is: '10'
+
+2024-01-09 10:48:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.08/input_Interest_interest' is: '10'
+
+2024-01-09 10:48:36 - [TEST_STEP][PASSED] - verifyEqual(actual_interest, expect_interest): Actual object '10' and expected object '10' are equal
+
+2024-01-09 10:48:36 - [MESSAGE][PASSED] - Actual object '10' and expected object '10' are equal
+
+2024-01-09 10:48:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:48:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.09" time="10.307" classname="Test Cases/GUI_Create_New_Liability/TC_10.09" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:48:37 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.09: Test Cases/GUI_Create_New_Liability/TC_10.09
+
+2024-01-09 10:48:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:48:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:48:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:48:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:48:38 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:39 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.09/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.09/a_Demo' is clicked on
+
+2024-01-09 10:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.09/a_Demo' is clicked on
+
+2024-01-09 10:48:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.09/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.09/button_Sign in' is clicked on
+
+2024-01-09 10:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.09/button_Sign in' is clicked on
+
+2024-01-09 10:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.09/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.09/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.09/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.09/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.09/h4_New liability' is clicked on
+
+2024-01-09 10:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.09/h4_New liability' is clicked on
+
+2024-01-09 10:48:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.09/select_Per dayPer monthPer year"), "monthly", true): All options with value 'monthly' are selected in object 'Object Repository/GUI_Create_New_Liability/TC_10.09/select_Per dayPer monthPer year'  using regular expression
+
+2024-01-09 10:48:46 - [MESSAGE][PASSED] - All options with value 'monthly' are selected in object 'Object Repository/GUI_Create_New_Liability/TC_10.09/select_Per dayPer monthPer year'  using regular expression
+
+2024-01-09 10:48:46 - [TEST_STEP][PASSED] - actual_interest_period = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.09/select_Per dayPer monthPer year"), "value", STOP_ON_FAILURE): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.09/select_Per dayPer monthPer year' is: 'monthly'
+
+2024-01-09 10:48:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.09/select_Per dayPer monthPer year' is: 'monthly'
+
+2024-01-09 10:48:47 - [TEST_STEP][PASSED] - verifyEqual(actual_interest_period, expected_interest_period): Actual object 'monthly' and expected object 'monthly' are equal
+
+2024-01-09 10:48:47 - [MESSAGE][PASSED] - Actual object 'monthly' and expected object 'monthly' are equal
+
+2024-01-09 10:48:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:48:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.10" time="15.199" classname="Test Cases/GUI_Create_New_Liability/TC_10.10" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:48:47 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.10: Test Cases/GUI_Create_New_Liability/TC_10.10
+
+2024-01-09 10:48:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:48:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:48:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:48:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:48:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:50 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.10/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/a_Demo' is clicked on
+
+2024-01-09 10:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/a_Demo' is clicked on
+
+2024-01-09 10:48:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:48:52 - [MESSAGE][PASSED] - Browser is closed
+
+2024-01-09 10:48:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:48:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:48:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:48:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:48:54 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:54 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:48:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.10/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/a_Demo' is clicked on
+
+2024-01-09 10:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/a_Demo' is clicked on
+
+2024-01-09 10:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.10/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/button_Sign in' is clicked on
+
+2024-01-09 10:48:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/button_Sign in' is clicked on
+
+2024-01-09 10:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.10/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.10/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/h4_New liability' is clicked on
+
+2024-01-09 10:49:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.10/h4_New liability' is clicked on
+
+2024-01-09 10:49:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.10/input_IBAN_iban"), "99.163.174.2"): Text '99.163.174.2' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.10/input_IBAN_iban'
+
+2024-01-09 10:49:02 - [MESSAGE][PASSED] - Text '99.163.174.2' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.10/input_IBAN_iban'
+
+2024-01-09 10:49:02 - [TEST_STEP][PASSED] - actual_IBAN = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.10/input_IBAN_iban"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.10/input_IBAN_iban' is: '99.163.174.2'
+
+2024-01-09 10:49:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.10/input_IBAN_iban' is: '99.163.174.2'
+
+2024-01-09 10:49:02 - [TEST_STEP][PASSED] - verifyEqual(actual_IBAN, expected_IBAN): Actual object '99.163.174.2' and expected object '99.163.174.2' are equal
+
+2024-01-09 10:49:02 - [MESSAGE][PASSED] - Actual object '99.163.174.2' and expected object '99.163.174.2' are equal
+
+2024-01-09 10:49:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:49:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.11" time="9.706" classname="Test Cases/GUI_Create_New_Liability/TC_10.11" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:49:03 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.11: Test Cases/GUI_Create_New_Liability/TC_10.11
+
+2024-01-09 10:49:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:49:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:49:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:49:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:49:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:05 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.11/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.11/a_Demo' is clicked on
+
+2024-01-09 10:49:06 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.11/a_Demo' is clicked on
+
+2024-01-09 10:49:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.11/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.11/button_Sign in' is clicked on
+
+2024-01-09 10:49:08 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.11/button_Sign in' is clicked on
+
+2024-01-09 10:49:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.11/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.11/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.11/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.11/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.11/h4_New liability' is clicked on
+
+2024-01-09 10:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.11/h4_New liability' is clicked on
+
+2024-01-09 10:49:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.11/input_BIC_BIC"), "0.254.112.210"): Text '0.254.112.210' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.11/input_BIC_BIC'
+
+2024-01-09 10:49:11 - [MESSAGE][PASSED] - Text '0.254.112.210' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.11/input_BIC_BIC'
+
+2024-01-09 10:49:11 - [TEST_STEP][PASSED] - actual_BIC = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.11/input_BIC_BIC"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.11/input_BIC_BIC' is: '0.254.112.210'
+
+2024-01-09 10:49:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.11/input_BIC_BIC' is: '0.254.112.210'
+
+2024-01-09 10:49:12 - [TEST_STEP][PASSED] - verifyEqual(actual_BIC, expected_BIC): Actual object '0.254.112.210' and expected object '0.254.112.210' are equal
+
+2024-01-09 10:49:12 - [MESSAGE][PASSED] - Actual object '0.254.112.210' and expected object '0.254.112.210' are equal
+
+2024-01-09 10:49:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:49:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.12" time="10.624" classname="Test Cases/GUI_Create_New_Liability/TC_10.12" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:49:12 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.12: Test Cases/GUI_Create_New_Liability/TC_10.12
+
+2024-01-09 10:49:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:49:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:49:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:49:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:49:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:14 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.12/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/a_Demo' is clicked on
+
+2024-01-09 10:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/a_Demo' is clicked on
+
+2024-01-09 10:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.12/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/button_Sign in' is clicked on
+
+2024-01-09 10:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/button_Sign in' is clicked on
+
+2024-01-09 10:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.12/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.12/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/h4_New liability' is clicked on
+
+2024-01-09 10:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/h4_New liability' is clicked on
+
+2024-01-09 10:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.12/html_Create a new liability                _4aeb42")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/html_Create a new liability                _4aeb42' is clicked on
+
+2024-01-09 10:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.12/html_Create a new liability                _4aeb42' is clicked on
+
+2024-01-09 10:49:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.12/input_Account number_account_number"), "513-549-0132"): Text '513-549-0132' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.12/input_Account number_account_number'
+
+2024-01-09 10:49:22 - [MESSAGE][PASSED] - Text '513-549-0132' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.12/input_Account number_account_number'
+
+2024-01-09 10:49:22 - [TEST_STEP][PASSED] - actual_account_number = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.12/input_Account number_account_number"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.12/input_Account number_account_number' is: '513-549-0132'
+
+2024-01-09 10:49:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.12/input_Account number_account_number' is: '513-549-0132'
+
+2024-01-09 10:49:22 - [TEST_STEP][PASSED] - verifyEqual(actual_account_number, expected_account_number): Actual object '513-549-0132' and expected object '513-549-0132' are equal
+
+2024-01-09 10:49:22 - [MESSAGE][PASSED] - Actual object '513-549-0132' and expected object '513-549-0132' are equal
+
+2024-01-09 10:49:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:49:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.13" time="9.737" classname="Test Cases/GUI_Create_New_Liability/TC_10.13" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:49:23 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.13: Test Cases/GUI_Create_New_Liability/TC_10.13
+
+2024-01-09 10:49:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:49:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:49:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:49:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:49:24 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:25 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.13/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/a_Demo' is clicked on
+
+2024-01-09 10:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/a_Demo' is clicked on
+
+2024-01-09 10:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.13/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/button_Sign in' is clicked on
+
+2024-01-09 10:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/button_Sign in' is clicked on
+
+2024-01-09 10:49:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.13/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.13/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/h4_New liability' is clicked on
+
+2024-01-09 10:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/h4_New liability' is clicked on
+
+2024-01-09 10:49:31 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.13/input_Include in net worth_include_net_worth")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/input_Include in net worth_include_net_worth' is double clicked on
+
+2024-01-09 10:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.13/input_Include in net worth_include_net_worth' is double clicked on
+
+2024-01-09 10:49:32 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.13/input_Include in net worth_include_net_worth"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.13/input_Include in net worth_include_net_worth' is: '1'
+
+2024-01-09 10:49:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.13/input_Include in net worth_include_net_worth' is: '1'
+
+2024-01-09 10:49:32 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '1' and expected object '1' are equal
+
+2024-01-09 10:49:32 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2024-01-09 10:49:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:49:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.14" time="9.755" classname="Test Cases/GUI_Create_New_Liability/TC_10.14" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:49:33 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.14: Test Cases/GUI_Create_New_Liability/TC_10.14
+
+2024-01-09 10:49:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:49:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:49:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:49:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:49:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:35 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.14/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.14/a_Demo' is clicked on
+
+2024-01-09 10:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.14/a_Demo' is clicked on
+
+2024-01-09 10:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.14/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.14/button_Sign in' is clicked on
+
+2024-01-09 10:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.14/button_Sign in' is clicked on
+
+2024-01-09 10:49:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.14/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.14/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.14/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.14/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.14/h4_New liability' is clicked on
+
+2024-01-09 10:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.14/h4_New liability' is clicked on
+
+2024-01-09 10:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.14/textarea_Notes_notes"), "Little blue penguin"): Text 'Little blue penguin' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.14/textarea_Notes_notes'
+
+2024-01-09 10:49:41 - [MESSAGE][PASSED] - Text 'Little blue penguin' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.14/textarea_Notes_notes'
+
+2024-01-09 10:49:41 - [TEST_STEP][PASSED] - actual_notes = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.14/textarea_Notes_notes"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.14/textarea_Notes_notes' is: 'Little blue penguin'
+
+2024-01-09 10:49:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.14/textarea_Notes_notes' is: 'Little blue penguin'
+
+2024-01-09 10:49:42 - [TEST_STEP][PASSED] - verifyEqual(actual_notes, expected_notes): Actual object 'Little blue penguin' and expected object 'Little blue penguin' are equal
+
+2024-01-09 10:49:42 - [MESSAGE][PASSED] - Actual object 'Little blue penguin' and expected object 'Little blue penguin' are equal
+
+2024-01-09 10:49:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:49:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.15" time="9.573" classname="Test Cases/GUI_Create_New_Liability/TC_10.15" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:49:42 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.15: Test Cases/GUI_Create_New_Liability/TC_10.15
+
+2024-01-09 10:49:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:49:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:49:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:49:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:49:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:44 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.15/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.15/a_Demo' is clicked on
+
+2024-01-09 10:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.15/a_Demo' is clicked on
+
+2024-01-09 10:49:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.15/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.15/button_Sign in' is clicked on
+
+2024-01-09 10:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.15/button_Sign in' is clicked on
+
+2024-01-09 10:49:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.15/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.15/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.15/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.15/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.15/h4_New liability' is clicked on
+
+2024-01-09 10:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.15/h4_New liability' is clicked on
+
+2024-01-09 10:49:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.15/input_Attachments_attachments"), "D:\db.sql"): Text 'D:\db.sql' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.15/input_Attachments_attachments'
+
+2024-01-09 10:49:51 - [MESSAGE][PASSED] - Text 'D:\db.sql' is set on object 'Object Repository/GUI_Create_New_Liability/TC_10.15/input_Attachments_attachments'
+
+2024-01-09 10:49:51 - [TEST_STEP][PASSED] - actual_file = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.15/input_Attachments_attachments"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.15/input_Attachments_attachments' is: 'C:\fakepath\db.sql'
+
+2024-01-09 10:49:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.15/input_Attachments_attachments' is: 'C:\fakepath\db.sql'
+
+2024-01-09 10:49:51 - [TEST_STEP][PASSED] - verifyEqual(actual_file, expected_file): Actual object 'C:\fakepath\db.sql' and expected object 'C:\fakepath\db.sql' are equal
+
+2024-01-09 10:49:51 - [MESSAGE][PASSED] - Actual object 'C:\fakepath\db.sql' and expected object 'C:\fakepath\db.sql' are equal
+
+2024-01-09 10:49:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:49:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.16" time="9.015" classname="Test Cases/GUI_Create_New_Liability/TC_10.16" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:49:52 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.16: Test Cases/GUI_Create_New_Liability/TC_10.16
+
+2024-01-09 10:49:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:49:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:49:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:49:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:49:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:54 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:49:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.16/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/a_Demo' is clicked on
+
+2024-01-09 10:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/a_Demo' is clicked on
+
+2024-01-09 10:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.16/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/button_Sign in' is clicked on
+
+2024-01-09 10:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/button_Sign in' is clicked on
+
+2024-01-09 10:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.16/a")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/a' is clicked on
+
+2024-01-09 10:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/a' is clicked on
+
+2024-01-09 10:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.16/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/h4_New liability' is clicked on
+
+2024-01-09 10:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/h4_New liability' is clicked on
+
+2024-01-09 10:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.16/input_After storing, return here to create _4fc2e2")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/input_After storing, return here to create _4fc2e2' is clicked on
+
+2024-01-09 10:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.16/input_After storing, return here to create _4fc2e2' is clicked on
+
+2024-01-09 10:50:00 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.16/input_After storing, return here to create _4fc2e2"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.16/input_After storing, return here to create _4fc2e2' is: '1'
+
+2024-01-09 10:50:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Liability/TC_10.16/input_After storing, return here to create _4fc2e2' is: '1'
+
+2024-01-09 10:50:00 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '1' and expected object '1' are equal
+
+2024-01-09 10:50:00 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2024-01-09 10:50:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:50:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Liability/TC_10.17" time="10.48" classname="Test Cases/GUI_Create_New_Liability/TC_10.17" status="PASSED">
+         <system-out><![CDATA[2024-01-09 10:50:01 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Liability/TC_10.17: Test Cases/GUI_Create_New_Liability/TC_10.17
+
+2024-01-09 10:50:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 10:50:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 10:50:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 10:50:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 10:50:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:50:03 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 10:50:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.17/a_Demo")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/a_Demo' is clicked on
+
+2024-01-09 10:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/a_Demo' is clicked on
+
+2024-01-09 10:50:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.17/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/button_Sign in' is clicked on
+
+2024-01-09 10:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/button_Sign in' is clicked on
+
+2024-01-09 10:50:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.17/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 10:50:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.17/h4_New liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/h4_New liability' is clicked on
+
+2024-01-09 10:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/h4_New liability' is clicked on
+
+2024-01-09 10:50:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.17/button_Store new liability")): Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/button_Store new liability' is clicked on
+
+2024-01-09 10:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Liability/TC_10.17/button_Store new liability' is clicked on
+
+2024-01-09 10:50:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/GUI_Create_New_Liability/TC_10.17/p_The name field is required"), "The name field is required."): Actual text and expected text of test object 'Object Repository/GUI_Create_New_Liability/TC_10.17/p_The name field is required' are matched.
+
+2024-01-09 10:50:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI_Create_New_Liability/TC_10.17/p_The name field is required' are matched.
+
+2024-01-09 10:50:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 10:50:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-09 10:47:10 - [TEST_SUITE][PASSED] - GUI_Create_New_Liability: Test Cases/GUI_Create_New_Liability/TC_10.17]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

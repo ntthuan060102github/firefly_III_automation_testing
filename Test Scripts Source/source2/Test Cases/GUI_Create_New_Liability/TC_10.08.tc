@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_10.08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42920936-a10b-42a0-93eb-f777847f2737</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>560b697c-c5be-4adb-9c1e-49951d4d25df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2db137f9-b508-4674-9c34-8ab57493f173</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>560b697c-c5be-4adb-9c1e-49951d4d25df</id>
+      <masked>false</masked>
+      <name>actual_interest</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>2db137f9-b508-4674-9c34-8ab57493f173</id>
+      <masked>false</masked>
+      <name>expect_interest</name>
+   </variable>
+</TestCaseEntity>

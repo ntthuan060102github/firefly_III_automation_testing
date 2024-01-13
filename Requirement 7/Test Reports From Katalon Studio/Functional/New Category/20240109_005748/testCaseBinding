@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/New Category/TC1 - Check field Name input","testCaseId":"Test Cases/New Category/TC1 - Check field Name input","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC2 - Check empty input field Name","testCaseId":"Test Cases/New Category/TC2 - Check empty input field Name","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC3 - Check name is exist","testCaseId":"Test Cases/New Category/TC3 - Check name is exist","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC4 - Check name value length is greater than 100","testCaseId":"Test Cases/New Category/TC4 - Check name value length is greater than 100","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC5 - Check name value length is 100","testCaseId":"Test Cases/New Category/TC5 - Check name value length is 100","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC6 - Check name value length is 1","testCaseId":"Test Cases/New Category/TC6 - Check name value length is 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC7 - Check field Note input","testCaseId":"Test Cases/New Category/TC7 - Check field Note input","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC8 - Check file size is smaller than 2MB","testCaseId":"Test Cases/New Category/TC8 - Check file size is smaller than 2MB","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC9 - Check file size is greater than 2MB","testCaseId":"Test Cases/New Category/TC9 - Check file size is greater than 2MB","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC10 - Check button store new category","testCaseId":"Test Cases/New Category/TC10 - Check button store new category","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Category/TC11 - Check name value length smaller than 100 and greater than 1","testCaseId":"Test Cases/New Category/TC11 - Check name value length smaller than 100 and greater than 1","iterationVariableName":""}

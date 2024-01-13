@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_BIC</name>
+   <tag></tag>
+   <elementGuidId>cddbec93-9e5d-4f8e-9925-d74989929b52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#BIC_holder > label.col-sm-4.control-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='BIC_holder']/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2559a6f3-2ae4-455f-9240-9ecae3f8131d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ffInput_BIC</value>
+      <webElementGuid>a84b5243-4f3c-426b-8fc6-600cd0632907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-4 control-label</value>
+      <webElementGuid>2ae0ff6b-8379-4b04-b594-6fb7b2ab38c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BIC</value>
+      <webElementGuid>bad76497-55bd-493a-8269-192d7e9cdfd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;BIC_holder&quot;)/label[@class=&quot;col-sm-4 control-label&quot;]</value>
+      <webElementGuid>690d7cd0-5614-435a-a7d3-939c39ab0605</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='BIC_holder']/label</value>
+      <webElementGuid>ce97ee31-6b28-4e09-84bb-4d24a420b184</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IBAN'])[1]/following::label[1]</value>
+      <webElementGuid>72d964e9-0f1e-4538-8903-2f21100e1e13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Optional fields'])[1]/following::label[2]</value>
+      <webElementGuid>24c6afef-b2fa-4ed2-bcaf-1061ff7e385d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account number'])[1]/preceding::label[1]</value>
+      <webElementGuid>6bd896ad-f9c4-4a98-9c05-0822fc7afd6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Include in net worth'])[1]/preceding::label[2]</value>
+      <webElementGuid>ae802651-ed1d-49ff-9943-771a4f1399e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BIC']/parent::*</value>
+      <webElementGuid>a5cb1e03-8e56-404d-8834-b5c9d3c5ddcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[2]/label</value>
+      <webElementGuid>413791fa-25dd-4da1-9502-a4d1df4ae7ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'BIC' or . = 'BIC')]</value>
+      <webElementGuid>0270149e-ef4f-4e41-bd4d-bea4db68fa77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

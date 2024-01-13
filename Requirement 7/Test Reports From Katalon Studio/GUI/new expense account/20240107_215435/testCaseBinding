@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/GUI/new expense account/TC1","testCaseId":"Test Cases/GUI/new expense account/TC1","iterationVariableName":""}
+{"testCaseName":"Test Cases/GUI/new expense account/TC4","testCaseId":"Test Cases/GUI/new expense account/TC4","iterationVariableName":""}
+{"testCaseName":"Test Cases/GUI/new expense account/TC5","testCaseId":"Test Cases/GUI/new expense account/TC5","iterationVariableName":""}
+{"testCaseName":"Test Cases/GUI/new expense account/TC7","testCaseId":"Test Cases/GUI/new expense account/TC7","iterationVariableName":""}
+{"testCaseName":"Test Cases/GUI/new expense account/TC10 - Iteration 1","testCaseId":"Test Cases/GUI/new expense account/TC10","iterationVariableName":"","bindedValues":{"expected_value":"\u0027this is test sentence\u0027","test_value":"\u0027this is test sentence\u0027"}}
+{"testCaseName":"Test Cases/GUI/new expense account/TC10 - Iteration 2","testCaseId":"Test Cases/GUI/new expense account/TC10","iterationVariableName":"","bindedValues":{"expected_value":"\u0027this is test paragraph.\\nThis is test paragraph.\u0027","test_value":"\u0027this is test paragraph.\\nThis is test paragraph.\u0027"}}
+{"testCaseName":"Test Cases/GUI/new expense account/TC10 - Iteration 3","testCaseId":"Test Cases/GUI/new expense account/TC10","iterationVariableName":"","bindedValues":{"expected_value":"\u0027\u0027","test_value":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/GUI/new expense account/TC11","testCaseId":"Test Cases/GUI/new expense account/TC11","iterationVariableName":""}
+{"testCaseName":"Test Cases/GUI/new expense account/TC13","testCaseId":"Test Cases/GUI/new expense account/TC13","iterationVariableName":""}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6a3dbbe-d970-48b7-a72f-db992d1bf44d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b7ffb69a-305a-425e-85a6-941cff035af2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a79e79e7-ab7d-455a-964e-e01b0ade476c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'this is test value'</defaultValue>
+      <description></description>
+      <id>b7ffb69a-305a-425e-85a6-941cff035af2</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a79e79e7-ab7d-455a-964e-e01b0ade476c</id>
+      <masked>false</masked>
+      <name>actual_value</name>
+   </variable>
+</TestCaseEntity>

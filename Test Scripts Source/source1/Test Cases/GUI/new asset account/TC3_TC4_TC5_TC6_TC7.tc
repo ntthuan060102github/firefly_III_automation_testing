@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_TC4_TC5_TC6_TC7</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4adba41b-e5da-4e04-9d43-fd861d30d537</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>99903626-0624-4ab8-b9a4-fab429f0e3d6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/GUI_Usability/new asset account/dropdown_currency</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>99903626-0624-4ab8-b9a4-fab429f0e3d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>test_value</value>
+      <variableId>88ca6a96-7bba-49b4-bc09-2b2730d475d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5458f139-24b2-4941-83ba-abfab8c4e15b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>99903626-0624-4ab8-b9a4-fab429f0e3d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>16ffd032-87cd-46fe-b36f-eed339dcc172</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88ca6a96-7bba-49b4-bc09-2b2730d475d8</id>
+      <masked>false</masked>
+      <name>test_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5458f139-24b2-4941-83ba-abfab8c4e15b</id>
+      <masked>false</masked>
+      <name>actual_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16ffd032-87cd-46fe-b36f-eed339dcc172</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

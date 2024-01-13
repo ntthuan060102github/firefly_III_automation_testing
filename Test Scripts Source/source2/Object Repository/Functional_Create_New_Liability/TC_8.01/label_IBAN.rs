@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_IBAN</name>
+   <tag></tag>
+   <elementGuidId>c014472c-5390-4fd1-b780-dc81d7bcd7bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#iban_holder > label.col-sm-4.control-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='iban_holder']/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>539c5dec-eca6-4729-8fd6-caa183a5baea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ffInput_iban</value>
+      <webElementGuid>06326371-1373-46c2-83ac-ea3f8201d3ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-4 control-label</value>
+      <webElementGuid>2a6779e3-1488-4477-b73e-4f4589ab81ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>IBAN</value>
+      <webElementGuid>e0f02e5f-4737-44d8-897d-1791c1fe23c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;iban_holder&quot;)/label[@class=&quot;col-sm-4 control-label&quot;]</value>
+      <webElementGuid>a88cce1c-9d31-4c23-8e55-d76e2ecc2c7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='iban_holder']/label</value>
+      <webElementGuid>61c17605-69da-4ba3-933e-a0e3ae202a4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Optional fields'])[1]/following::label[1]</value>
+      <webElementGuid>7d3856df-a379-4fd0-ab5d-4306a1c04175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Interest period'])[1]/following::label[1]</value>
+      <webElementGuid>f78a023f-a381-41df-aa01-b04afa845060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BIC'])[1]/preceding::label[1]</value>
+      <webElementGuid>134944d9-5664-4aa7-ac52-776f78fe9d41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account number'])[1]/preceding::label[2]</value>
+      <webElementGuid>9dabbe5c-acdf-4599-8adf-587f25178e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='IBAN']/parent::*</value>
+      <webElementGuid>5e480c3f-999c-4968-993c-834601e54cd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/label</value>
+      <webElementGuid>c064fc16-5ff8-4a0a-913b-a416f1f24368</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'IBAN' or . = 'IBAN')]</value>
+      <webElementGuid>dce26d2a-4af5-46d6-9095-0d5b1018cadf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

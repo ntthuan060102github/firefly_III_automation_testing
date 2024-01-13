@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_TC3_TC4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6c0385b-dd6a-4792-8638-bb118b203236</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>257f1bde-5056-4a4d-9c51-18b1f00e393f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Functional/create new asset account/new_asset_sheet1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>257f1bde-5056-4a4d-9c51-18b1f00e393f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>12ceceec-8829-4dc3-ba34-e7c5d22cf83f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>257f1bde-5056-4a4d-9c51-18b1f00e393f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_result</value>
+      <variableId>3ef1afb5-d78d-4447-a997-254740dcc872</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12ceceec-8829-4dc3-ba34-e7c5d22cf83f</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ef1afb5-d78d-4447-a997-254740dcc872</id>
+      <masked>false</masked>
+      <name>expected_result</name>
+   </variable>
+</TestCaseEntity>

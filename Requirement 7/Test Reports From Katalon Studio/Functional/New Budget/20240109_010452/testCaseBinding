@@ -1,0 +1,21 @@
+{"testCaseName":"Test Cases/New Budget/TC1 - Check field Name input","testCaseId":"Test Cases/New Budget/TC1 - Check field Name input","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC2 - Check empty input field Name","testCaseId":"Test Cases/New Budget/TC2 - Check empty input field Name","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC3 - Check name is exist","testCaseId":"Test Cases/New Budget/TC3 - Check name is exist","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC4 - Check name value length is greater than 100","testCaseId":"Test Cases/New Budget/TC4 - Check name value length is greater than 100","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC5 - Check name value length is 100","testCaseId":"Test Cases/New Budget/TC5 - Check name value length is 100","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC6 - Check name value length is 1","testCaseId":"Test Cases/New Budget/TC6 - Check name value length is 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC7 - Check Auto-budget amount is smaller than 0","testCaseId":"Test Cases/New Budget/TC7 - Check Auto-budget amount is smaller than 0","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC8 - Check Auto-budget amount is 0","testCaseId":"Test Cases/New Budget/TC8 - Check Auto-budget amount is 0","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC9 - Check Auto-budget amount greater than 0 and smaller than 100001709","testCaseId":"Test Cases/New Budget/TC9 - Check Auto-budget amount greater than 0 and smaller than 100001709","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709","testCaseId":"Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC11 - Check Auto-budget amount is greater than 100001709","testCaseId":"Test Cases/New Budget/TC11 - Check Auto-budget amount is greater than 100001709","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC12 - Check file size is smaller 2MB","testCaseId":"Test Cases/New Budget/TC12 - Check file size is smaller 2MB","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC13 - Check file size is greater than 2MB","testCaseId":"Test Cases/New Budget/TC13 - Check file size is greater than 2MB","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC14 - Check button new Budget","testCaseId":"Test Cases/New Budget/TC14 - Check button new Budget","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC15 - Check Currency field 1","testCaseId":"Test Cases/New Budget/TC15 - Check Currency field 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC16 - Check Auto-budget amount field 1","testCaseId":"Test Cases/New Budget/TC16 - Check Auto-budget amount field 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC17 - Check Auto-budget period field 1","testCaseId":"Test Cases/New Budget/TC17 - Check Auto-budget period field 1","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC18 - Check Auto-budget field","testCaseId":"Test Cases/New Budget/TC18 - Check Auto-budget field","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC19 - Check Currency field 2","testCaseId":"Test Cases/New Budget/TC19 - Check Currency field 2","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC20 - Check Auto-budget amount field 2","testCaseId":"Test Cases/New Budget/TC20 - Check Auto-budget amount field 2","iterationVariableName":""}
+{"testCaseName":"Test Cases/New Budget/TC21 - Check Auto-budget period field 2","testCaseId":"Test Cases/New Budget/TC21 - Check Auto-budget period field 2","iterationVariableName":""}

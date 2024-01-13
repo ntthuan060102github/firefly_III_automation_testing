@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Category" time="121.395" tests="11" failures="0" errors="0">
+   <testsuite name="New Category" tests="11" failures="0" errors="0" time="121.395" skipped="0" timestamp="09-01-2024T00:57:57" hostname="pt071 - DESKTOP-BERKFUC" id="Test Suites/New Category">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_005748\\New Category\\20240109_005748"/>
+         <property name="logFiles" value="C:\\Users\\pt071\\Katalon Studio\\My First API Project\\Reports\\20240109_005748\\New Category\\20240109_005748\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="pt071 - DESKTOP-BERKFUC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Edge Chromium 120"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="62939f3f8a3ea9837b07d17d216b6a1e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Category/TC1 - Check field Name input" time="12.03" classname="Test Cases/New Category/TC1 - Check field Name input" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:57:57 - [TEST_CASE][PASSED] - Test Cases/New Category/TC1 - Check field Name input: Test Cases/New Category/TC1 - Check field Name input
+
+09-01-2024T00:57:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:57:59 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:57:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:58:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:58:01 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:02 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "hhhh"): Text 'hhhh' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:58:08 - [MESSAGE][PASSED] - Text 'hhhh' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:58:08 - [TEST_STEP][PASSED] - inputFieldTo = findTestObject("Object Repository/Page Create new category/input_Name_name"): null
+
+09-01-2024T00:58:09 - [TEST_STEP][PASSED] - expectedValue = "hhhh": null
+
+09-01-2024T00:58:09 - [TEST_STEP][PASSED] - verifyInputFieldValue(inputFieldTo, expectedValue): null
+
+09-01-2024T00:58:09 - [TEST_STEP][PASSED] - actualValue = getAttribute(to, "value"): Attribute 'value' of object 'Object Repository/Page Create new category/input_Name_name' is: 'hhhh'
+
+09-01-2024T00:58:09 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Create new category/input_Name_name' is: 'hhhh'
+
+09-01-2024T00:58:09 - [TEST_STEP][PASSED] - if (actualValue != expectedValue): null
+
+09-01-2024T00:58:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:58:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC2 - Check empty input field Name" time="10.131" classname="Test Cases/New Category/TC2 - Check empty input field Name" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:58:09 - [TEST_CASE][PASSED] - Test Cases/New Category/TC2 - Check empty input field Name: Test Cases/New Category/TC2 - Check empty input field Name
+
+09-01-2024T00:58:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:58:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:58:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:58:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:58:11 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:12 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:58:19 - [TEST_STEP][PASSED] - errorMessageTo = findTestObject("Object Repository/Page Create new category/p_The name field is required"): null
+
+09-01-2024T00:58:19 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessageTo): Object 'Object Repository/Page Create new category/p_The name field is required' is visible
+
+09-01-2024T00:58:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new category/p_The name field is required' is visible
+
+09-01-2024T00:58:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:58:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC3 - Check name is exist" time="11.027" classname="Test Cases/New Category/TC3 - Check name is exist" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:58:20 - [TEST_CASE][PASSED] - Test Cases/New Category/TC3 - Check name is exist: Test Cases/New Category/TC3 - Check name is exist
+
+09-01-2024T00:58:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:58:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:58:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:58:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:58:21 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:22 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "Bills"): Text 'Bills' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:58:28 - [MESSAGE][PASSED] - Text 'Bills' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:58:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:58:30 - [TEST_STEP][PASSED] - errorMessageTo = findTestObject("Object Repository/Page Create new category/p_This name is already in use"): null
+
+09-01-2024T00:58:30 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessageTo): Object 'Object Repository/Page Create new category/p_This name is already in use' is visible
+
+09-01-2024T00:58:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new category/p_This name is already in use' is visible
+
+09-01-2024T00:58:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:58:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC4 - Check name value length is greater than 100" time="11.096" classname="Test Cases/New Category/TC4 - Check name value length is greater than 100" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:58:31 - [TEST_CASE][PASSED] - Test Cases/New Category/TC4 - Check name value length is greater than 100: Test Cases/New Category/TC4 - Check name value length is greater than 100
+
+09-01-2024T00:58:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:58:31 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:58:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:58:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:58:32 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:33 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrddddddddddddddddddddddddddddddddđccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"): Text 'rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrddddddddddddddddddddddddddddddddđccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:58:39 - [MESSAGE][PASSED] - Text 'rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrddddddddddddddddddddddddddddddddđccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:58:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:58:41 - [TEST_STEP][PASSED] - errorMessageTo = findTestObject("Object Repository/Page Create new category/p_The name must be between 1 and 100 characters"): null
+
+09-01-2024T00:58:41 - [TEST_STEP][PASSED] - verifyElementVisible(errorMessageTo): Object 'Object Repository/Page Create new category/p_The name must be between 1 and 100 characters' is visible
+
+09-01-2024T00:58:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page Create new category/p_The name must be between 1 and 100 characters' is visible
+
+09-01-2024T00:58:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:58:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC5 - Check name value length is 100" time="11.043" classname="Test Cases/New Category/TC5 - Check name value length is 100" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:58:42 - [TEST_CASE][PASSED] - Test Cases/New Category/TC5 - Check name value length is 100: Test Cases/New Category/TC5 - Check name value length is 100
+
+09-01-2024T00:58:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:58:42 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:58:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:58:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:58:43 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:44 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "iorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m"): Text 'iorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:58:50 - [MESSAGE][PASSED] - Text 'iorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:58:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:58:52 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category"): null
+
+09-01-2024T00:58:52 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:58:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:58:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:58:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC6 - Check name value length is 1" time="9.719" classname="Test Cases/New Category/TC6 - Check name value length is 1" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:58:53 - [TEST_CASE][PASSED] - Test Cases/New Category/TC6 - Check name value length is 1: Test Cases/New Category/TC6 - Check name value length is 1
+
+09-01-2024T00:58:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:58:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:58:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:58:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:58:54 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:55 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:58:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:58:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "k"): Text 'k' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:00 - [MESSAGE][PASSED] - Text 'k' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:02 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category"): null
+
+09-01-2024T00:59:02 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:59:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:59:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC7 - Check field Note input" time="8.922" classname="Test Cases/New Category/TC7 - Check field Note input" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:59:02 - [TEST_CASE][PASSED] - Test Cases/New Category/TC7 - Check field Note input: Test Cases/New Category/TC7 - Check field Note input
+
+09-01-2024T00:59:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:59:03 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:59:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:59:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:59:04 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:05 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/textarea_Notes_notes"), "123ert"): Text '123ert' is set on object 'Object Repository/Page Create new category/textarea_Notes_notes'
+
+09-01-2024T00:59:11 - [MESSAGE][PASSED] - Text '123ert' is set on object 'Object Repository/Page Create new category/textarea_Notes_notes'
+
+09-01-2024T00:59:11 - [TEST_STEP][PASSED] - inputFieldTo = findTestObject("Object Repository/Page Create new category/textarea_Notes_notes"): null
+
+09-01-2024T00:59:11 - [TEST_STEP][PASSED] - expectedValue = "123ert": null
+
+09-01-2024T00:59:11 - [TEST_STEP][PASSED] - verifyInputFieldValue(inputFieldTo, expectedValue): null
+
+09-01-2024T00:59:11 - [TEST_STEP][PASSED] - actualValue = getAttribute(to, "value"): Attribute 'value' of object 'Object Repository/Page Create new category/textarea_Notes_notes' is: '123ert'
+
+09-01-2024T00:59:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page Create new category/textarea_Notes_notes' is: '123ert'
+
+09-01-2024T00:59:11 - [TEST_STEP][PASSED] - if (actualValue != expectedValue): null
+
+09-01-2024T00:59:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:59:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC8 - Check file size is smaller than 2MB" time="11.044" classname="Test Cases/New Category/TC8 - Check file size is smaller than 2MB" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:59:11 - [TEST_CASE][PASSED] - Test Cases/New Category/TC8 - Check file size is smaller than 2MB: Test Cases/New Category/TC8 - Check file size is smaller than 2MB
+
+09-01-2024T00:59:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:59:12 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:59:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:59:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:59:13 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:14 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "newname"): Text 'newname' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:20 - [MESSAGE][PASSED] - Text 'newname' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:20 - [TEST_STEP][PASSED] - fileInput = findTestObject("Object Repository/Page Create new category/file_attachments_input new category"): null
+
+09-01-2024T00:59:20 - [TEST_STEP][PASSED] - filePath = "C:/Users/pt071/abc.txt": null
+
+09-01-2024T00:59:20 - [TEST_STEP][PASSED] - uploadFile(fileInput, filePath): File 'C:/Users/pt071/abc.txt' sent to object: 'Object Repository/Page Create new category/file_attachments_input new category'
+
+09-01-2024T00:59:20 - [MESSAGE][PASSED] - File 'C:/Users/pt071/abc.txt' sent to object: 'Object Repository/Page Create new category/file_attachments_input new category'
+
+09-01-2024T00:59:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:22 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category"): null
+
+09-01-2024T00:59:22 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:59:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:59:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:59:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC9 - Check file size is greater than 2MB" time="13.76" classname="Test Cases/New Category/TC9 - Check file size is greater than 2MB" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:59:22 - [TEST_CASE][PASSED] - Test Cases/New Category/TC9 - Check file size is greater than 2MB: Test Cases/New Category/TC9 - Check file size is greater than 2MB
+
+09-01-2024T00:59:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:59:23 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:59:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:59:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:59:24 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:25 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "nnn"): Text 'nnn' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:31 - [MESSAGE][PASSED] - Text 'nnn' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:31 - [TEST_STEP][PASSED] - fileInput = findTestObject("Object Repository/Page Create new category/file_attachments_input new category"): null
+
+09-01-2024T00:59:31 - [TEST_STEP][PASSED] - filePath = "C:/Users/pt071/file5mb.png": null
+
+09-01-2024T00:59:31 - [TEST_STEP][PASSED] - uploadFile(fileInput, filePath): File 'C:/Users/pt071/file5mb.png' sent to object: 'Object Repository/Page Create new category/file_attachments_input new category'
+
+09-01-2024T00:59:31 - [MESSAGE][PASSED] - File 'C:/Users/pt071/file5mb.png' sent to object: 'Object Repository/Page Create new category/file_attachments_input new category'
+
+09-01-2024T00:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:35 - [TEST_STEP][PASSED] - fileTooLargeError = findTestObject("Object Repository/Page_413 Request Entity Too Large/h1_413 Request Entity Too Large"): null
+
+09-01-2024T00:59:35 - [TEST_STEP][PASSED] - verifyElementVisible(fileTooLargeError): Object 'Object Repository/Page_413 Request Entity Too Large/h1_413 Request Entity Too Large' is visible
+
+09-01-2024T00:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_413 Request Entity Too Large/h1_413 Request Entity Too Large' is visible
+
+09-01-2024T00:59:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:59:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC10 - Check button store new category" time="11.123" classname="Test Cases/New Category/TC10 - Check button store new category" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:59:36 - [TEST_CASE][PASSED] - Test Cases/New Category/TC10 - Check button store new category: Test Cases/New Category/TC10 - Check button store new category
+
+09-01-2024T00:59:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:59:36 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:59:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:59:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:59:37 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:39 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "againbutton"): Text 'againbutton' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:45 - [MESSAGE][PASSED] - Text 'againbutton' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:46 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category"): null
+
+09-01-2024T00:59:46 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:59:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:59:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:59:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Category/TC11 - Check name value length smaller than 100 and greater than 1" time="11.034" classname="Test Cases/New Category/TC11 - Check name value length smaller than 100 and greater than 1" status="PASSED">
+         <system-out><![CDATA[09-01-2024T00:59:47 - [TEST_CASE][PASSED] - Test Cases/New Category/TC11 - Check name value length smaller than 100 and greater than 1: Test Cases/New Category/TC11 - Check name value length smaller than 100 and greater than 1
+
+09-01-2024T00:59:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-01-2024T00:59:47 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+09-01-2024T00:59:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-01-2024T00:59:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-01-2024T00:59:49 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:50 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+09-01-2024T00:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login to Firefly III/button_Sign in' is clicked on
+
+09-01-2024T00:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle' is clicked on
+
+09-01-2024T00:59:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Whats playing  Firefly III/a_New category")): Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Whats playing  Firefly III/a_New category' is clicked on
+
+09-01-2024T00:59:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page Create new category/input_Name_name"), "abcxyzk"): Text 'abcxyzk' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:56 - [MESSAGE][PASSED] - Text 'abcxyzk' is set on object 'Object Repository/Page Create new category/input_Name_name'
+
+09-01-2024T00:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page Create new category/button_Store new category")): Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Create new category/button_Store new category' is clicked on
+
+09-01-2024T00:59:57 - [TEST_STEP][PASSED] - successMessageTo = findTestObject("Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category"): null
+
+09-01-2024T00:59:58 - [TEST_STEP][PASSED] - verifyElementVisible(successMessageTo): Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:59:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new category' is visible
+
+09-01-2024T00:59:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-01-2024T00:59:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-01-2024T00:57:57 - [TEST_SUITE][PASSED] - New Category: Test Cases/New Category/TC11 - Check name value length smaller than 100 and greater than 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

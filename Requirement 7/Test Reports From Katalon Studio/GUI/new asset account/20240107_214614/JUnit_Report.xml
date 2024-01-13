@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="new asset account" time="292.386" tests="31" failures="0" errors="0">
+   <testsuite name="new asset account" tests="31" failures="0" errors="0" time="292.386" skipped="0" timestamp="2024-01-07 21:46:24" hostname="Thuan - Revision-PC.mshome.net" id="Test Suites/GUI/new asset account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_214614\\GUI\\new asset account\\20240107_214614"/>
+         <property name="logFiles" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_214614\\GUI\\new asset account\\20240107_214614\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thuan - Revision-PC.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.31.80.1"/>
+         <property name="sessionId" value="2a71cc4cc1b484326bcb63b3631d273e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GUI/new asset account/TC1" time="10.568" classname="Test Cases/GUI/new asset account/TC1" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:46:24 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC1: Test Cases/GUI/new asset account/TC1
+
+2024-01-07 21:46:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:46:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:46:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:46:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:46:28 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:46:29 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:46:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:46:29 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:46:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:46:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_name"), "this is test value"): Keys 'this is test value' sent to object: 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 21:46:34 - [MESSAGE][PASSED] - Keys 'this is test value' sent to object: 'Object Repository/create_new_asset_account/input_name'
+
+2024-01-07 21:46:34 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_name"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_name' is: 'this is test value'
+
+2024-01-07 21:46:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_name' is: 'this is test value'
+
+2024-01-07 21:46:34 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 21:46:34 - [MESSAGE][PASSED] - Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 21:46:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:46:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7" time="11.976" classname="Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:46:35 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7: Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7
+
+2024-01-07 21:46:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:46:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:46:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:46:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:46:37 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:46:38 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:46:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:46:39 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:46:42 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:46:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_currency"), test_value, false): All options with label 'Euro (€)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:46:45 - [MESSAGE][PASSED] - All options with label 'Euro (€)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:46:45 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_currency"), expected_value, false, 0): All options with label 'Euro (€)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:46:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:46:46 - [MESSAGE][PASSED] - All options with label 'Euro (€)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:46:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:46:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7" time="9.652" classname="Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:46:47 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7: Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7
+
+2024-01-07 21:46:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:46:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:46:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:46:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:46:48 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:46:50 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:46:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:46:50 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:46:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:46:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:46:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:46:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_currency"), test_value, false): All options with label 'Hungarian forint (Ft)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:46:55 - [MESSAGE][PASSED] - All options with label 'Hungarian forint (Ft)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:46:55 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_currency"), expected_value, false, 0): All options with label 'Hungarian forint (Ft)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:46:56 - [MESSAGE][PASSED] - All options with label 'Hungarian forint (Ft)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:46:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:46:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7" time="10.024" classname="Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:46:57 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7: Test Cases/GUI/new asset account/TC3_TC4_TC5_TC6_TC7
+
+2024-01-07 21:46:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:46:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:46:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:46:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:46:58 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:00 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:47:00 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:47:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:04 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_currency"), test_value, false): All options with label 'Ukrainian hryvnia (₴)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:47:05 - [MESSAGE][PASSED] - All options with label 'Ukrainian hryvnia (₴)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:47:05 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_currency"), expected_value, false, 0): All options with label 'Ukrainian hryvnia (₴)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:47:06 - [MESSAGE][PASSED] - All options with label 'Ukrainian hryvnia (₴)' are selected in object 'Object Repository/create_new_asset_account/dropdown_currency' 
+
+2024-01-07 21:47:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:47:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC8" time="8.305" classname="Test Cases/GUI/new asset account/TC8" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:47:07 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC8: Test Cases/GUI/new asset account/TC8
+
+2024-01-07 21:47:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:47:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:47:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:47:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:47:08 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:09 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:47:09 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:47:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_iban"), "this is test value"): Keys 'this is test value' sent to object: 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 21:47:14 - [MESSAGE][PASSED] - Keys 'this is test value' sent to object: 'Object Repository/create_new_asset_account/input_iban'
+
+2024-01-07 21:47:14 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_iban"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_iban' is: 'this is test value'
+
+2024-01-07 21:47:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_iban' is: 'this is test value'
+
+2024-01-07 21:47:14 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 21:47:14 - [MESSAGE][PASSED] - Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 21:47:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:47:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC9" time="10.107" classname="Test Cases/GUI/new asset account/TC9" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:47:15 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC9: Test Cases/GUI/new asset account/TC9
+
+2024-01-07 21:47:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:47:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:47:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:47:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:47:17 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:19 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:47:20 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:47:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_BIC"), "this is test value"): Keys 'this is test value' sent to object: 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 21:47:24 - [MESSAGE][PASSED] - Keys 'this is test value' sent to object: 'Object Repository/create_new_asset_account/input_BIC'
+
+2024-01-07 21:47:24 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_BIC"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_BIC' is: 'this is test value'
+
+2024-01-07 21:47:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_BIC' is: 'this is test value'
+
+2024-01-07 21:47:24 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 21:47:24 - [MESSAGE][PASSED] - Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 21:47:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:47:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC10" time="8.467" classname="Test Cases/GUI/new asset account/TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:47:25 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC10: Test Cases/GUI/new asset account/TC10
+
+2024-01-07 21:47:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:47:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:47:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:47:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:47:27 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:28 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:47:28 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_account_number"), "this is test value"): Keys 'this is test value' sent to object: 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 21:47:33 - [MESSAGE][PASSED] - Keys 'this is test value' sent to object: 'Object Repository/create_new_asset_account/input_account_number'
+
+2024-01-07 21:47:33 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_account_number"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_account_number' is: 'this is test value'
+
+2024-01-07 21:47:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_account_number' is: 'this is test value'
+
+2024-01-07 21:47:33 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 21:47:33 - [MESSAGE][PASSED] - Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 21:47:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:47:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC12" time="9.044" classname="Test Cases/GUI/new asset account/TC12" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:47:34 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC12: Test Cases/GUI/new asset account/TC12
+
+2024-01-07 21:47:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:47:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:47:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:47:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:47:35 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:37 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:47:37 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_balance_opening_balance"), test_value): Keys '0' sent to object: 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 21:47:42 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 21:47:42 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_balance_opening_balance"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_balance_opening_balance' is: '0'
+
+2024-01-07 21:47:42 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_balance_opening_balance' is: '0'
+
+2024-01-07 21:47:42 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '0' and expected object '0' are equal
+
+2024-01-07 21:47:42 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2024-01-07 21:47:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:47:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC12" time="10.215" classname="Test Cases/GUI/new asset account/TC12" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:47:43 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC12: Test Cases/GUI/new asset account/TC12
+
+2024-01-07 21:47:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:47:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:47:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:47:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:47:44 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:47 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:47:47 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:47:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:50 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:47:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_balance_opening_balance"), test_value): Keys '100' sent to object: 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 21:47:52 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 21:47:52 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_balance_opening_balance"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_balance_opening_balance' is: '100'
+
+2024-01-07 21:47:52 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_balance_opening_balance' is: '100'
+
+2024-01-07 21:47:52 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '100' and expected object '100' are equal
+
+2024-01-07 21:47:52 - [MESSAGE][PASSED] - Actual object '100' and expected object '100' are equal
+
+2024-01-07 21:47:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:47:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC12" time="8.745" classname="Test Cases/GUI/new asset account/TC12" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:47:53 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC12: Test Cases/GUI/new asset account/TC12
+
+2024-01-07 21:47:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:47:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:47:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:47:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:47:54 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:56 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:47:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:47:56 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:47:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:47:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_balance_opening_balance"), test_value): Keys '-152' sent to object: 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 21:48:01 - [MESSAGE][PASSED] - Keys '-152' sent to object: 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 21:48:01 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_balance_opening_balance"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_balance_opening_balance' is: '-152'
+
+2024-01-07 21:48:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_balance_opening_balance' is: '-152'
+
+2024-01-07 21:48:01 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '-152' and expected object '-152' are equal
+
+2024-01-07 21:48:01 - [MESSAGE][PASSED] - Actual object '-152' and expected object '-152' are equal
+
+2024-01-07 21:48:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:48:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC12" time="8.94" classname="Test Cases/GUI/new asset account/TC12" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:48:02 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC12: Test Cases/GUI/new asset account/TC12
+
+2024-01-07 21:48:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:48:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:48:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:48:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:48:03 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:05 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:48:05 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:48:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_balance_opening_balance"), test_value): Keys 'aadswwa' sent to object: 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 21:48:10 - [MESSAGE][PASSED] - Keys 'aadswwa' sent to object: 'Object Repository/create_new_asset_account/input_balance_opening_balance'
+
+2024-01-07 21:48:10 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_balance_opening_balance"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_balance_opening_balance' is: ''
+
+2024-01-07 21:48:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_balance_opening_balance' is: ''
+
+2024-01-07 21:48:10 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '' and expected object '' are equal
+
+2024-01-07 21:48:10 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2024-01-07 21:48:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:48:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC13" time="8.705" classname="Test Cases/GUI/new asset account/TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:48:11 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC13: Test Cases/GUI/new asset account/TC13
+
+2024-01-07 21:48:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:48:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:48:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:48:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:48:12 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:13 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:48:14 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), month): Keys '05' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:18 - [MESSAGE][PASSED] - Keys '05' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), day): Keys '10' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:18 - [MESSAGE][PASSED] - Keys '10' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), year): Keys '2023' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:18 - [MESSAGE][PASSED] - Keys '2023' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:18 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_date_picker"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: '2023-05-10'
+
+2024-01-07 21:48:19 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: '2023-05-10'
+
+2024-01-07 21:48:19 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '2023-05-10' and expected object '2023-05-10' are equal
+
+2024-01-07 21:48:19 - [MESSAGE][PASSED] - Actual object '2023-05-10' and expected object '2023-05-10' are equal
+
+2024-01-07 21:48:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:48:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC13" time="9.177" classname="Test Cases/GUI/new asset account/TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:48:20 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC13: Test Cases/GUI/new asset account/TC13
+
+2024-01-07 21:48:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:48:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:48:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:48:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:48:21 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:22 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:48:22 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), month): Keys '10' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:27 - [MESSAGE][PASSED] - Keys '10' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), day): Keys '5' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:27 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), year): Keys '2024' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:28 - [MESSAGE][PASSED] - Keys '2024' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:28 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_date_picker"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: '2024-10-05'
+
+2024-01-07 21:48:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: '2024-10-05'
+
+2024-01-07 21:48:28 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '2024-10-05' and expected object '2024-10-05' are equal
+
+2024-01-07 21:48:28 - [MESSAGE][PASSED] - Actual object '2024-10-05' and expected object '2024-10-05' are equal
+
+2024-01-07 21:48:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:48:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC13" time="8.684" classname="Test Cases/GUI/new asset account/TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:48:29 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC13: Test Cases/GUI/new asset account/TC13
+
+2024-01-07 21:48:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:48:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:48:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:48:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:48:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:31 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:48:31 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:48:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:34 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), month): Keys '6' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:36 - [MESSAGE][PASSED] - Keys '6' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), day): Keys '6' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:36 - [MESSAGE][PASSED] - Keys '6' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), year): Keys '2022' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:36 - [MESSAGE][PASSED] - Keys '2022' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:36 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_date_picker"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: '2022-06-06'
+
+2024-01-07 21:48:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: '2022-06-06'
+
+2024-01-07 21:48:37 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '2022-06-06' and expected object '2022-06-06' are equal
+
+2024-01-07 21:48:37 - [MESSAGE][PASSED] - Actual object '2022-06-06' and expected object '2022-06-06' are equal
+
+2024-01-07 21:48:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:48:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC13" time="9.715" classname="Test Cases/GUI/new asset account/TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:48:38 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC13: Test Cases/GUI/new asset account/TC13
+
+2024-01-07 21:48:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:48:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:48:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:48:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:48:39 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:40 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:48:40 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:48:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), month): Keys 'xcv' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:46 - [MESSAGE][PASSED] - Keys 'xcv' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), day): Keys 'as' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:46 - [MESSAGE][PASSED] - Keys 'as' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), year): Keys 'asdasdda' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:46 - [MESSAGE][PASSED] - Keys 'asdasdda' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:46 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_date_picker"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: ''
+
+2024-01-07 21:48:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: ''
+
+2024-01-07 21:48:47 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '' and expected object '' are equal
+
+2024-01-07 21:48:47 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2024-01-07 21:48:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:48:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC13" time="9.399" classname="Test Cases/GUI/new asset account/TC13" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:48:47 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC13: Test Cases/GUI/new asset account/TC13
+
+2024-01-07 21:48:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:48:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:48:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:48:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:48:49 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:50 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:48:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:48:50 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:48:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:48:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:53 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:48:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:48:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), month): Keys 'adas' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:55 - [MESSAGE][PASSED] - Keys 'adas' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), day): Keys '05' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:55 - [MESSAGE][PASSED] - Keys '05' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_date_picker"), year): Keys 'aaa' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:56 - [MESSAGE][PASSED] - Keys 'aaa' sent to object: 'Object Repository/create_new_asset_account/input_date_picker'
+
+2024-01-07 21:48:56 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_date_picker"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: ''
+
+2024-01-07 21:48:56 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_date_picker' is: ''
+
+2024-01-07 21:48:56 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '' and expected object '' are equal
+
+2024-01-07 21:48:56 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2024-01-07 21:48:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:48:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" time="10.744" classname="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:48:57 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18: Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18
+
+2024-01-07 21:48:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:48:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:48:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:48:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:48:58 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:00 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:49:00 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:49:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:05 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), test_value, false): All options with label 'Default asset account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:06 - [MESSAGE][PASSED] - All options with label 'Default asset account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:06 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), expected_value, false, 0): All options with label 'Default asset account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:49:07 - [MESSAGE][PASSED] - All options with label 'Default asset account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:49:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" time="9.851" classname="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:49:08 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18: Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18
+
+2024-01-07 21:49:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:49:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:49:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:49:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:49:09 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:11 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:49:11 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:49:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:15 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), test_value, false): All options with label 'Shared asset account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:15 - [MESSAGE][PASSED] - All options with label 'Shared asset account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:15 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), expected_value, false, 0): All options with label 'Shared asset account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:49:17 - [MESSAGE][PASSED] - All options with label 'Shared asset account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:49:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" time="9.441" classname="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:49:17 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18: Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18
+
+2024-01-07 21:49:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:49:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:49:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:49:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:49:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:20 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:49:20 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:24 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), test_value, false): All options with label 'Savings account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:25 - [MESSAGE][PASSED] - All options with label 'Savings account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:25 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), expected_value, false, 0): All options with label 'Savings account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:49:26 - [MESSAGE][PASSED] - All options with label 'Savings account' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:49:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" time="9.972" classname="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:49:27 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18: Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18
+
+2024-01-07 21:49:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:49:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:49:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:49:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:49:28 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:30 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:49:30 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:49:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), test_value, false): All options with label 'Credit card' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:35 - [MESSAGE][PASSED] - All options with label 'Credit card' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:35 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), expected_value, false, 0): All options with label 'Credit card' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:49:36 - [MESSAGE][PASSED] - All options with label 'Credit card' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:49:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" time="11.671" classname="Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:49:37 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18: Test Cases/GUI/new asset account/TC14_TC15_TC16_TC17_TC18
+
+2024-01-07 21:49:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:49:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:49:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:49:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:49:38 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:40 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:49:41 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), test_value, false): All options with label 'Cash wallet' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:47 - [MESSAGE][PASSED] - All options with label 'Cash wallet' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:47 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_asset_account/dropdown_account_role"), expected_value, false, 0): All options with label 'Cash wallet' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:49:48 - [MESSAGE][PASSED] - All options with label 'Cash wallet' are selected in object 'Object Repository/create_new_asset_account/dropdown_account_role' 
+
+2024-01-07 21:49:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:49:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC19" time="8.503" classname="Test Cases/GUI/new asset account/TC19" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:49:49 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC19: Test Cases/GUI/new asset account/TC19
+
+2024-01-07 21:49:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:49:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:49:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:49:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:49:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:52 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:49:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:49:52 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:49:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:49:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:49:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:49:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_virtual_balance"), test_value): Keys '0' sent to object: 'Object Repository/create_new_asset_account/input_virtual_balance'
+
+2024-01-07 21:49:56 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/create_new_asset_account/input_virtual_balance'
+
+2024-01-07 21:49:56 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_virtual_balance"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_virtual_balance' is: '0'
+
+2024-01-07 21:49:56 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_virtual_balance' is: '0'
+
+2024-01-07 21:49:56 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '0' and expected object '0' are equal
+
+2024-01-07 21:49:56 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal
+
+2024-01-07 21:49:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:49:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC19" time="8.897" classname="Test Cases/GUI/new asset account/TC19" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:49:57 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC19: Test Cases/GUI/new asset account/TC19
+
+2024-01-07 21:49:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:49:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:49:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:49:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:49:58 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:00 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:50:01 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:50:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_virtual_balance"), test_value): Keys '100' sent to object: 'Object Repository/create_new_asset_account/input_virtual_balance'
+
+2024-01-07 21:50:05 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/create_new_asset_account/input_virtual_balance'
+
+2024-01-07 21:50:05 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_virtual_balance"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_virtual_balance' is: '100'
+
+2024-01-07 21:50:05 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_virtual_balance' is: '100'
+
+2024-01-07 21:50:05 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '100' and expected object '100' are equal
+
+2024-01-07 21:50:05 - [MESSAGE][PASSED] - Actual object '100' and expected object '100' are equal
+
+2024-01-07 21:50:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:50:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC19" time="8.123" classname="Test Cases/GUI/new asset account/TC19" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:50:06 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC19: Test Cases/GUI/new asset account/TC19
+
+2024-01-07 21:50:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:50:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:50:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:50:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:50:07 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:09 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:50:09 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:50:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_virtual_balance"), test_value): Keys '-152' sent to object: 'Object Repository/create_new_asset_account/input_virtual_balance'
+
+2024-01-07 21:50:13 - [MESSAGE][PASSED] - Keys '-152' sent to object: 'Object Repository/create_new_asset_account/input_virtual_balance'
+
+2024-01-07 21:50:13 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_virtual_balance"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_virtual_balance' is: '-152'
+
+2024-01-07 21:50:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_virtual_balance' is: '-152'
+
+2024-01-07 21:50:14 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '-152' and expected object '-152' are equal
+
+2024-01-07 21:50:14 - [MESSAGE][PASSED] - Actual object '-152' and expected object '-152' are equal
+
+2024-01-07 21:50:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:50:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC19" time="8.097" classname="Test Cases/GUI/new asset account/TC19" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:50:14 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC19: Test Cases/GUI/new asset account/TC19
+
+2024-01-07 21:50:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:50:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:50:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:50:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:50:15 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:17 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:50:17 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:50:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_virtual_balance"), test_value): Keys 'aadswwa' sent to object: 'Object Repository/create_new_asset_account/input_virtual_balance'
+
+2024-01-07 21:50:21 - [MESSAGE][PASSED] - Keys 'aadswwa' sent to object: 'Object Repository/create_new_asset_account/input_virtual_balance'
+
+2024-01-07 21:50:21 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_virtual_balance"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_virtual_balance' is: ''
+
+2024-01-07 21:50:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_virtual_balance' is: ''
+
+2024-01-07 21:50:22 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '' and expected object '' are equal
+
+2024-01-07 21:50:22 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2024-01-07 21:50:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:50:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC20" time="9.185" classname="Test Cases/GUI/new asset account/TC20" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:50:22 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC20: Test Cases/GUI/new asset account/TC20
+
+2024-01-07 21:50:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:50:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:50:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:50:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:50:24 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:25 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:50:26 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:50:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:29 - [TEST_STEP][PASSED] - check(findTestObject("create_new_asset_account/checkbox_include_in_net_worth"), STOP_ON_FAILURE): Object 'Object Repository/create_new_asset_account/checkbox_include_in_net_worth' is checked
+
+2024-01-07 21:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_asset_account/checkbox_include_in_net_worth' is checked
+
+2024-01-07 21:50:30 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("create_new_asset_account/checkbox_include_in_net_worth"), 0): Object 'Object Repository/create_new_asset_account/checkbox_include_in_net_worth' is checked
+
+2024-01-07 21:50:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:50:30 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_asset_account/checkbox_include_in_net_worth' is checked
+
+2024-01-07 21:50:30 - [TEST_STEP][PASSED] - uncheck(findTestObject("create_new_asset_account/checkbox_include_in_net_worth")): Object 'Object Repository/create_new_asset_account/checkbox_include_in_net_worth' is un-checked
+
+2024-01-07 21:50:31 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_asset_account/checkbox_include_in_net_worth' is un-checked
+
+2024-01-07 21:50:31 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("create_new_asset_account/checkbox_include_in_net_worth"), 0): Object 'Object Repository/create_new_asset_account/checkbox_include_in_net_worth' is not checked
+
+2024-01-07 21:50:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:50:31 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_asset_account/checkbox_include_in_net_worth' is not checked
+
+2024-01-07 21:50:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:50:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC21" time="9.038" classname="Test Cases/GUI/new asset account/TC21" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:50:32 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC21: Test Cases/GUI/new asset account/TC21
+
+2024-01-07 21:50:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:50:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:50:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:50:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:50:33 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:35 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:50:35 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:50:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_note"), test_value): Keys 'this is test sentence' sent to object: 'Object Repository/create_new_asset_account/input_note'
+
+2024-01-07 21:50:40 - [MESSAGE][PASSED] - Keys 'this is test sentence' sent to object: 'Object Repository/create_new_asset_account/input_note'
+
+2024-01-07 21:50:40 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_note"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_note' is: 'this is test sentence'
+
+2024-01-07 21:50:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_note' is: 'this is test sentence'
+
+2024-01-07 21:50:40 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object 'this is test sentence' and expected object 'this is test sentence' are equal
+
+2024-01-07 21:50:40 - [MESSAGE][PASSED] - Actual object 'this is test sentence' and expected object 'this is test sentence' are equal
+
+2024-01-07 21:50:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:50:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC21" time="8.599" classname="Test Cases/GUI/new asset account/TC21" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:50:41 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC21: Test Cases/GUI/new asset account/TC21
+
+2024-01-07 21:50:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:50:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:50:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:50:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:50:42 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:43 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:50:43 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:50:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_note"), test_value): Keys 'this is test paragraph.
+This is test paragraph.' sent to object: 'Object Repository/create_new_asset_account/input_note'
+
+2024-01-07 21:50:48 - [MESSAGE][PASSED] - Keys 'this is test paragraph.
+This is test paragraph.' sent to object: 'Object Repository/create_new_asset_account/input_note'
+
+2024-01-07 21:50:48 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_note"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_note' is: 'this is test paragraph.
+This is test paragraph.'
+
+2024-01-07 21:50:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_note' is: 'this is test paragraph.
+This is test paragraph.'
+
+2024-01-07 21:50:49 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object 'this is test paragraph.
+This is test paragraph.' and expected object 'this is test paragraph.
+This is test paragraph.' are equal
+
+2024-01-07 21:50:49 - [MESSAGE][PASSED] - Actual object 'this is test paragraph.
+This is test paragraph.' and expected object 'this is test paragraph.
+This is test paragraph.' are equal
+
+2024-01-07 21:50:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:50:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC21" time="10.27" classname="Test Cases/GUI/new asset account/TC21" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:50:49 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC21: Test Cases/GUI/new asset account/TC21
+
+2024-01-07 21:50:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:50:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:50:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:50:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:50:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:53 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:50:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:50:53 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:50:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:50:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_asset_account/input_note"), test_value): Keys '' sent to object: 'Object Repository/create_new_asset_account/input_note'
+
+2024-01-07 21:50:58 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/create_new_asset_account/input_note'
+
+2024-01-07 21:50:58 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_asset_account/input_note"), "value"): Attribute 'value' of object 'Object Repository/create_new_asset_account/input_note' is: ''
+
+2024-01-07 21:50:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_asset_account/input_note' is: ''
+
+2024-01-07 21:50:59 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object '' and expected object '' are equal
+
+2024-01-07 21:50:59 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2024-01-07 21:50:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:51:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC22" time="8.373" classname="Test Cases/GUI/new asset account/TC22" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:51:00 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC22: Test Cases/GUI/new asset account/TC22
+
+2024-01-07 21:51:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:51:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:51:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:51:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:51:01 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:51:02 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:51:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:51:03 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:51:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:51:06 - [TEST_STEP][PASSED] - uploadFile(findTestObject("create_new_asset_account/input_attachment"), "C:\Users\Thuan\Desktop\Workspace\software_testing_katalon\Data Sources\attachment_file_gt2mb.pdf"): File 'C:\Users\Thuan\Desktop\Workspace\software_testing_katalon\Data Sources\attachment_file_gt2mb.pdf' sent to object: 'Object Repository/create_new_asset_account/input_attachment'
+
+2024-01-07 21:51:07 - [MESSAGE][PASSED] - File 'C:\Users\Thuan\Desktop\Workspace\software_testing_katalon\Data Sources\attachment_file_gt2mb.pdf' sent to object: 'Object Repository/create_new_asset_account/input_attachment'
+
+2024-01-07 21:51:07 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_asset_account/input_attachment"), "value", "C:\fakepath\attachment_file_gt2mb.pdf", 0): Object 'Object Repository/create_new_asset_account/input_attachment' has attribute 'value' with value 'C:\fakepath\attachment_file_gt2mb.pdf'
+
+2024-01-07 21:51:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 21:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_asset_account/input_attachment' has attribute 'value' with value 'C:\fakepath\attachment_file_gt2mb.pdf'
+
+2024-01-07 21:51:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:51:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/new asset account/TC23" time="8.468" classname="Test Cases/GUI/new asset account/TC23" status="PASSED">
+         <system-out><![CDATA[2024-01-07 21:51:08 - [TEST_CASE][PASSED] - Test Cases/GUI/new asset account/TC23: Test Cases/GUI/new asset account/TC23
+
+2024-01-07 21:51:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 21:51:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 21:51:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 21:51:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 21:51:09 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:51:11 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 21:51:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 21:51:11 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 21:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 21:51:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 21:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/sidebar_item_new_asset_account")): Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_asset_account' is clicked on
+
+2024-01-07 21:51:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("create_new_asset_account/button_store_new_asset_account")): Object 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clickable
+
+2024-01-07 21:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_asset_account/button_store_new_asset_account' is clickable
+
+2024-01-07 21:51:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 21:51:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-07 21:46:24 - [TEST_SUITE][PASSED] - new asset account: Test Cases/GUI/new asset account/TC23]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,186 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Functional_Create_New_Bill,Chrome 120.0.0.0,,,2024-01-09 13:15:16,2024-01-09 13:20:27,"5m - 10,860s",FAILED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.01,Chrome 120.0.0.0,,,2024-01-09 13:15:16,2024-01-09 13:15:40,"23,927s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:15:16,2024-01-09 13:15:19,"2,385s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:15:19,2024-01-09 13:15:20,"0,780s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:15:20,2024-01-09 13:15:21,"1,851s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:15:21,2024-01-09 13:15:23,"1,469s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:15:23,2024-01-09 13:15:25,"1,819s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:15:25,2024-01-09 13:15:26,"0,988s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_Name_name""), ""Mercury Chigas2"")",Chrome 120.0.0.0,,,2024-01-09 13:15:26,2024-01-09 13:15:26,"0,817s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/select_Euro ()US Dollar ()""), ""1"", true)",Chrome 120.0.0.0,,,2024-01-09 13:15:26,2024-01-09 13:15:28,"1,067s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/select_Euro ()US Dollar ()""), ""8"", true)",Chrome 120.0.0.0,,,2024-01-09 13:15:28,2024-01-09 13:15:29,"1,107s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_Minimum amount_amount_min""), ""3"")",Chrome 120.0.0.0,,,2024-01-09 13:15:29,2024-01-09 13:15:29,"0,659s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_Maximum amount_amount_max""), ""17"")",Chrome 120.0.0.0,,,2024-01-09 13:15:29,2024-01-09 13:15:30,"0,653s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_Date_date""), ""01/08/2023"")",Chrome 120.0.0.0,,,2024-01-09 13:15:30,2024-01-09 13:15:31,"0,648s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), ""weekly"", true)",Chrome 120.0.0.0,,,2024-01-09 13:15:31,2024-01-09 13:15:32,"1,047s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_Skip_skip""), ""1"")",Chrome 120.0.0.0,,,2024-01-09 13:15:32,2024-01-09 13:15:32,"0,663s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_End date_bill_end_date""), ""18/06/2023"")",Chrome 120.0.0.0,,,2024-01-09 13:15:32,2024-01-09 13:15:33,"0,661s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_Extension date_extension_date""), ""19/05/2023"")",Chrome 120.0.0.0,,,2024-01-09 13:15:33,2024-01-09 13:15:34,"0,668s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/div_Optional field. The bill must be extend_15f049""))",Chrome 120.0.0.0,,,2024-01-09 13:15:34,2024-01-09 13:15:34,"0,355s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/textarea_Notes_notes""), ""Yellow-brown sungazer"")",Chrome 120.0.0.0,,,2024-01-09 13:15:34,2024-01-09 13:15:35,"0,711s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_Attachments_attachments""), ""D:\db.sql"")",Chrome 120.0.0.0,,,2024-01-09 13:15:35,2024-01-09 13:15:35,"0,672s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_Group_object_group""), ""5"")",Chrome 120.0.0.0,,,2024-01-09 13:15:35,2024-01-09 13:15:36,"0,660s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/input_After storing, return here to create _4fc2e2""))",Chrome 120.0.0.0,,,2024-01-09 13:15:36,2024-01-09 13:15:37,"0,477s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/button_Store new bill""), ""Store new bill"")",Chrome 120.0.0.0,,,2024-01-09 13:15:37,2024-01-09 13:15:37,"0,581s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:15:37,2024-01-09 13:15:38,"0,867s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.1/strong_Success""), ""Success!"")",Chrome 120.0.0.0,,,2024-01-09 13:15:38,2024-01-09 13:15:39,"1,265s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:15:39,2024-01-09 13:15:40,"0,660s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.02,Chrome 120.0.0.0,,,2024-01-09 13:15:40,2024-01-09 13:15:59,"19,139s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:15:40,2024-01-09 13:15:41,"1,149s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:15:41,2024-01-09 13:15:42,"0,833s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:15:42,2024-01-09 13:15:45,"2,446s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:15:45,2024-01-09 13:15:48,"2,891s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:15:48,2024-01-09 13:15:49,"1,259s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:15:49,2024-01-09 13:15:50,"1,321s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/input_Name_name""), ""Nissan Mue21"")",Chrome 120.0.0.0,,,2024-01-09 13:15:50,2024-01-09 13:15:51,"0,836s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/select_Euro ()US Dollar ()""), ""1"", true)",Chrome 120.0.0.0,,,2024-01-09 13:15:51,2024-01-09 13:15:52,"1,055s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/input_Minimum amount_amount_min""), ""10"")",Chrome 120.0.0.0,,,2024-01-09 13:15:52,2024-01-09 13:15:53,"0,671s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/input_Maximum amount_amount_max""), ""11"")",Chrome 120.0.0.0,,,2024-01-09 13:15:53,2024-01-09 13:15:53,"0,655s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/input_Date_date""), ""12/12/2023"")",Chrome 120.0.0.0,,,2024-01-09 13:15:53,2024-01-09 13:15:54,"0,666s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), ""weekly"", true)",Chrome 120.0.0.0,,,2024-01-09 13:15:54,2024-01-09 13:15:55,"1,050s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/input_Skip_skip""), ""7"")",Chrome 120.0.0.0,,,2024-01-09 13:15:55,2024-01-09 13:15:56,"0,687s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/button_Store new bill""), ""Store new bill"")",Chrome 120.0.0.0,,,2024-01-09 13:15:56,2024-01-09 13:15:56,"0,364s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:15:56,2024-01-09 13:15:57,"0,872s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.2/strong_Success""), ""Success!"")",Chrome 120.0.0.0,,,2024-01-09 13:15:57,2024-01-09 13:15:58,"1,440s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:15:58,2024-01-09 13:15:59,"0,641s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.03,Chrome 120.0.0.0,,,2024-01-09 13:16:26,2024-01-09 13:16:35,"9,144s",FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:16:26,2024-01-09 13:16:27,"1,866s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:16:27,2024-01-09 13:16:28,"0,830s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.3/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:16:28,2024-01-09 13:16:30,"1,804s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.3/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:16:30,2024-01-09 13:16:32,"1,491s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.3/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:16:32,2024-01-09 13:16:34,"2,002s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.3/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:16:34,2024-01-09 13:16:35,"0,983s",PASSED
+"setText(findTestObject(""Page_Create new bill  Bills  Firefly III/input_Maximum amount_amount_max""), ""abc"")",Chrome 120.0.0.0,,,2024-01-09 13:16:35,2024-01-09 13:16:35,"0,121s",FAILED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.04,Chrome 120.0.0.0,,,2024-01-09 13:16:39,2024-01-09 13:16:50,"11,144s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:16:39,2024-01-09 13:16:41,"1,786s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:16:41,2024-01-09 13:16:41,"0,716s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.4/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:16:41,2024-01-09 13:16:43,"1,469s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.4/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:16:43,2024-01-09 13:16:45,"1,800s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.4/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:16:45,2024-01-09 13:16:47,"2,221s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.4/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:16:47,2024-01-09 13:16:48,"1,344s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.4/input_Maximum amount_amount_max""), ""abc"")",Chrome 120.0.0.0,,,2024-01-09 13:16:48,2024-01-09 13:16:49,"0,788s",PASSED
+"actual_maximum = getAttribute(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.4/input_Maximum amount_amount_max""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 13:16:49,2024-01-09 13:16:49,"0,336s",PASSED
+"verifyEqual(actual_maximum, expected_maximum)",Chrome 120.0.0.0,,,2024-01-09 13:16:49,2024-01-09 13:16:49,"0,024s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:16:49,2024-01-09 13:16:50,"0,629s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.05,Chrome 120.0.0.0,,,2024-01-09 13:16:50,2024-01-09 13:17:00,"10,210s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:16:50,2024-01-09 13:16:51,"1,143s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:16:51,2024-01-09 13:16:52,"0,683s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.5/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:16:52,2024-01-09 13:16:54,"1,882s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.5/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:16:54,2024-01-09 13:16:55,"1,497s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.5/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:16:55,2024-01-09 13:16:57,"2,003s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.5/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:16:57,2024-01-09 13:16:58,"0,947s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.5/input_Skip_skip""), ""abc"")",Chrome 120.0.0.0,,,2024-01-09 13:16:58,2024-01-09 13:16:59,"0,800s",PASSED
+"actual_skips = getAttribute(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.5/input_Skip_skip""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 13:16:59,2024-01-09 13:16:59,"0,328s",PASSED
+"verifyEqual(actual_skips, expected_skips)",Chrome 120.0.0.0,,,2024-01-09 13:16:59,2024-01-09 13:16:59,"0,002s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:16:59,2024-01-09 13:17:00,"0,650s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.06,Chrome 120.0.0.0,,,2024-01-09 13:17:00,2024-01-09 13:17:11,"11,192s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:17:00,2024-01-09 13:17:01,"1,127s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:17:01,2024-01-09 13:17:02,"0,662s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.6/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:17:02,2024-01-09 13:17:04,"1,540s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.6/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:17:04,2024-01-09 13:17:05,"1,504s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.6/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:17:05,2024-01-09 13:17:07,"1,559s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.6/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:17:07,2024-01-09 13:17:08,"1,067s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.6/input_Attachments_attachments""), ""D:\KTPM_Test.jpg"")",Chrome 120.0.0.0,,,2024-01-09 13:17:08,2024-01-09 13:17:09,"0,782s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.6/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:17:09,2024-01-09 13:17:10,"1,741s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.6/h1_413 Request Entity Too Large""), ""413 Request Entity Too Large"")",Chrome 120.0.0.0,,,2024-01-09 13:17:10,2024-01-09 13:17:11,"0,325s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:17:11,2024-01-09 13:17:11,"0,626s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.07,Chrome 120.0.0.0,,,2024-01-09 13:18:18,2024-01-09 13:18:33,"14,370s",FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:18:18,2024-01-09 13:18:20,"1,819s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:18:20,2024-01-09 13:18:21,"0,717s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:18:21,2024-01-09 13:18:23,"1,854s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:18:23,2024-01-09 13:18:24,"1,912s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:18:24,2024-01-09 13:18:26,"1,497s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:18:26,2024-01-09 13:18:27,"0,994s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/input_Minimum amount_amount_min""), ""21"")",Chrome 120.0.0.0,,,2024-01-09 13:18:27,2024-01-09 13:18:28,"0,791s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/input_Maximum amount_amount_max""), ""10"")",Chrome 120.0.0.0,,,2024-01-09 13:18:28,2024-01-09 13:18:28,"0,653s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/button_Store new bill""), ""Store new bill"")",Chrome 120.0.0.0,,,2024-01-09 13:18:28,2024-01-09 13:18:29,"0,325s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/input_Name_name""), ""Hoe Nhinho112"")",Chrome 120.0.0.0,,,2024-01-09 13:18:29,2024-01-09 13:18:29,"0,678s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:18:29,2024-01-09 13:18:31,"1,193s",PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/strong_Success""), 0)",Chrome 120.0.0.0,,,2024-01-09 13:18:31,2024-01-09 13:18:31,"0,439s",PASSED
+"verifyElementNotVisible(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh""))",Chrome 120.0.0.0,,,2024-01-09 13:18:31,2024-01-09 13:18:33,"1,487s",FAILED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.08,Chrome 120.0.0.0,,,2024-01-09 13:18:40,2024-01-09 13:18:54,"14,066s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:18:40,2024-01-09 13:18:41,"1,731s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:18:41,2024-01-09 13:18:42,"0,761s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:18:42,2024-01-09 13:18:44,"2,138s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:18:44,2024-01-09 13:18:46,"1,871s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:18:46,2024-01-09 13:18:48,"1,474s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:18:48,2024-01-09 13:18:48,"0,936s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/input_Name_name""), ""1235"")",Chrome 120.0.0.0,,,2024-01-09 13:18:48,2024-01-09 13:18:49,"0,780s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/input_Minimum amount_amount_min""), ""1"")",Chrome 120.0.0.0,,,2024-01-09 13:18:49,2024-01-09 13:18:50,"0,639s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/input_Maximum amount_amount_max""), ""2"")",Chrome 120.0.0.0,,,2024-01-09 13:18:50,2024-01-09 13:18:51,"0,659s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/button_Store new bill""), ""Store new bill"")",Chrome 120.0.0.0,,,2024-01-09 13:18:51,2024-01-09 13:18:51,"0,317s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:18:51,2024-01-09 13:18:52,"0,865s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.8/strong_Success""), ""Success!"")",Chrome 120.0.0.0,,,2024-01-09 13:18:52,2024-01-09 13:18:53,"1,242s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:18:53,2024-01-09 13:18:54,"0,646s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.09,Chrome 120.0.0.0,,,2024-01-09 13:18:54,2024-01-09 13:19:06,"12,702s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:18:54,2024-01-09 13:18:55,"1,133s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:18:55,2024-01-09 13:18:56,"1,155s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:18:56,2024-01-09 13:18:58,"1,654s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:18:58,2024-01-09 13:19:00,"1,900s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:19:00,2024-01-09 13:19:01,"1,580s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:19:01,2024-01-09 13:19:02,"1,004s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/input_Minimum amount_amount_min""), ""1"")",Chrome 120.0.0.0,,,2024-01-09 13:19:02,2024-01-09 13:19:03,"0,802s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/input_Maximum amount_amount_max""), ""2"")",Chrome 120.0.0.0,,,2024-01-09 13:19:03,2024-01-09 13:19:04,"0,649s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/button_Store new bill""), ""Store new bill"")",Chrome 120.0.0.0,,,2024-01-09 13:19:04,2024-01-09 13:19:04,"0,337s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:19:04,2024-01-09 13:19:05,"1,144s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.9/p_The name field is required""), ""The name field is required."")",Chrome 120.0.0.0,,,2024-01-09 13:19:05,2024-01-09 13:19:06,"0,462s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:19:06,2024-01-09 13:19:06,"0,627s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.10,Chrome 120.0.0.0,,,2024-01-09 13:19:06,2024-01-09 13:19:19,"12,564s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:19:07,2024-01-09 13:19:08,"1,164s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:19:08,2024-01-09 13:19:09,"1,341s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.10/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:19:09,2024-01-09 13:19:11,"1,586s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.10/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:19:11,2024-01-09 13:19:12,"1,489s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.10/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:19:12,2024-01-09 13:19:14,"2,009s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.10/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:19:14,2024-01-09 13:19:15,"0,984s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.10/input_Name_name""), ""joe thanh"")",Chrome 120.0.0.0,,,2024-01-09 13:19:15,2024-01-09 13:19:16,"0,792s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.10/input_Maximum amount_amount_max""), ""3"")",Chrome 120.0.0.0,,,2024-01-09 13:19:16,2024-01-09 13:19:17,"0,649s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.10/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:19:17,2024-01-09 13:19:18,"1,176s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.10/p_The minimum amount field is required""), ""The minimum amount field is required."")",Chrome 120.0.0.0,,,2024-01-09 13:19:18,2024-01-09 13:19:18,"0,453s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:19:18,2024-01-09 13:19:19,"0,648s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.11,Chrome 120.0.0.0,,,2024-01-09 13:19:19,2024-01-09 13:19:31,"12,292s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:19:19,2024-01-09 13:19:20,"1,211s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:19:20,2024-01-09 13:19:21,"0,642s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:19:21,2024-01-09 13:19:23,"1,843s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:19:23,2024-01-09 13:19:24,"1,449s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:19:24,2024-01-09 13:19:26,"1,901s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:19:26,2024-01-09 13:19:27,"0,956s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/input_Name_name""), ""Joe gia lanh"")",Chrome 120.0.0.0,,,2024-01-09 13:19:27,2024-01-09 13:19:28,"0,800s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/input_Minimum amount_amount_min""), ""1"")",Chrome 120.0.0.0,,,2024-01-09 13:19:28,2024-01-09 13:19:29,"0,640s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:19:29,2024-01-09 13:19:30,"1,157s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/p_The maximum amount field is required""), ""The maximum amount field is required."")",Chrome 120.0.0.0,,,2024-01-09 13:19:30,2024-01-09 13:19:30,"0,476s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.11/small_Create new bill""), ""Create new bill"")",Chrome 120.0.0.0,,,2024-01-09 13:19:30,2024-01-09 13:19:31,"0,323s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:19:31,2024-01-09 13:19:31,"0,642s",PASSED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.12,Chrome 120.0.0.0,,,2024-01-09 13:20:03,2024-01-09 13:20:05,"2,670s",FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:20:03,2024-01-09 13:20:04,"1,698s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:20:04,2024-01-09 13:20:05,"0,651s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:20:05,2024-01-09 13:20:05,"0,309s",FAILED
+,,,,,,,
+Test Cases/Functional_Create_New_Bill/TC_7.13,Chrome 120.0.0.0,,,2024-01-09 13:20:11,2024-01-09 13:20:27,"15,613s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 13:20:11,2024-01-09 13:20:13,"1,771s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 13:20:13,2024-01-09 13:20:14,"0,755s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 13:20:14,2024-01-09 13:20:15,"1,720s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 13:20:15,2024-01-09 13:20:18,"2,334s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 13:20:18,2024-01-09 13:20:19,"1,461s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/h4_New bill""))",Chrome 120.0.0.0,,,2024-01-09 13:20:19,2024-01-09 13:20:20,"1,357s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/input_Name_name""), ""chikagos mikoli"")",Chrome 120.0.0.0,,,2024-01-09 13:20:20,2024-01-09 13:20:21,"0,791s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/input_Minimum amount_amount_min""), ""1"")",Chrome 120.0.0.0,,,2024-01-09 13:20:21,2024-01-09 13:20:22,"0,658s",PASSED
+"setText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/input_Maximum amount_amount_max""), ""2"")",Chrome 120.0.0.0,,,2024-01-09 13:20:22,2024-01-09 13:20:22,"0,651s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/input_After storing, return here to create _4fc2e2""), """")",Chrome 120.0.0.0,,,2024-01-09 13:20:22,2024-01-09 13:20:23,"0,332s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/button_Store new bill""), ""Store new bill"")",Chrome 120.0.0.0,,,2024-01-09 13:20:23,2024-01-09 13:20:23,"0,326s",PASSED
+"click(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/button_Store new bill""))",Chrome 120.0.0.0,,,2024-01-09 13:20:23,2024-01-09 13:20:24,"0,873s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/small_Make a new rule""), ""Make a new rule"")",Chrome 120.0.0.0,,,2024-01-09 13:20:24,2024-01-09 13:20:26,"1,594s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Functional_Create_New_Bill/TC_7.13/strong_Success""), ""Success!"")",Chrome 120.0.0.0,,,2024-01-09 13:20:26,2024-01-09 13:20:26,"0,325s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 13:20:26,2024-01-09 13:20:27,"0,658s",PASSED

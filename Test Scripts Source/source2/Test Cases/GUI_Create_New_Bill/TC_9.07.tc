@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_9.07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>437d83be-10cc-443c-85fa-c923588e0ce1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>206a7247-a44f-4349-af44-26e6978439ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b7b64a8e-39d1-4d91-9156-4c2507b11461</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>206a7247-a44f-4349-af44-26e6978439ae</id>
+      <masked>false</masked>
+      <name>actual_repeats</name>
+   </variable>
+   <variable>
+      <defaultValue>'half-year'</defaultValue>
+      <description></description>
+      <id>b7b64a8e-39d1-4d91-9156-4c2507b11461</id>
+      <masked>false</masked>
+      <name>expected_repeats</name>
+   </variable>
+</TestCaseEntity>

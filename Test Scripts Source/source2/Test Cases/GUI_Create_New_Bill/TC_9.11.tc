@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_9.11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e628652-5f55-4bd7-aa8e-909b55ca7656</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>96a141c5-58d7-4e8b-92de-b2095b91284f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cafd29a7-252c-4a44-ba5e-272351843848</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>96a141c5-58d7-4e8b-92de-b2095b91284f</id>
+      <masked>false</masked>
+      <name>actual_notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Blacksmith plover'</defaultValue>
+      <description></description>
+      <id>cafd29a7-252c-4a44-ba5e-272351843848</id>
+      <masked>false</masked>
+      <name>expected_notes</name>
+   </variable>
+</TestCaseEntity>

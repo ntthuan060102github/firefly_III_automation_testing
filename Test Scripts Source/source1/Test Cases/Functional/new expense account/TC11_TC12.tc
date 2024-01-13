@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_TC12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09624eca-43fa-4246-9e53-40a07baca919</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>70d100a4-0494-41af-8d1c-2cede74ae70c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Functional/create new expense account/new_expensesheet3</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>70d100a4-0494-41af-8d1c-2cede74ae70c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>a14e2dae-d8c3-40b1-b8eb-97d1f02b1a2e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>70d100a4-0494-41af-8d1c-2cede74ae70c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>file</value>
+      <variableId>9b1e08f5-d852-4a76-a6e1-d295c4a29fee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>70d100a4-0494-41af-8d1c-2cede74ae70c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_message</value>
+      <variableId>7f5118f4-d46d-4368-b1ec-54ac1e899a2a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a14e2dae-d8c3-40b1-b8eb-97d1f02b1a2e</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b1e08f5-d852-4a76-a6e1-d295c4a29fee</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7f5118f4-d46d-4368-b1ec-54ac1e899a2a</id>
+      <masked>false</masked>
+      <name>expected_message</name>
+   </variable>
+</TestCaseEntity>

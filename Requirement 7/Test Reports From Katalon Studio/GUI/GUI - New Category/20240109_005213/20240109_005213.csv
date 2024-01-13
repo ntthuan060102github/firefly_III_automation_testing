@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GUI - New Category,Edge Chromium 120,,,09-01-2024 00:52:23,09-01-2024 00:53:12,48.970s,PASSED
+,,,,,,,
+Test Cases/GUI - New Category/TC1 - Check button to access new category page,Edge Chromium 120,,,09-01-2024 00:52:23,09-01-2024 00:52:35,11.499s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 00:52:24,09-01-2024 00:52:27,3.150s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 00:52:27,09-01-2024 00:52:29,1.579s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 00:52:29,09-01-2024 00:52:31,2.464s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 00:52:31,09-01-2024 00:52:32,1.320s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New category""))",Edge Chromium 120,,,09-01-2024 00:52:32,09-01-2024 00:52:34,1.329s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page Create new category/button_Store new category""), 10)",Edge Chromium 120,,,09-01-2024 00:52:34,09-01-2024 00:52:34,0.509s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 00:52:34,09-01-2024 00:52:35,0.419s,PASSED
+,,,,,,,
+Test Cases/GUI - New Category/TC2 - Check field Name input,Edge Chromium 120,,,09-01-2024 00:52:35,09-01-2024 00:52:44,8.842s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 00:52:35,09-01-2024 00:52:36,1.173s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 00:52:36,09-01-2024 00:52:38,1.244s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 00:52:38,09-01-2024 00:52:39,1.750s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 00:52:39,09-01-2024 00:52:41,1.220s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New category""))",Edge Chromium 120,,,09-01-2024 00:52:41,09-01-2024 00:52:42,1.303s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new category/input_Name_name""), ""hhhh"")",Edge Chromium 120,,,09-01-2024 00:52:42,09-01-2024 00:52:43,0.934s,PASSED
+"inputFieldTo = findTestObject(""Object Repository/Page Create new category/input_Name_name"")",Edge Chromium 120,,,09-01-2024 00:52:43,09-01-2024 00:52:43,0.054s,PASSED
+"expectedValue = ""hhhh""",Edge Chromium 120,,,09-01-2024 00:52:43,09-01-2024 00:52:43,0.002s,PASSED
+"verifyInputFieldValue(inputFieldTo, expectedValue)",Edge Chromium 120,,,09-01-2024 00:52:43,09-01-2024 00:52:43,0.005s,PASSED
+"actualValue = getAttribute(to, ""value"")",Edge Chromium 120,,,09-01-2024 00:52:43,09-01-2024 00:52:43,0.363s,PASSED
+if (actualValue != expectedValue),Edge Chromium 120,,,09-01-2024 00:52:43,09-01-2024 00:52:43,0.003s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 00:52:43,09-01-2024 00:52:44,0.371s,PASSED
+,,,,,,,
+Test Cases/GUI - New Category/TC3 - Check field Note input,Edge Chromium 120,,,09-01-2024 00:52:44,09-01-2024 00:52:53,9.045s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 00:52:44,09-01-2024 00:52:45,1.203s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 00:52:45,09-01-2024 00:52:46,1.188s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 00:52:46,09-01-2024 00:52:48,1.807s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 00:52:48,09-01-2024 00:52:50,1.507s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New category""))",Edge Chromium 120,,,09-01-2024 00:52:50,09-01-2024 00:52:51,1.282s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new category/textarea_Notes_notes""), ""hhhh"")",Edge Chromium 120,,,09-01-2024 00:52:51,09-01-2024 00:52:52,1.093s,PASSED
+"inputFieldTo = findTestObject(""Object Repository/Page Create new category/textarea_Notes_notes"")",Edge Chromium 120,,,09-01-2024 00:52:52,09-01-2024 00:52:52,0.072s,PASSED
+"expectedValue = ""hhhh""",Edge Chromium 120,,,09-01-2024 00:52:52,09-01-2024 00:52:52,0.002s,PASSED
+"verifyInputFieldValue(inputFieldTo, expectedValue)",Edge Chromium 120,,,09-01-2024 00:52:52,09-01-2024 00:52:52,0.006s,PASSED
+"actualValue = getAttribute(to, ""value"")",Edge Chromium 120,,,09-01-2024 00:52:52,09-01-2024 00:52:52,0.318s,PASSED
+if (actualValue != expectedValue),Edge Chromium 120,,,09-01-2024 00:52:52,09-01-2024 00:52:52,0.002s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 00:52:52,09-01-2024 00:52:53,0.328s,PASSED
+,,,,,,,
+Test Cases/GUI - New Category/TC4 - Check file attchment input,Edge Chromium 120,,,09-01-2024 00:52:53,09-01-2024 00:53:01,8.432s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 00:52:53,09-01-2024 00:52:54,1.186s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 00:52:54,09-01-2024 00:52:55,1.231s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 00:52:55,09-01-2024 00:52:57,1.696s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 00:52:57,09-01-2024 00:52:59,1.570s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New category""))",Edge Chromium 120,,,09-01-2024 00:52:59,09-01-2024 00:53:00,1.222s,PASSED
+"fileInput = findTestObject(""Object Repository/Page Create new category/file_attachments_input new category"")",Edge Chromium 120,,,09-01-2024 00:53:00,09-01-2024 00:53:00,0.103s,PASSED
+"filePath = ""C:/Users/pt071/abc.txt""",Edge Chromium 120,,,09-01-2024 00:53:00,09-01-2024 00:53:00,0.003s,PASSED
+"uploadFile(fileInput, filePath)",Edge Chromium 120,,,09-01-2024 00:53:00,09-01-2024 00:53:00,0.401s,PASSED
+"actual_file = getAttribute(findTestObject(""Object Repository/Page Create new category/file_attachments_input new category""), ""value"")",Edge Chromium 120,,,09-01-2024 00:53:00,09-01-2024 00:53:01,0.386s,PASSED
+"expectedValue = ""C:\fakepath\abc.txt""",Edge Chromium 120,,,09-01-2024 00:53:01,09-01-2024 00:53:01,0.003s,PASSED
+"verifyEqual(actual_file, expectedValue)",Edge Chromium 120,,,09-01-2024 00:53:01,09-01-2024 00:53:01,0.065s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 00:53:01,09-01-2024 00:53:01,0.323s,PASSED
+,,,,,,,
+Test Cases/GUI - New Category/TC6 - Check new category button,Edge Chromium 120,,,09-01-2024 00:53:01,09-01-2024 00:53:12,10.703s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 00:53:01,09-01-2024 00:53:02,1.145s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 00:53:02,09-01-2024 00:53:04,1.136s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 00:53:04,09-01-2024 00:53:07,3.116s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 00:53:07,09-01-2024 00:53:08,1.515s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New category""))",Edge Chromium 120,,,09-01-2024 00:53:08,09-01-2024 00:53:09,1.254s,PASSED
+"click(findTestObject(""Object Repository/Page Create new category/button_Store new category""))",Edge Chromium 120,,,09-01-2024 00:53:09,09-01-2024 00:53:11,1.418s,PASSED
+"errorMessageTo = findTestObject(""Object Repository/Page Create new category/p_The name field is required"")",Edge Chromium 120,,,09-01-2024 00:53:11,09-01-2024 00:53:11,0.076s,PASSED
+verifyElementVisible(errorMessageTo),Edge Chromium 120,,,09-01-2024 00:53:11,09-01-2024 00:53:11,0.503s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 00:53:11,09-01-2024 00:53:12,0.323s,PASSED

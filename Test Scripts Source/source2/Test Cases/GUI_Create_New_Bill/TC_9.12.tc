@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_9.12</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f55672db-2ec3-4d62-b70a-164fe9e798a6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88b25bf2-cc67-49c4-a0ef-1a7ce21de57c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c1e806a-eba8-4dff-a0f3-f9dfe016165d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88b25bf2-cc67-49c4-a0ef-1a7ce21de57c</id>
+      <masked>false</masked>
+      <name>actual_file</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\fakepath\\db.sql'</defaultValue>
+      <description></description>
+      <id>5c1e806a-eba8-4dff-a0f3-f9dfe016165d</id>
+      <masked>false</masked>
+      <name>expected_file</name>
+   </variable>
+</TestCaseEntity>

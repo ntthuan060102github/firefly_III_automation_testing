@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC8</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf12c2c5-6b6c-4b33-b243-62a22527df89</testCaseGuid>
+   <variable>
+      <defaultValue>'this is test value'</defaultValue>
+      <description></description>
+      <id>ccb935ac-f16f-4e32-8f4e-ae63fcac098d</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3c6a2c9-fe2e-43b3-a46b-52228bbb56ca</id>
+      <masked>false</masked>
+      <name>actual_value</name>
+   </variable>
+</TestCaseEntity>

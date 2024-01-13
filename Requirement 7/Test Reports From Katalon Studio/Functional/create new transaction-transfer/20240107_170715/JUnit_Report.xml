@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create new transaction-transfer" time="355.328" tests="22" failures="2" errors="0">
+   <testsuite name="create new transaction-transfer" tests="22" failures="2" errors="0" time="355.328" skipped="0" timestamp="2024-01-07 17:07:26" hostname="Thuan - Revision-PC" id="Test Suites/Functional/create new transaction-transfer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715"/>
+         <property name="logFiles" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622320546.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622329979.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622339964.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622350349.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622363252.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622375465.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622388806.png, C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622401777.png"/>
+         <property name="hostName" value="Thuan - Revision-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.28.16.1"/>
+         <property name="sessionId" value="82ef80285ffb8e5bd64c8e5c5067a6f6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC1" time="13.173" classname="Test Cases/Functional/create new transaction-transfer/TC1" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:07:26 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC1: Test Cases/Functional/create new transaction-transfer/TC1
+
+2024-01-07 17:07:27 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:07:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:07:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:07:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:07:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:07:33 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:07:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:07:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:07:36 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:07:36 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:07:37 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_description"), "test"): Text 'test' is set on object 'Object Repository/create_new_transfer/input_description'
+
+2024-01-07 17:07:39 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/create_new_transfer/input_description'
+
+2024-01-07 17:07:39 - [TEST_STEP][PASSED] - actual_text = getAttribute(findTestObject("create_new_transfer/input_description"), "value"): Attribute 'value' of object 'Object Repository/create_new_transfer/input_description' is: 'test'
+
+2024-01-07 17:07:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_transfer/input_description' is: 'test'
+
+2024-01-07 17:07:39 - [TEST_STEP][PASSED] - verifyEqual(actual_text, expected_text): Actual object 'test' and expected object 'test' are equal
+
+2024-01-07 17:07:39 - [MESSAGE][PASSED] - Actual object 'test' and expected object 'test' are equal
+
+2024-01-07 17:07:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:07:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" time="9.578" classname="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:07:40 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4: Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4
+
+2024-01-07 17:07:40 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:07:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:07:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:07:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:07:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:07:43 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:07:45 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:07:46 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), account_name): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:07:48 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:07:48 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:07:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:07:49 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:07:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:07:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" time="12.574" classname="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:07:49 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4: Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4
+
+2024-01-07 17:07:49 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:07:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:07:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:07:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:07:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:07:53 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:07:56 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), account_name): Text 'The house' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:00 - [MESSAGE][PASSED] - Text 'The house' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:08:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:08:01 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:08:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:08:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" time="10.967" classname="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:08:02 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4: Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4
+
+2024-01-07 17:08:02 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:08:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:08:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:08:05 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:09 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), account_name): Text 'asdsadasdsadasdasdcasdasd' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:11 - [MESSAGE][PASSED] - Text 'asdsadasdsadasdasdcasdasd' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:11 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown'
+
+2024-01-07 17:08:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:08:12 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown'
+
+2024-01-07 17:08:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:08:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" time="10.971" classname="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:08:13 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4: Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4
+
+2024-01-07 17:08:13 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:08:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:08:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:08:17 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:20 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:21 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), account_name): Text ' ' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:22 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:22 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:08:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:08:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:08:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" time="10.53" classname="Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:08:24 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4: Test Cases/Functional/create new transaction-transfer/TC2_TC3_TC4
+
+2024-01-07 17:08:24 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:08:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:08:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:08:27 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:30 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:32 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), account_name): Text '' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:08:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:08:34 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:08:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:08:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" time="16.129" classname="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:08:35 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17: Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17
+
+2024-01-07 17:08:35 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:08:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:08:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:08:38 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:41 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:42 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_with_drawal/input_description"), description): Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:08:43 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), source_account): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:44 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:08:45 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount"), ammount): Text '-1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:08:46 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:08:46 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), destination_account): Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:08:47 - [MESSAGE][PASSED] - Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:08:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:08:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount_foreign_amount"), foreign_account): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:08:49 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:08:49 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/button_Submit")): Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:08:49 - [TEST_STEP][PASSED] - verifyTextPresent(expected_message, true): Text 'The value must be more than zero.' is present on page  using regular expression
+
+2024-01-07 17:08:50 - [MESSAGE][PASSED] - Text 'The value must be more than zero.' is present on page  using regular expression
+
+2024-01-07 17:08:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:08:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" time="16.289" classname="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:08:51 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17: Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17
+
+2024-01-07 17:08:51 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:08:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:08:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:08:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:08:53 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:08:56 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:08:57 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_with_drawal/input_description"), description): Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:08:59 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), source_account): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:00 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount"), ammount): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:09:01 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), destination_account): Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:02 - [MESSAGE][PASSED] - Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:03 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount_foreign_amount"), foreign_account): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:09:04 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:09:04 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/button_Submit")): Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:09:04 - [TEST_STEP][PASSED] - verifyTextPresent(expected_message, true): Text 'Success! Successfully created new transaction "([a-zA-Z]+)"' is present on page  using regular expression
+
+2024-01-07 17:09:06 - [MESSAGE][PASSED] - Text 'Success! Successfully created new transaction "([a-zA-Z]+)"' is present on page  using regular expression
+
+2024-01-07 17:09:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:09:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" time="15.154" classname="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:09:07 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17: Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17
+
+2024-01-07 17:09:07 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:09:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:09:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:09:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:09:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:09:10 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:09:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:09:13 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:09:14 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_with_drawal/input_description"), description): Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:09:15 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:09:15 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), source_account): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:16 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:17 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount"), ammount): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:09:18 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:09:18 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), destination_account): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:19 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:20 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount_foreign_amount"), foreign_account): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:09:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:09:20 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/button_Submit")): Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:09:21 - [TEST_STEP][PASSED] - verifyTextPresent(expected_message, true): Text 'Source and destination are the same.' is present on page  using regular expression
+
+2024-01-07 17:09:22 - [MESSAGE][PASSED] - Text 'Source and destination are the same.' is present on page  using regular expression
+
+2024-01-07 17:09:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:09:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" time="15.884" classname="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:09:22 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17: Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17
+
+2024-01-07 17:09:22 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:09:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:09:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:09:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:09:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:09:26 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:09:29 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:09:30 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_with_drawal/input_description"), description): Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:09:31 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:09:31 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), source_account): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:32 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:33 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount"), ammount): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:09:34 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:09:34 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), destination_account): Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:34 - [MESSAGE][PASSED] - Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:35 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount_foreign_amount"), foreign_account): Text '-1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:09:36 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:09:36 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/button_Submit")): Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:09:37 - [TEST_STEP][PASSED] - verifyTextPresent(expected_message, true): Text 'Error! There was something wrong with your submission. Please check out the errors.' is present on page  using regular expression
+
+2024-01-07 17:09:38 - [MESSAGE][PASSED] - Text 'Error! There was something wrong with your submission. Please check out the errors.' is present on page  using regular expression
+
+2024-01-07 17:09:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:09:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" time="17.2" classname="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:09:38 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17: Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17
+
+2024-01-07 17:09:38 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:09:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:09:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:09:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:09:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:09:41 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:09:44 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:09:45 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_with_drawal/input_description"), description): Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:09:47 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:09:47 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), source_account): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:48 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount"), ammount): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:09:50 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:09:50 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), destination_account): Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:50 - [MESSAGE][PASSED] - Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount_foreign_amount"), foreign_account): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:09:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:09:52 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/button_Submit")): Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:09:52 - [TEST_STEP][PASSED] - verifyTextPresent(expected_message, true): Text 'Success! Successfully created new transaction "([a-zA-Z]+)"' is present on page  using regular expression
+
+2024-01-07 17:09:55 - [MESSAGE][PASSED] - Text 'Success! Successfully created new transaction "([a-zA-Z]+)"' is present on page  using regular expression
+
+2024-01-07 17:09:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:09:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" time="17.219" classname="Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:09:56 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17: Test Cases/Functional/create new transaction-transfer/TC6_TC7_TC11_TC13_TC14_TC17
+
+2024-01-07 17:09:56 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:09:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:09:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:09:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:09:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:09:58 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:10:02 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:10:03 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_with_drawal/input_description"), description): Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:10:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/create_new_with_drawal/input_description'
+
+2024-01-07 17:10:04 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_source"), source_account): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:10:05 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:10:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:10:06 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 17:10:06 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount"), ammount): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:10:07 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), destination_account): Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:08 - [MESSAGE][PASSED] - Text 'AMEX Credit Card debt' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount_foreign_amount"), foreign_account): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:10:10 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 17:10:10 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/button_Submit")): Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:10:10 - [TEST_STEP][PASSED] - verifyTextPresent(expected_message, true): Text 'Success! Successfully created new transaction "([a-zA-Z]+)"' is present on page  using regular expression
+
+2024-01-07 17:10:12 - [MESSAGE][PASSED] - Text 'Success! Successfully created new transaction "([a-zA-Z]+)"' is present on page  using regular expression
+
+2024-01-07 17:10:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:10:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" time="10.198" classname="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:10:13 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10: Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10
+
+2024-01-07 17:10:13 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:10:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:10:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:10:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:10:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:10:16 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:10:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:10:19 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:10:20 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), account_name): Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:21 - [MESSAGE][PASSED] - Text 'Checking Account' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:10:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:10:22 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:10:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:10:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" time="23.599" classname="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:10:23 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10: Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10
+
+2024-01-07 17:10:23 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:10:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:10:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:10:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:10:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:10:30 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:10:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:10:41 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:10:44 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), account_name): Text 'The house' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:45 - [MESSAGE][PASSED] - Text 'The house' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:10:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:10:46 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:10:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:10:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" time="10.284" classname="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:10:47 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10: Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10
+
+2024-01-07 17:10:47 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:10:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:10:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:10:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:10:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:10:50 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:10:53 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:10:54 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), account_name): Text 'asdsadasdsadasdasdcasdasd' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:55 - [MESSAGE][PASSED] - Text 'asdsadasdsadasdasdcasdasd' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:10:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown'
+
+2024-01-07 17:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown'
+
+2024-01-07 17:10:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:10:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" time="9.848" classname="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:10:57 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10: Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10
+
+2024-01-07 17:10:57 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:10:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:10:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:11:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:11:00 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:11:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:03 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:04 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), account_name): Text ' ' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:11:05 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:11:05 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:11:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:11:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:11:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" time="10.117" classname="Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:11:07 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10: Test Cases/Functional/create new transaction-transfer/TC8_TC9_TC10
+
+2024-01-07 17:11:07 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:11:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:11:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:11:10 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:11:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:13 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:14 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_account_destination"), account_name): Text '' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:11:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 17:11:15 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:11:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:11:16 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 17:11:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:11:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC15" time="12.075" classname="Test Cases/Functional/create new transaction-transfer/TC15" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:11:17 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC15: Test Cases/Functional/create new transaction-transfer/TC15
+
+2024-01-07 17:11:17 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:11:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:11:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:11:20 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:23 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:24 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/input_date")): Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 17:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 17:11:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), month): Keys '12' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:26 - [MESSAGE][PASSED] - Keys '12' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), day): Keys '15' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:26 - [MESSAGE][PASSED] - Keys '15' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), year): Keys '2023' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:27 - [MESSAGE][PASSED] - Keys '2023' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), Keys.chord(RIGHT)): Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:27 - [MESSAGE][PASSED] - Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), hour): Keys '16' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:27 - [MESSAGE][PASSED] - Keys '16' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), minute): Keys '20' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:28 - [MESSAGE][PASSED] - Keys '20' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), am_pm): Keys 'PM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:28 - [MESSAGE][PASSED] - Keys 'PM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_date"), "value", expected_result, 0): Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2023-12-15T16:20'
+
+2024-01-07 17:11:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:11:28 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2023-12-15T16:20'
+
+2024-01-07 17:11:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:11:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC15" time="11.146" classname="Test Cases/Functional/create new transaction-transfer/TC15" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:11:29 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC15: Test Cases/Functional/create new transaction-transfer/TC15
+
+2024-01-07 17:11:29 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:11:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:11:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:11:32 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:35 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:36 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/input_date")): Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 17:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 17:11:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), month): Keys '11' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:37 - [MESSAGE][PASSED] - Keys '11' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), day): Keys '26' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:37 - [MESSAGE][PASSED] - Keys '26' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), year): Keys '2024' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:38 - [MESSAGE][PASSED] - Keys '2024' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), Keys.chord(RIGHT)): Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:38 - [MESSAGE][PASSED] - Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), hour): Keys '07' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:39 - [MESSAGE][PASSED] - Keys '07' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), minute): Keys '15' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:39 - [MESSAGE][PASSED] - Keys '15' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), am_pm): Keys 'AM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:39 - [MESSAGE][PASSED] - Keys 'AM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:39 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_date"), "value", expected_result, 0): Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2024-11-26T07:15'
+
+2024-01-07 17:11:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2024-11-26T07:15'
+
+2024-01-07 17:11:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:11:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC15" time="10.671" classname="Test Cases/Functional/create new transaction-transfer/TC15" status="PASSED">
+         <system-out><![CDATA[2024-01-07 17:11:40 - [TEST_CASE][PASSED] - Test Cases/Functional/create new transaction-transfer/TC15: Test Cases/Functional/create new transaction-transfer/TC15
+
+2024-01-07 17:11:40 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:11:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:11:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:11:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:11:43 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:11:46 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:11:47 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/input_date")): Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 17:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 17:11:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), month): Keys '10' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:48 - [MESSAGE][PASSED] - Keys '10' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), day): Keys '25' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:48 - [MESSAGE][PASSED] - Keys '25' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), year): Keys '2000' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:49 - [MESSAGE][PASSED] - Keys '2000' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), Keys.chord(RIGHT)): Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:49 - [MESSAGE][PASSED] - Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), hour): Keys '06' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:49 - [MESSAGE][PASSED] - Keys '06' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), minute): Keys '20' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:50 - [MESSAGE][PASSED] - Keys '20' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), am_pm): Keys 'PM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:50 - [MESSAGE][PASSED] - Keys 'PM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 17:11:50 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_date"), "value", expected_result, 0): Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2000-10-25T18:20'
+
+2024-01-07 17:11:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 17:11:50 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2000-10-25T18:20'
+
+2024-01-07 17:11:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 17:11:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC18" time="10.374" classname="Test Cases/Functional/create new transaction-transfer/TC18" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Functional/create new transaction-transfer/TC18 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC18.run(TC18:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-01-07 17:12:20 - [TEST_CASE][FAILED] - Test Cases/Functional/create new transaction-transfer/TC18: Test Cases/Functional/create new transaction-transfer/TC18 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC18.run(TC18:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-01-07 17:12:20 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:12:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-07 17:12:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:12:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:12:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 17:12:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:12:24 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:12:27 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/button_new_drawal")): Object: 'Object Repository/sidebar/button_new_drawal' is clicked on
+
+2024-01-07 17:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_new_drawal' is clicked on
+
+2024-01-07 17:12:28 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/button_Submit")): Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:12:29 - [TEST_STEP][FAILED] - verifyTextPresent("Error! There was something wrong with your submission. Please check out the errors.", false): Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC18.run(TC18:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2024-01-07 17:12:30 - [MESSAGE][FAILED] - Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC18.run(TC18:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+)
+
+2024-01-07 17:12:30 - [MESSAGE][FAILED] - Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC18.run(TC18:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622350349.png]]]]></system-out>
+         <system-err><![CDATA[2024-01-07 17:12:20 - [TEST_CASE][FAILED] - Test Cases/Functional/create new transaction-transfer/TC18: Test Cases/Functional/create new transaction-transfer/TC18 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC18.run(TC18:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional/create new transaction-transfer/TC19" time="12.962" classname="Test Cases/Functional/create new transaction-transfer/TC19" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Functional/create new transaction-transfer/TC19 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The transactions description may not be greater than 1000 characters.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC19.run(TC19:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The transactions description may not be greater than 1000 characters.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-01-07 17:13:08 - [TEST_CASE][FAILED] - Test Cases/Functional/create new transaction-transfer/TC19: Test Cases/Functional/create new transaction-transfer/TC19 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The transactions description may not be greater than 1000 characters.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC19.run(TC19:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The transactions description may not be greater than 1000 characters.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-01-07 17:13:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 17:13:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-07 17:13:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 17:13:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 17:13:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 17:13:10 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 17:13:12 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 17:13:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 17:13:12 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 17:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 17:13:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 17:13:15 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 17:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_description"), "jmunhqgowhehsfajwvaydmcpsxpfdvmfqcyccfrzsndhmloqfscatfyuxtbxheeoozubmsxznqirsahgcpkrdurrxbhflnoojfkhmucbfckgwbmvgfguyiewbrljdymnakjyamryabjuhuxtlsogyfnneoipxotzheoghdvecvjxsfdmaoartfuvygpkjsudkmszasitnhceqttjtllclpvzjegjhrmrkgttanieundkvjvuaofiigzlslfmkyqjcbuirbznyxesrpwannbkkohbjhtcwbgztbqguhmmmlzcgfnlhfadllrkmvhtymnjhxyjrnkmdgkxxzhuuhzgahchujylybntelonpvuyqjndydsourkezxbvppxymltxiegfpdcfvvqqyytpygcwogchteeaqlyiiipgxpoyzdvpdrsievnjdbulrhqdrwpdwkwuemmdycaucbevegwlkyrybesstqadvigxhvnqgotfaizcglloxoigqixlzwqzoxlvurmrximuyluuospxundqiedxdemrejwvmmazazghqyovgrpsextogfhrdsozjymaxfbeadtxykubvfioajlnccwczakftxlsrqornvlnjzlgevihctuyaiesbrsabmqsvbyqlmvjyxopoiudidqtbiujxwtstlvynbtkxwgwymvtzcbmhysczhnnhgljyruxbzcmuuwoofocrdcuszyebtubajrgwqxocgfwsebllnzrckyzrvxqsiknxlbpsrdilmlebkyjbakdivvjvkuhjddgyrryzphnjrrwvuxulgsoxnzcgqirfzimtgdcwqtbckifxkxosniahilqlbmrwqueuxqzlagnavrapkoyvudiekmolmyozjqoyhtjguildfokrnvqqntyopndfuvrlaourwfzbxxkcnwhrbdvozkcthfqlrhctjlupweaayigbevvdxgorkritelebpvmlrbkozmwvugesafmwxwlvsqmoyepsoapxqjelwivntlksilqvirovjbobhkrpltxpz"): Text 'jmunhqgowhehsfajwvaydmcpsxpfdvmfqcyccfrzsndhmloqfscatfyuxtbxheeoozubmsxznqirsahgcpkrdurrxbhflnoojfkhmucbfckgwbmvgfguyiewbrljdymnakjyamryabjuhuxtlsogyfnneoipxotzheoghdvecvjxsfdmaoartfuvygpkjsudkmszasitnhceqttjtllclpvzjegjhrmrkgttanieundkvjvuaofiigzlslfmkyqjcbuirbznyxesrpwannbkkohbjhtcwbgztbqguhmmmlzcgfnlhfadllrkmvhtymnjhxyjrnkmdgkxxzhuuhzgahchujylybntelonpvuyqjndydsourkezxbvppxymltxiegfpdcfvvqqyytpygcwogchteeaqlyiiipgxpoyzdvpdrsievnjdbulrhqdrwpdwkwuemmdycaucbevegwlkyrybesstqadvigxhvnqgotfaizcglloxoigqixlzwqzoxlvurmrximuyluuospxundqiedxdemrejwvmmazazghqyovgrpsextogfhrdsozjymaxfbeadtxykubvfioajlnccwczakftxlsrqornvlnjzlgevihctuyaiesbrsabmqsvbyqlmvjyxopoiudidqtbiujxwtstlvynbtkxwgwymvtzcbmhysczhnnhgljyruxbzcmuuwoofocrdcuszyebtubajrgwqxocgfwsebllnzrckyzrvxqsiknxlbpsrdilmlebkyjbakdivvjvkuhjddgyrryzphnjrrwvuxulgsoxnzcgqirfzimtgdcwqtbckifxkxosniahilqlbmrwqueuxqzlagnavrapkoyvudiekmolmyozjqoyhtjguildfokrnvqqntyopndfuvrlaourwfzbxxkcnwhrbdvozkcthfqlrhctjlupweaayigbevvdxgorkritelebpvmlrbkozmwvugesafmwxwlvsqmoyepsoapxqjelwivntlksilqvirovjbobhkrpltxpz' is set on object 'Object Repository/create_new_transfer/input_description'
+
+2024-01-07 17:13:19 - [MESSAGE][PASSED] - Text 'jmunhqgowhehsfajwvaydmcpsxpfdvmfqcyccfrzsndhmloqfscatfyuxtbxheeoozubmsxznqirsahgcpkrdurrxbhflnoojfkhmucbfckgwbmvgfguyiewbrljdymnakjyamryabjuhuxtlsogyfnneoipxotzheoghdvecvjxsfdmaoartfuvygpkjsudkmszasitnhceqttjtllclpvzjegjhrmrkgttanieundkvjvuaofiigzlslfmkyqjcbuirbznyxesrpwannbkkohbjhtcwbgztbqguhmmmlzcgfnlhfadllrkmvhtymnjhxyjrnkmdgkxxzhuuhzgahchujylybntelonpvuyqjndydsourkezxbvppxymltxiegfpdcfvvqqyytpygcwogchteeaqlyiiipgxpoyzdvpdrsievnjdbulrhqdrwpdwkwuemmdycaucbevegwlkyrybesstqadvigxhvnqgotfaizcglloxoigqixlzwqzoxlvurmrximuyluuospxundqiedxdemrejwvmmazazghqyovgrpsextogfhrdsozjymaxfbeadtxykubvfioajlnccwczakftxlsrqornvlnjzlgevihctuyaiesbrsabmqsvbyqlmvjyxopoiudidqtbiujxwtstlvynbtkxwgwymvtzcbmhysczhnnhgljyruxbzcmuuwoofocrdcuszyebtubajrgwqxocgfwsebllnzrckyzrvxqsiknxlbpsrdilmlebkyjbakdivvjvkuhjddgyrryzphnjrrwvuxulgsoxnzcgqirfzimtgdcwqtbckifxkxosniahilqlbmrwqueuxqzlagnavrapkoyvudiekmolmyozjqoyhtjguildfokrnvqqntyopndfuvrlaourwfzbxxkcnwhrbdvozkcthfqlrhctjlupweaayigbevvdxgorkritelebpvmlrbkozmwvugesafmwxwlvsqmoyepsoapxqjelwivntlksilqvirovjbobhkrpltxpz' is set on object 'Object Repository/create_new_transfer/input_description'
+
+2024-01-07 17:13:19 - [TEST_STEP][PASSED] - setText(findTestObject("create_new_transfer/input_amount"), "1"): Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:13:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 17:13:20 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/button_Submit")): Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/button_Submit' is clicked on
+
+2024-01-07 17:13:20 - [TEST_STEP][FAILED] - verifyTextPresent("The transactions description may not be greater than 1000 characters.", false): Unable to verify text 'The transactions description may not be greater than 1000 characters.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The transactions description may not be greater than 1000 characters.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC19.run(TC19:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The transactions description may not be greater than 1000 characters.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2024-01-07 17:13:21 - [MESSAGE][FAILED] - Text 'The transactions description may not be greater than 1000 characters.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'The transactions description may not be greater than 1000 characters.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC19.run(TC19:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+)
+
+2024-01-07 17:13:21 - [MESSAGE][FAILED] - Unable to verify text 'The transactions description may not be greater than 1000 characters.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The transactions description may not be greater than 1000 characters.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC19.run(TC19:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The transactions description may not be greater than 1000 characters.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_170715\\Functional\\create new transaction-transfer\\20240107_170715\\1704622401777.png]]]]></system-out>
+         <system-err><![CDATA[2024-01-07 17:13:08 - [TEST_CASE][FAILED] - Test Cases/Functional/create new transaction-transfer/TC19: Test Cases/Functional/create new transaction-transfer/TC19 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'The transactions description may not be greater than 1000 characters.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC19.run(TC19:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'The transactions description may not be greater than 1000 characters.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-07 17:07:26 - [TEST_SUITE][FAILED] - create new transaction-transfer: Test Cases/Functional/create new transaction-transfer/TC18 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC18.run(TC18:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-01-07 17:07:26 - [TEST_SUITE][FAILED] - create new transaction-transfer: Test Cases/Functional/create new transaction-transfer/TC18 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Error! There was something wrong with your submission. Please check out the errors.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at TC18.run(TC18:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704622035430.run(TempTestSuite1704622035430.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Error! There was something wrong with your submission. Please check out the errors.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

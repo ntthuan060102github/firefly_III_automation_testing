@@ -1,0 +1,268 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Budget,Edge Chromium 120,,,09-01-2024 01:05:01,09-01-2024 01:09:44,4m - 42.847s,FAILED
+,,,,,,,
+Test Cases/New Budget/TC1 - Check field Name input,Edge Chromium 120,,,09-01-2024 01:05:01,09-01-2024 01:05:13,11.367s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:05:02,09-01-2024 01:05:05,2.754s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:05:05,09-01-2024 01:05:06,1.557s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:05:06,09-01-2024 01:05:09,2.109s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:05:09,09-01-2024 01:05:10,1.081s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:05:10,09-01-2024 01:05:11,1.352s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""test"")",Edge Chromium 120,,,09-01-2024 01:05:11,09-01-2024 01:05:12,0.952s,PASSED
+"inputFieldTo = findTestObject(""Object Repository/Page Create new budget/input_Name_name"")",Edge Chromium 120,,,09-01-2024 01:05:12,09-01-2024 01:05:12,0.097s,PASSED
+"expectedValue = ""test""",Edge Chromium 120,,,09-01-2024 01:05:12,09-01-2024 01:05:12,0.005s,PASSED
+"verifyInputFieldValue(inputFieldTo, expectedValue)",Edge Chromium 120,,,09-01-2024 01:05:12,09-01-2024 01:05:12,0.009s,PASSED
+"actualValue = getAttribute(to, ""value"")",Edge Chromium 120,,,09-01-2024 01:05:12,09-01-2024 01:05:12,0.379s,PASSED
+if (actualValue != expectedValue),Edge Chromium 120,,,09-01-2024 01:05:12,09-01-2024 01:05:12,0.004s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:05:12,09-01-2024 01:05:13,0.365s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC2 - Check empty input field Name,Edge Chromium 120,,,09-01-2024 01:05:13,09-01-2024 01:05:23,10.169s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:05:13,09-01-2024 01:05:14,1.080s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:05:14,09-01-2024 01:05:15,1.314s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:05:15,09-01-2024 01:05:18,2.306s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:05:18,09-01-2024 01:05:19,1.532s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:05:19,09-01-2024 01:05:21,1.340s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:05:21,09-01-2024 01:05:22,1.546s,PASSED
+"errorMessageTo = findTestObject(""Object Repository/Page Create new budget/p_The name field is required"")",Edge Chromium 120,,,09-01-2024 01:05:22,09-01-2024 01:05:22,0.072s,PASSED
+verifyElementVisible(errorMessageTo),Edge Chromium 120,,,09-01-2024 01:05:22,09-01-2024 01:05:23,0.465s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:05:23,09-01-2024 01:05:23,0.298s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC3 - Check name is exist,Edge Chromium 120,,,09-01-2024 01:05:23,09-01-2024 01:05:34,11.041s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:05:23,09-01-2024 01:05:24,1.264s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:05:24,09-01-2024 01:05:26,1.171s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:05:26,09-01-2024 01:05:28,2.689s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:05:28,09-01-2024 01:05:30,1.397s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:05:30,09-01-2024 01:05:31,1.152s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""Car"")",Edge Chromium 120,,,09-01-2024 01:05:31,09-01-2024 01:05:32,0.945s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:05:32,09-01-2024 01:05:33,1.386s,PASSED
+"errorMessageTo = findTestObject(""Object Repository/Page Create new budget/p_This name is already in use"")",Edge Chromium 120,,,09-01-2024 01:05:33,09-01-2024 01:05:33,0.052s,PASSED
+verifyElementVisible(errorMessageTo),Edge Chromium 120,,,09-01-2024 01:05:33,09-01-2024 01:05:34,0.492s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:05:34,09-01-2024 01:05:34,0.320s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC4 - Check name value length is greater than 100,Edge Chromium 120,,,09-01-2024 01:05:34,09-01-2024 01:05:46,11.657s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:05:34,09-01-2024 01:05:35,1.046s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:05:35,09-01-2024 01:05:37,1.376s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:05:37,09-01-2024 01:05:39,2.753s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:05:39,09-01-2024 01:05:41,1.434s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:05:41,09-01-2024 01:05:42,1.345s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""jdsanjdjasdksajjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"")",Edge Chromium 120,,,09-01-2024 01:05:42,09-01-2024 01:05:44,1.346s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:05:44,09-01-2024 01:05:45,1.358s,PASSED
+"errorMessageTo = findTestObject(""Object Repository/Page Create new budget/p_The name must be between 1 and 100 characters"")",Edge Chromium 120,,,09-01-2024 01:05:45,09-01-2024 01:05:45,0.061s,PASSED
+verifyElementVisible(errorMessageTo),Edge Chromium 120,,,09-01-2024 01:05:45,09-01-2024 01:05:45,0.462s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:05:45,09-01-2024 01:05:46,0.303s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC5 - Check name value length is 100,Edge Chromium 120,,,09-01-2024 01:05:46,09-01-2024 01:05:56,10.716s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:05:46,09-01-2024 01:05:47,1.089s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:05:47,09-01-2024 01:05:48,0.944s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:05:48,09-01-2024 01:05:50,2.153s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:05:50,09-01-2024 01:05:51,1.092s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:05:51,09-01-2024 01:05:52,1.286s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""purem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean m"")",Edge Chromium 120,,,09-01-2024 01:05:52,09-01-2024 01:05:54,1.074s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:05:54,09-01-2024 01:05:55,1.487s,PASSED
+"successMessageTo = findTestObject(""Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"")",Edge Chromium 120,,,09-01-2024 01:05:55,09-01-2024 01:05:55,0.054s,PASSED
+verifyElementVisible(successMessageTo),Edge Chromium 120,,,09-01-2024 01:05:55,09-01-2024 01:05:56,1.045s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:05:56,09-01-2024 01:05:56,0.332s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC6 - Check name value length is 1,Edge Chromium 120,,,09-01-2024 01:05:56,09-01-2024 01:06:08,11.473s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:05:57,09-01-2024 01:05:58,1.080s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:05:58,09-01-2024 01:05:59,1.339s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:05:59,09-01-2024 01:06:01,2.192s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:06:01,09-01-2024 01:06:03,1.563s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:06:03,09-01-2024 01:06:04,1.262s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""l"")",Edge Chromium 120,,,09-01-2024 01:06:04,09-01-2024 01:06:05,0.973s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:06:05,09-01-2024 01:06:07,1.497s,PASSED
+"successMessageTo = findTestObject(""Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"")",Edge Chromium 120,,,09-01-2024 01:06:07,09-01-2024 01:06:07,0.049s,PASSED
+verifyElementVisible(successMessageTo),Edge Chromium 120,,,09-01-2024 01:06:07,09-01-2024 01:06:08,1.033s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:06:08,09-01-2024 01:06:08,0.312s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC7 - Check Auto-budget amount is smaller than 0,Edge Chromium 120,,,09-01-2024 01:06:08,09-01-2024 01:06:20,12.417s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:06:08,09-01-2024 01:06:09,1.056s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:06:09,09-01-2024 01:06:10,1.291s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:06:10,09-01-2024 01:06:12,1.868s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:06:12,09-01-2024 01:06:14,1.345s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:06:14,09-01-2024 01:06:15,1.349s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""abc"")",Edge Chromium 120,,,09-01-2024 01:06:15,09-01-2024 01:06:16,0.902s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:06:16,09-01-2024 01:06:17,1.280s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/auto_budget_amount_input new budget""), ""-1828"")",Edge Chromium 120,,,09-01-2024 01:06:17,09-01-2024 01:06:18,0.970s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:06:18,09-01-2024 01:06:19,1.310s,PASSED
+"errorMessageTo = findTestObject(""Object Repository/Page Create new budget/p_The value must be more than zero"")",Edge Chromium 120,,,09-01-2024 01:06:19,09-01-2024 01:06:20,0.069s,PASSED
+verifyElementVisible(errorMessageTo),Edge Chromium 120,,,09-01-2024 01:06:20,09-01-2024 01:06:20,0.440s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:06:20,09-01-2024 01:06:20,0.369s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC8 - Check Auto-budget amount is 0,Edge Chromium 120,,,09-01-2024 01:06:20,09-01-2024 01:06:33,12.936s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:06:21,09-01-2024 01:06:22,1.079s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:06:22,09-01-2024 01:06:23,1.287s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:06:23,09-01-2024 01:06:26,2.637s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:06:26,09-01-2024 01:06:26,0.945s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:06:26,09-01-2024 01:06:28,1.282s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""abc"")",Edge Chromium 120,,,09-01-2024 01:06:28,09-01-2024 01:06:29,0.924s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:06:29,09-01-2024 01:06:30,1.187s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/auto_budget_amount_input new budget""), ""0"")",Edge Chromium 120,,,09-01-2024 01:06:30,09-01-2024 01:06:31,1.059s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:06:31,09-01-2024 01:06:32,1.493s,PASSED
+"errorMessageTo = findTestObject(""Object Repository/Page Create new budget/p_The value must be more than zero"")",Edge Chromium 120,,,09-01-2024 01:06:32,09-01-2024 01:06:33,0.078s,PASSED
+verifyElementVisible(errorMessageTo),Edge Chromium 120,,,09-01-2024 01:06:33,09-01-2024 01:06:33,0.443s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:06:33,09-01-2024 01:06:33,0.347s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC9 - Check Auto-budget amount greater than 0 and smaller than 100001709,Edge Chromium 120,,,09-01-2024 01:06:33,09-01-2024 01:06:47,13.342s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:06:34,09-01-2024 01:06:35,1.094s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:06:35,09-01-2024 01:06:36,0.940s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:06:36,09-01-2024 01:06:37,1.887s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:06:37,09-01-2024 01:06:39,1.672s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:06:39,09-01-2024 01:06:40,1.240s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""hahaho"")",Edge Chromium 120,,,09-01-2024 01:06:40,09-01-2024 01:06:41,0.967s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""2"", true)",Edge Chromium 120,,,09-01-2024 01:06:41,09-01-2024 01:06:43,1.363s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/auto_budget_amount_input new budget""), ""3231"")",Edge Chromium 120,,,09-01-2024 01:06:43,09-01-2024 01:06:44,0.905s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:06:44,09-01-2024 01:06:45,1.563s,PASSED
+"successMessageTo = findTestObject(""Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"")",Edge Chromium 120,,,09-01-2024 01:06:45,09-01-2024 01:06:45,0.078s,PASSED
+verifyElementVisible(successMessageTo),Edge Chromium 120,,,09-01-2024 01:06:45,09-01-2024 01:06:46,1.071s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:06:46,09-01-2024 01:06:47,0.339s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC10 - Check Auto-budget amount is 100001709,Edge Chromium 120,,,09-01-2024 01:07:16,09-01-2024 01:07:26,9.689s,FAILED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:07:16,09-01-2024 01:07:18,1.503s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:07:18,09-01-2024 01:07:19,1.058s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:07:19,09-01-2024 01:07:20,1.854s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:07:20,09-01-2024 01:07:22,1.573s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:07:22,09-01-2024 01:07:23,1.182s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""fff"")",Edge Chromium 120,,,09-01-2024 01:07:23,09-01-2024 01:07:24,0.902s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:07:24,09-01-2024 01:07:25,1.307s,PASSED
+"setText(findTestObject(""Object RepselectOptionByValueository/Page Create new budget/auto_budget_amount_input new budget""), ""100001709"")",Edge Chromium 120,,,09-01-2024 01:07:25,09-01-2024 01:07:26,0.248s,FAILED
+,,,,,,,
+Test Cases/New Budget/TC11 - Check Auto-budget amount is greater than 100001709,Edge Chromium 120,,,09-01-2024 01:07:26,09-01-2024 01:07:40,13.799s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:07:26,09-01-2024 01:07:27,1.440s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:07:27,09-01-2024 01:07:29,1.355s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:07:29,09-01-2024 01:07:31,1.952s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:07:31,09-01-2024 01:07:32,1.503s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:07:32,09-01-2024 01:07:33,1.332s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""fff"")",Edge Chromium 120,,,09-01-2024 01:07:33,09-01-2024 01:07:34,0.915s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:07:34,09-01-2024 01:07:36,1.153s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/auto_budget_amount_input new budget""), ""100001710"")",Edge Chromium 120,,,09-01-2024 01:07:36,09-01-2024 01:07:37,1.131s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:07:37,09-01-2024 01:07:39,1.870s,PASSED
+"errorMessage = findTestObject(""Object Repository/Page Create new budget/p_The auto budget amount must be less than _50a2a2"")",Edge Chromium 120,,,09-01-2024 01:07:39,09-01-2024 01:07:39,0.091s,PASSED
+verifyElementVisible(errorMessage),Edge Chromium 120,,,09-01-2024 01:07:39,09-01-2024 01:07:39,0.415s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:07:39,09-01-2024 01:07:40,0.449s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC12 - Check file size is smaller 2MB,Edge Chromium 120,,,09-01-2024 01:07:40,09-01-2024 01:07:51,10.992s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:07:40,09-01-2024 01:07:41,1.096s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:07:41,09-01-2024 01:07:42,1.163s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:07:42,09-01-2024 01:07:44,1.774s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:07:44,09-01-2024 01:07:45,1.539s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:07:45,09-01-2024 01:07:46,1.138s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""newname"")",Edge Chromium 120,,,09-01-2024 01:07:46,09-01-2024 01:07:47,0.983s,PASSED
+"fileInput = findTestObject(""Object Repository/Page Create new budget/file_attachments_input new budget"")",Edge Chromium 120,,,09-01-2024 01:07:47,09-01-2024 01:07:47,0.045s,PASSED
+"filePath = ""C:/Users/pt071/abc.txt""",Edge Chromium 120,,,09-01-2024 01:07:47,09-01-2024 01:07:47,0.001s,PASSED
+"uploadFile(fileInput, filePath)",Edge Chromium 120,,,09-01-2024 01:07:47,09-01-2024 01:07:48,0.387s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:07:48,09-01-2024 01:07:49,1.514s,PASSED
+"successMessageTo = findTestObject(""Object Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"")",Edge Chromium 120,,,09-01-2024 01:07:49,09-01-2024 01:07:49,0.060s,PASSED
+verifyElementVisible(successMessageTo),Edge Chromium 120,,,09-01-2024 01:07:49,09-01-2024 01:07:50,0.798s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:07:50,09-01-2024 01:07:51,0.316s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC13 - Check file size is greater than 2MB,Edge Chromium 120,,,09-01-2024 01:07:51,09-01-2024 01:08:03,12.693s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:07:51,09-01-2024 01:07:52,1.053s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:07:52,09-01-2024 01:07:53,1.240s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:07:53,09-01-2024 01:07:55,1.737s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:07:55,09-01-2024 01:07:56,1.628s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:07:56,09-01-2024 01:07:58,1.206s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""oldname"")",Edge Chromium 120,,,09-01-2024 01:07:58,09-01-2024 01:07:59,0.959s,PASSED
+"fileInput = findTestObject(""Object Repository/Page Create new budget/file_attachments_input new budget"")",Edge Chromium 120,,,09-01-2024 01:07:59,09-01-2024 01:07:59,0.064s,PASSED
+"filePath = ""C:/Users/pt071/file5mb.png""",Edge Chromium 120,,,09-01-2024 01:07:59,09-01-2024 01:07:59,0.002s,PASSED
+"uploadFile(fileInput, filePath)",Edge Chromium 120,,,09-01-2024 01:07:59,09-01-2024 01:07:59,0.349s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:07:59,09-01-2024 01:08:02,3.534s,PASSED
+"fileTooLargeError = findTestObject(""Object Repository/Page_413 Request Entity Too Large/h1_413 Request Entity Too Large"")",Edge Chromium 120,,,09-01-2024 01:08:02,09-01-2024 01:08:03,0.057s,PASSED
+verifyElementVisible(fileTooLargeError),Edge Chromium 120,,,09-01-2024 01:08:03,09-01-2024 01:08:03,0.334s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:08:03,09-01-2024 01:08:03,0.361s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC14 - Check button new Budget,Edge Chromium 120,,,09-01-2024 01:08:32,09-01-2024 01:08:41,9.477s,FAILED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:08:32,09-01-2024 01:08:33,1.382s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:08:33,09-01-2024 01:08:34,1.200s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:08:34,09-01-2024 01:08:36,1.752s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:08:36,09-01-2024 01:08:37,1.384s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:08:37,09-01-2024 01:08:39,1.196s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/input_Name_name""), ""hihihi"")",Edge Chromium 120,,,09-01-2024 01:08:39,09-01-2024 01:08:40,0.947s,PASSED
+"click(findTestObject(""Object Repository/Page Create new budget/button_Store new budget""))",Edge Chromium 120,,,09-01-2024 01:08:40,09-01-2024 01:08:41,1.406s,PASSED
+"successMessageTo = findTestObject(""OObject Repository/Page_Whats playing  Firefly III/div_CloseSuccessStored new budget"")",Edge Chromium 120,,,09-01-2024 01:08:41,09-01-2024 01:08:41,0.003s,PASSED
+verifyElementVisible(successMessageTo),Edge Chromium 120,,,09-01-2024 01:08:41,09-01-2024 01:08:41,0.176s,FAILED
+,,,,,,,
+Test Cases/New Budget/TC15 - Check Currency field 1,Edge Chromium 120,,,09-01-2024 01:08:41,09-01-2024 01:08:49,7.497s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:08:41,09-01-2024 01:08:43,1.373s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:08:43,09-01-2024 01:08:43,0.860s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:08:43,09-01-2024 01:08:45,1.859s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:08:45,09-01-2024 01:08:47,1.204s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:08:47,09-01-2024 01:08:48,1.260s,PASSED
+"verifyElementNotClickable(findTestObject(""Object Repository/Page Create new budget/Currency_input new budget""))",Edge Chromium 120,,,09-01-2024 01:08:48,09-01-2024 01:08:48,0.501s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:08:48,09-01-2024 01:08:49,0.332s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC16 - Check Auto-budget amount field 1,Edge Chromium 120,,,09-01-2024 01:08:49,09-01-2024 01:08:56,7.506s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:08:49,09-01-2024 01:08:50,1.097s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:08:50,09-01-2024 01:08:51,1.105s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:08:51,09-01-2024 01:08:53,1.839s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:08:53,09-01-2024 01:08:54,1.183s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:08:54,09-01-2024 01:08:55,1.345s,PASSED
+"verifyElementNotClickable(findTestObject(""Object Repository/Page Create new budget/auto_budget_amount_input new budget""))",Edge Chromium 120,,,09-01-2024 01:08:55,09-01-2024 01:08:56,0.499s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:08:56,09-01-2024 01:08:56,0.317s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC17 - Check Auto-budget period field 1,Edge Chromium 120,,,09-01-2024 01:08:56,09-01-2024 01:09:05,8.807s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:08:56,09-01-2024 01:08:57,1.003s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:08:57,09-01-2024 01:08:58,1.124s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:08:58,09-01-2024 01:09:01,2.662s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:09:01,09-01-2024 01:09:03,1.585s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:09:03,09-01-2024 01:09:04,1.414s,PASSED
+"verifyElementNotClickable(findTestObject(""Object Repository/Page Create new budget/auto_budget_period_input new budget""))",Edge Chromium 120,,,09-01-2024 01:09:04,09-01-2024 01:09:05,0.584s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:09:05,09-01-2024 01:09:05,0.321s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC18 - Check Auto-budget field,Edge Chromium 120,,,09-01-2024 01:09:05,09-01-2024 01:09:14,9.283s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:09:05,09-01-2024 01:09:06,1.057s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:09:06,09-01-2024 01:09:07,1.210s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:09:07,09-01-2024 01:09:09,1.831s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:09:09,09-01-2024 01:09:11,1.566s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:09:11,09-01-2024 01:09:12,1.270s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:09:12,09-01-2024 01:09:13,1.317s,PASSED
+"inputFieldTo = findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget"")",Edge Chromium 120,,,09-01-2024 01:09:13,09-01-2024 01:09:14,0.051s,PASSED
+"expectedValue = ""1""",Edge Chromium 120,,,09-01-2024 01:09:14,09-01-2024 01:09:14,0.004s,PASSED
+"verifyInputFieldValue(inputFieldTo, expectedValue)",Edge Chromium 120,,,09-01-2024 01:09:14,09-01-2024 01:09:14,0.004s,PASSED
+"actualValue = getAttribute(to, ""value"")",Edge Chromium 120,,,09-01-2024 01:09:14,09-01-2024 01:09:14,0.427s,PASSED
+if (actualValue != expectedValue),Edge Chromium 120,,,09-01-2024 01:09:14,09-01-2024 01:09:14,0.000s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:09:14,09-01-2024 01:09:14,0.304s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC19 - Check Currency field 2,Edge Chromium 120,,,09-01-2024 01:09:14,09-01-2024 01:09:24,10.044s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:09:14,09-01-2024 01:09:15,0.991s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:09:15,09-01-2024 01:09:16,0.879s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:09:16,09-01-2024 01:09:19,2.229s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:09:19,09-01-2024 01:09:20,1.236s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:09:20,09-01-2024 01:09:21,1.259s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:09:21,09-01-2024 01:09:22,1.247s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/Currency_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:09:22,09-01-2024 01:09:24,1.247s,PASSED
+"inputFieldTo = findTestObject(""Object Repository/Page Create new budget/Currency_input new budget"")",Edge Chromium 120,,,09-01-2024 01:09:24,09-01-2024 01:09:24,0.044s,PASSED
+"expectedValue = ""1""",Edge Chromium 120,,,09-01-2024 01:09:24,09-01-2024 01:09:24,0.001s,PASSED
+"verifyInputFieldValue(inputFieldTo, expectedValue)",Edge Chromium 120,,,09-01-2024 01:09:24,09-01-2024 01:09:24,0.000s,PASSED
+"actualValue = getAttribute(to, ""value"")",Edge Chromium 120,,,09-01-2024 01:09:24,09-01-2024 01:09:24,0.286s,PASSED
+if (actualValue != expectedValue),Edge Chromium 120,,,09-01-2024 01:09:24,09-01-2024 01:09:24,0.001s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:09:24,09-01-2024 01:09:24,0.456s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC20 - Check Auto-budget amount field 2,Edge Chromium 120,,,09-01-2024 01:09:24,09-01-2024 01:09:34,9.789s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:09:25,09-01-2024 01:09:26,1.181s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:09:26,09-01-2024 01:09:27,0.872s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:09:27,09-01-2024 01:09:28,1.789s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:09:28,09-01-2024 01:09:30,1.195s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:09:30,09-01-2024 01:09:31,1.285s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:09:31,09-01-2024 01:09:32,1.274s,PASSED
+"setText(findTestObject(""Object Repository/Page Create new budget/auto_budget_amount_input new budget""), ""3333"")",Edge Chromium 120,,,09-01-2024 01:09:32,09-01-2024 01:09:33,0.970s,PASSED
+"inputFieldTo = findTestObject(""Object Repository/Page Create new budget/auto_budget_amount_input new budget"")",Edge Chromium 120,,,09-01-2024 01:09:33,09-01-2024 01:09:33,0.043s,PASSED
+"expectedValue = ""3333""",Edge Chromium 120,,,09-01-2024 01:09:33,09-01-2024 01:09:33,0.001s,PASSED
+"verifyInputFieldValue(inputFieldTo, expectedValue)",Edge Chromium 120,,,09-01-2024 01:09:33,09-01-2024 01:09:33,0.001s,PASSED
+"actualValue = getAttribute(to, ""value"")",Edge Chromium 120,,,09-01-2024 01:09:33,09-01-2024 01:09:34,0.495s,PASSED
+if (actualValue != expectedValue),Edge Chromium 120,,,09-01-2024 01:09:34,09-01-2024 01:09:34,0.002s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:09:34,09-01-2024 01:09:34,0.357s,PASSED
+,,,,,,,
+Test Cases/New Budget/TC21 - Check Auto-budget period field 2,Edge Chromium 120,,,09-01-2024 01:09:34,09-01-2024 01:09:44,9.851s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,09-01-2024 01:09:34,09-01-2024 01:09:35,1.045s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Edge Chromium 120,,,09-01-2024 01:09:35,09-01-2024 01:09:36,0.844s,PASSED
+"click(findTestObject(""Object Repository/Page_Login to Firefly III/button_Sign in""))",Edge Chromium 120,,,09-01-2024 01:09:36,09-01-2024 01:09:38,1.831s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/span_demofirefly_fa fa-plus-circle""))",Edge Chromium 120,,,09-01-2024 01:09:38,09-01-2024 01:09:39,1.163s,PASSED
+"click(findTestObject(""Object Repository/Page_Whats playing  Firefly III/a_New budget""))",Edge Chromium 120,,,09-01-2024 01:09:39,09-01-2024 01:09:40,1.168s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_input new budget""), ""1"", true)",Edge Chromium 120,,,09-01-2024 01:09:40,09-01-2024 01:09:42,1.310s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page Create new budget/auto_budget_period_input new budget""), ""half_year"", true)",Edge Chromium 120,,,09-01-2024 01:09:42,09-01-2024 01:09:43,1.437s,PASSED
+"inputFieldTo = findTestObject(""Object Repository/Page Create new budget/auto_budget_period_input new budget"")",Edge Chromium 120,,,09-01-2024 01:09:43,09-01-2024 01:09:43,0.043s,PASSED
+"expectedValue = ""half_year""",Edge Chromium 120,,,09-01-2024 01:09:43,09-01-2024 01:09:43,0.001s,PASSED
+"verifyInputFieldValue(inputFieldTo, expectedValue)",Edge Chromium 120,,,09-01-2024 01:09:43,09-01-2024 01:09:43,0.003s,PASSED
+"actualValue = getAttribute(to, ""value"")",Edge Chromium 120,,,09-01-2024 01:09:43,09-01-2024 01:09:44,0.367s,PASSED
+if (actualValue != expectedValue),Edge Chromium 120,,,09-01-2024 01:09:44,09-01-2024 01:09:44,0.001s,PASSED
+closeBrowser(),Edge Chromium 120,,,09-01-2024 01:09:44,09-01-2024 01:09:44,0.447s,PASSED

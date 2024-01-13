@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68736717-8557-43df-a664-834501c6c83c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>27a9e9c3-16d9-4929-9e56-8e4870488649</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/GUI_Usability/new expense account/input_note</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>27a9e9c3-16d9-4929-9e56-8e4870488649</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>057e8266-995b-4512-9f4d-93d261b64904</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5ee0fed-d29a-4036-8732-65e6a2591406</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>27a9e9c3-16d9-4929-9e56-8e4870488649</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>test_value</value>
+      <variableId>ef7183ae-c20f-41f5-9980-3caf22a3f2ba</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>057e8266-995b-4512-9f4d-93d261b64904</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f5ee0fed-d29a-4036-8732-65e6a2591406</id>
+      <masked>false</masked>
+      <name>actual_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef7183ae-c20f-41f5-9980-3caf22a3f2ba</id>
+      <masked>false</masked>
+      <name>test_value</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,101 @@
+Name,Auto-budget,Currency,Auto-budget amount,Auto-budget period,Return
+Mazda,Add an amount every period,US Dollar ($),313608,Quarterly,false
+Chevrolet,Set a fixed amount every period,US Dollar ($),330017,Daily,true
+Porsche,Add an amount every period and correct for overspending,Hungarian forint (Ft),2640095,Every half year,false
+Mercedes-Benz,Add an amount every period,US Dollar ($),49523283,Weekly,false
+Ford,Add an amount every period and correct for overspending,US Dollar ($),8263579,Monthly,false
+Nissan,Add an amount every period and correct for overspending,British Pound (£),51352539,Every half year,true
+Lexus,Set a fixed amount every period,US Dollar ($),44699362,Yearly,false
+Dodge,Set a fixed amount every period,US Dollar ($),81039686,Weekly,false
+Chevrolet,Add an amount every period,British Pound (£),75770598,Monthly,false
+Toyota,Add an amount every period,Euro (€),78412131,Monthly,true
+Ford,Add an amount every period,US Dollar ($),86871099,Yearly,false
+Volkswagen,Add an amount every period and correct for overspending,British Pound (£),90182453,Yearly,true
+Chrysler,Add an amount every period and correct for overspending,British Pound (£),42742672,Quarterly,true
+Pontiac,Add an amount every period,Hungarian forint (Ft),25584374,Daily,true
+Toyota,Add an amount every period,Hungarian forint (Ft),88855232,Every half year,false
+Buick,Add an amount every period and correct for overspending,Euro (€),44550849,Quarterly,false
+Subaru,Add an amount every period and correct for overspending,US Dollar ($),29476659,Every half year,false
+Lamborghini,Add an amount every period,Euro (€),45313913,Quarterly,true
+Mitsubishi,Add an amount every period and correct for overspending,Euro (€),18203278,Daily,true
+Suzuki,Add an amount every period,Euro (€),23017939,Daily,true
+Ford,Set a fixed amount every period,British Pound (£),66810031,Weekly,true
+Hyundai,Set a fixed amount every period,British Pound (£),88895124,Yearly,true
+Mercury,Add an amount every period,Hungarian forint (Ft),96721209,Weekly,false
+Chevrolet,Set a fixed amount every period,Euro (€),69403599,Quarterly,true
+GMC,Add an amount every period and correct for overspending,Euro (€),32847062,Yearly,true
+GMC,Add an amount every period and correct for overspending,US Dollar ($),35445856,Weekly,false
+Cadillac,Add an amount every period,Hungarian forint (Ft),32071136,Weekly,false
+Ford,Add an amount every period,Euro (€),10839173,Every half year,true
+Volvo,Add an amount every period,British Pound (£),51189441,Weekly,false
+Dodge,Add an amount every period,Hungarian forint (Ft),45028282,Daily,true
+Nissan,Add an amount every period and correct for overspending,Euro (€),25977759,Daily,false
+Dodge,Set a fixed amount every period,British Pound (£),7173486,Yearly,false
+Ford,Add an amount every period,US Dollar ($),5890786,Every half year,true
+Mercedes-Benz,Add an amount every period and correct for overspending,Euro (€),33056762,Yearly,false
+Pontiac,Add an amount every period,Euro (€),46915445,Daily,false
+Buick,Add an amount every period,Euro (€),262413,Every half year,true
+Ford,Add an amount every period and correct for overspending,Euro (€),25792603,Quarterly,false
+Ford,Add an amount every period and correct for overspending,US Dollar ($),78909648,Quarterly,false
+Infiniti,Add an amount every period and correct for overspending,British Pound (£),10960579,Weekly,true
+Hyundai,Add an amount every period and correct for overspending,Euro (€),9297428,Yearly,false
+GMC,Set a fixed amount every period,US Dollar ($),28835544,Weekly,false
+Pontiac,Add an amount every period,US Dollar ($),41712871,Every half year,true
+Jensen,Add an amount every period,British Pound (£),34902351,Quarterly,true
+Mazda,Add an amount every period,US Dollar ($),45127897,Daily,false
+Kia,Set a fixed amount every period,British Pound (£),6017769,Every half year,false
+Aston Martin,Add an amount every period and correct for overspending,Euro (€),71581249,Quarterly,true
+Honda,Add an amount every period,British Pound (£),45082821,Quarterly,false
+Hyundai,Add an amount every period,US Dollar ($),29322639,Monthly,false
+Ford,Add an amount every period,Hungarian forint (Ft),95635802,Quarterly,false
+Pontiac,Add an amount every period,US Dollar ($),94909514,Weekly,true
+Infiniti,Add an amount every period and correct for overspending,US Dollar ($),50225303,Every half year,false
+Infiniti,Add an amount every period and correct for overspending,Hungarian forint (Ft),5350781,Daily,false
+Mercedes-Benz,Add an amount every period,US Dollar ($),3331519,Monthly,true
+Hyundai,Set a fixed amount every period,Euro (€),8484228,Yearly,false
+Mitsubishi,Add an amount every period and correct for overspending,US Dollar ($),8249977,Yearly,true
+Nissan,Set a fixed amount every period,Euro (€),13395433,Daily,false
+Honda,Add an amount every period,British Pound (£),59671539,Monthly,true
+Mitsubishi,Set a fixed amount every period,Euro (€),80521487,Weekly,false
+Nissan,Add an amount every period,US Dollar ($),26133468,Weekly,true
+Cadillac,Add an amount every period and correct for overspending,Hungarian forint (Ft),1651647,Every half year,false
+Chevrolet,Set a fixed amount every period,Hungarian forint (Ft),96227098,Quarterly,false
+Lexus,Set a fixed amount every period,US Dollar ($),87314656,Quarterly,true
+Ford,Add an amount every period,Hungarian forint (Ft),13990003,Quarterly,false
+Ford,Set a fixed amount every period,Euro (€),83128553,Quarterly,false
+Chevrolet,Add an amount every period and correct for overspending,Euro (€),97116801,Quarterly,true
+Dodge,Set a fixed amount every period,US Dollar ($),29379801,Every half year,false
+Chevrolet,Set a fixed amount every period,Hungarian forint (Ft),59004387,Monthly,true
+Chrysler,Set a fixed amount every period,US Dollar ($),89985407,Every half year,true
+Porsche,Add an amount every period,Euro (€),85383501,Weekly,true
+Mazda,Add an amount every period,Hungarian forint (Ft),8784744,Weekly,true
+Mitsubishi,Add an amount every period,Hungarian forint (Ft),6024254,Monthly,true
+MINI,Set a fixed amount every period,British Pound (£),37619592,Every half year,false
+Lincoln,Add an amount every period and correct for overspending,British Pound (£),52237140,Weekly,false
+Chrysler,Set a fixed amount every period,British Pound (£),14829867,Every half year,false
+Chevrolet,Set a fixed amount every period,Hungarian forint (Ft),83427641,Daily,true
+Honda,Set a fixed amount every period,US Dollar ($),9244744,Yearly,true
+Lincoln,Add an amount every period,US Dollar ($),78855366,Every half year,true
+Dodge,Add an amount every period,US Dollar ($),78370454,Daily,true
+Isuzu,Add an amount every period and correct for overspending,British Pound (£),36807179,Every half year,false
+Mercury,Add an amount every period,Euro (€),65349568,Monthly,true
+Hyundai,Add an amount every period and correct for overspending,Euro (€),46347054,Quarterly,true
+Mercury,Set a fixed amount every period,US Dollar ($),99601670,Every half year,false
+Cadillac,Add an amount every period,US Dollar ($),61474405,Monthly,true
+Volvo,Set a fixed amount every period,Hungarian forint (Ft),56163679,Monthly,true
+Pontiac,Add an amount every period and correct for overspending,US Dollar ($),65737353,Quarterly,true
+Chevrolet,Add an amount every period and correct for overspending,Hungarian forint (Ft),56486257,Yearly,false
+Chevrolet,Add an amount every period and correct for overspending,US Dollar ($),71177061,Weekly,true
+Pontiac,Set a fixed amount every period,US Dollar ($),89304369,Weekly,true
+BMW,Add an amount every period,Hungarian forint (Ft),86480311,Every half year,false
+Audi,Add an amount every period and correct for overspending,US Dollar ($),44463112,Yearly,false
+Dodge,Add an amount every period and correct for overspending,British Pound (£),89282991,Daily,true
+Dodge,Set a fixed amount every period,Hungarian forint (Ft),33877109,Monthly,false
+BMW,Add an amount every period and correct for overspending,Hungarian forint (Ft),39182301,Weekly,false
+Lamborghini,Add an amount every period and correct for overspending,Euro (€),4723001,Every half year,false
+Maserati,Add an amount every period and correct for overspending,British Pound (£),86257150,Daily,true
+Volkswagen,Add an amount every period and correct for overspending,Hungarian forint (Ft),97397870,Daily,true
+Volkswagen,Add an amount every period and correct for overspending,British Pound (£),13055462,Quarterly,false
+Pontiac,Set a fixed amount every period,Hungarian forint (Ft),54654339,Weekly,true
+Ford,Set a fixed amount every period,US Dollar ($),74317334,Yearly,false
+Mitsubishi,Add an amount every period and correct for overspending,British Pound (£),56868514,Weekly,false

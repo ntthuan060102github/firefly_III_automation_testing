@@ -1,0 +1,208 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GUI_Create_New_Liability,Chrome 120.0.0.0,,,2024-01-09 10:47:10,2024-01-09 10:50:11,"3m - 1,899s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.01,Chrome 120.0.0.0,,,2024-01-09 10:47:10,2024-01-09 10:47:20,"10,471s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:47:10,2024-01-09 10:47:12,"2,331s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:47:12,2024-01-09 10:47:13,"0,692s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.01/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:47:13,2024-01-09 10:47:15,"1,912s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.01/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:47:15,2024-01-09 10:47:17,"1,572s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.01/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:47:17,2024-01-09 10:47:18,"1,472s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.01/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:47:18,2024-01-09 10:47:19,"0,985s",PASSED
+"verifyElementText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.01/small_Create a new liability""), ""Create a new liability"")",Chrome 120.0.0.0,,,2024-01-09 10:47:19,2024-01-09 10:47:20,"0,495s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:47:20,2024-01-09 10:47:20,"0,648s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.02,Chrome 120.0.0.0,,,2024-01-09 10:47:20,2024-01-09 10:47:31,"10,346s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:47:21,2024-01-09 10:47:22,"1,163s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:47:22,2024-01-09 10:47:22,"0,696s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.02/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:47:22,2024-01-09 10:47:25,"2,271s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.02/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:47:25,2024-01-09 10:47:26,"1,540s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.02/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:47:26,2024-01-09 10:47:28,"1,358s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.02/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:47:28,2024-01-09 10:47:29,"1,139s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.02/input_Name_name""), ""Aston Martin"")",Chrome 120.0.0.0,,,2024-01-09 10:47:29,2024-01-09 10:47:30,"0,808s",PASSED
+"actual_name = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.02/input_Name_name""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:47:30,2024-01-09 10:47:30,"0,333s",PASSED
+"verifyEqual(actual_name, expected_name)",Chrome 120.0.0.0,,,2024-01-09 10:47:30,2024-01-09 10:47:30,"0,026s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:47:30,2024-01-09 10:47:31,"0,641s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.03,Chrome 120.0.0.0,,,2024-01-09 10:47:31,2024-01-09 10:47:41,"10,477s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:47:31,2024-01-09 10:47:32,"1,139s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:47:32,2024-01-09 10:47:33,"0,928s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.03/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:47:33,2024-01-09 10:47:35,"1,599s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.03/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:47:35,2024-01-09 10:47:36,"1,951s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.03/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:47:36,2024-01-09 10:47:38,"1,480s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.03/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:47:38,2024-01-09 10:47:39,"0,926s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.03/select_Chinese yuan ()Euro ()British Pound _e5e925""), ""1"", true)",Chrome 120.0.0.0,,,2024-01-09 10:47:39,2024-01-09 10:47:40,"1,169s",PASSED
+"actual_currency = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.03/select_Chinese yuan ()Euro ()British Pound _e5e925""), ""value"", STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-09 10:47:40,2024-01-09 10:47:40,"0,339s",PASSED
+"verifyEqual(actual_currency, expected_currency)",Chrome 120.0.0.0,,,2024-01-09 10:47:40,2024-01-09 10:47:40,"0,002s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:47:40,2024-01-09 10:47:41,"0,650s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.04,Chrome 120.0.0.0,,,2024-01-09 10:47:41,2024-01-09 10:47:56,"14,447s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:47:41,2024-01-09 10:47:44,"2,323s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:47:44,2024-01-09 10:47:47,"3,701s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.04/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:47:47,2024-01-09 10:47:49,"1,998s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.04/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:47:49,2024-01-09 10:47:51,"1,535s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.04/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:47:51,2024-01-09 10:47:52,"1,463s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.04/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:47:52,2024-01-09 10:47:53,"0,990s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.04/select_DebtLoanMortgage""), ""9"", true)",Chrome 120.0.0.0,,,2024-01-09 10:47:53,2024-01-09 10:47:55,"1,138s",PASSED
+"actual_liability_types = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.04/select_DebtLoanMortgage""), ""value"", STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-09 10:47:55,2024-01-09 10:47:55,"0,329s",PASSED
+"verifyEqual(actual_liability_types, expected_liability_types)",Chrome 120.0.0.0,,,2024-01-09 10:47:55,2024-01-09 10:47:55,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:47:55,2024-01-09 10:47:56,"0,647s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.05,Chrome 120.0.0.0,,,2024-01-09 10:47:56,2024-01-09 10:48:07,"10,999s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:47:56,2024-01-09 10:47:57,"1,211s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:47:57,2024-01-09 10:47:59,"1,774s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.05/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:47:59,2024-01-09 10:48:01,"2,025s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.05/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:48:01,2024-01-09 10:48:03,"1,777s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.05/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:48:03,2024-01-09 10:48:04,"1,145s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.05/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:48:04,2024-01-09 10:48:05,"0,989s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.05/input_I owe amount_opening_balance""), ""17"")",Chrome 120.0.0.0,,,2024-01-09 10:48:05,2024-01-09 10:48:06,"0,793s",PASSED
+"actual_amount = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.05/input_I owe amount_opening_balance""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:48:06,2024-01-09 10:48:06,"0,333s",PASSED
+"verifyEqual(actual_amount, expected_amount)",Chrome 120.0.0.0,,,2024-01-09 10:48:06,2024-01-09 10:48:06,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:48:06,2024-01-09 10:48:07,"0,647s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.06,Chrome 120.0.0.0,,,2024-01-09 10:48:07,2024-01-09 10:48:17,"10,732s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:48:07,2024-01-09 10:48:08,"1,119s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:48:08,2024-01-09 10:48:09,"0,733s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.06/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:48:09,2024-01-09 10:48:11,"2,354s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.06/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:48:11,2024-01-09 10:48:13,"1,857s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.06/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:48:13,2024-01-09 10:48:14,"1,157s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.06/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:48:14,2024-01-09 10:48:15,"0,974s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.06/select_I owe this debt to somebody elseI am_93cb18""), ""credit"", true)",Chrome 120.0.0.0,,,2024-01-09 10:48:15,2024-01-09 10:48:16,"1,129s",PASSED
+"actual_value = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.06/select_I owe this debt to somebody elseI am_93cb18""), ""value"", STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-09 10:48:16,2024-01-09 10:48:17,"0,461s",PASSED
+"verifyEqual(actual_value, expected_value)",Chrome 120.0.0.0,,,2024-01-09 10:48:17,2024-01-09 10:48:17,"0,002s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:48:17,2024-01-09 10:48:17,"0,651s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.07,Chrome 120.0.0.0,,,2024-01-09 10:48:17,2024-01-09 10:48:27,"10,056s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:48:18,2024-01-09 10:48:19,"1,164s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:48:19,2024-01-09 10:48:19,"0,697s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.07/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:48:19,2024-01-09 10:48:21,"1,868s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.07/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:48:21,2024-01-09 10:48:23,"1,826s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.07/a""))",Chrome 120.0.0.0,,,2024-01-09 10:48:23,2024-01-09 10:48:25,"1,473s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.07/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:48:25,2024-01-09 10:48:26,"0,951s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.07/input_Start date of debt_opening_balance_date""), ""07/06/2023"")",Chrome 120.0.0.0,,,2024-01-09 10:48:26,2024-01-09 10:48:26,"0,793s",PASSED
+"actual_date = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.07/input_Start date of debt_opening_balance_date""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:48:26,2024-01-09 10:48:27,"0,342s",PASSED
+"verifyEqual(actual_date, expected_date)",Chrome 120.0.0.0,,,2024-01-09 10:48:27,2024-01-09 10:48:27,"0,002s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:48:27,2024-01-09 10:48:27,"0,635s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.08,Chrome 120.0.0.0,,,2024-01-09 10:48:27,2024-01-09 10:48:37,"9,668s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:48:28,2024-01-09 10:48:29,"1,134s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:48:29,2024-01-09 10:48:29,"0,673s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.08/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:48:29,2024-01-09 10:48:31,"1,942s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.08/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:48:31,2024-01-09 10:48:33,"1,486s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.08/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:48:33,2024-01-09 10:48:34,"1,381s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.08/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:48:34,2024-01-09 10:48:35,"0,979s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.08/input_Interest_interest""), ""10"")",Chrome 120.0.0.0,,,2024-01-09 10:48:35,2024-01-09 10:48:36,"0,807s",PASSED
+"actual_interest = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.08/input_Interest_interest""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:48:36,2024-01-09 10:48:36,"0,332s",PASSED
+"verifyEqual(actual_interest, expect_interest)",Chrome 120.0.0.0,,,2024-01-09 10:48:36,2024-01-09 10:48:36,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:48:36,2024-01-09 10:48:37,"0,633s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.09,Chrome 120.0.0.0,,,2024-01-09 10:48:37,2024-01-09 10:48:47,"10,307s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:48:37,2024-01-09 10:48:38,"1,146s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:48:38,2024-01-09 10:48:39,"0,640s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.09/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:48:39,2024-01-09 10:48:41,"1,970s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.09/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:48:41,2024-01-09 10:48:43,"1,830s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.09/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:48:43,2024-01-09 10:48:44,"1,383s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.09/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:48:44,2024-01-09 10:48:45,"0,946s",PASSED
+"selectOptionByValue(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.09/select_Per dayPer monthPer year""), ""monthly"", true)",Chrome 120.0.0.0,,,2024-01-09 10:48:45,2024-01-09 10:48:46,"1,127s",PASSED
+"actual_interest_period = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.09/select_Per dayPer monthPer year""), ""value"", STOP_ON_FAILURE)",Chrome 120.0.0.0,,,2024-01-09 10:48:46,2024-01-09 10:48:47,"0,341s",PASSED
+"verifyEqual(actual_interest_period, expected_interest_period)",Chrome 120.0.0.0,,,2024-01-09 10:48:47,2024-01-09 10:48:47,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:48:47,2024-01-09 10:48:47,"0,636s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.10,Chrome 120.0.0.0,,,2024-01-09 10:48:47,2024-01-09 10:49:03,"15,199s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:48:48,2024-01-09 10:48:49,"1,145s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:48:49,2024-01-09 10:48:50,"0,820s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.10/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:48:50,2024-01-09 10:48:52,"2,251s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:48:52,2024-01-09 10:48:52,"0,628s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:48:52,2024-01-09 10:48:54,"1,147s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:48:54,2024-01-09 10:48:54,"0,671s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.10/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:48:54,2024-01-09 10:48:56,"2,228s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.10/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:48:56,2024-01-09 10:48:59,"2,455s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.10/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:48:59,2024-01-09 10:49:00,"0,826s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.10/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:49:00,2024-01-09 10:49:01,"0,933s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.10/input_IBAN_iban""), ""99.163.174.2"")",Chrome 120.0.0.0,,,2024-01-09 10:49:01,2024-01-09 10:49:02,"0,825s",PASSED
+"actual_IBAN = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.10/input_IBAN_iban""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:49:02,2024-01-09 10:49:02,"0,334s",PASSED
+"verifyEqual(actual_IBAN, expected_IBAN)",Chrome 120.0.0.0,,,2024-01-09 10:49:02,2024-01-09 10:49:02,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:49:02,2024-01-09 10:49:03,"0,647s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.11,Chrome 120.0.0.0,,,2024-01-09 10:49:03,2024-01-09 10:49:12,"9,706s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:49:03,2024-01-09 10:49:04,"1,166s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:49:04,2024-01-09 10:49:05,"0,673s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.11/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:49:05,2024-01-09 10:49:06,"1,880s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.11/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:49:06,2024-01-09 10:49:08,"1,487s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.11/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:49:08,2024-01-09 10:49:09,"1,483s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.11/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:49:09,2024-01-09 10:49:10,"0,971s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.11/input_BIC_BIC""), ""0.254.112.210"")",Chrome 120.0.0.0,,,2024-01-09 10:49:10,2024-01-09 10:49:11,"0,816s",PASSED
+"actual_BIC = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.11/input_BIC_BIC""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:49:11,2024-01-09 10:49:12,"0,327s",PASSED
+"verifyEqual(actual_BIC, expected_BIC)",Chrome 120.0.0.0,,,2024-01-09 10:49:12,2024-01-09 10:49:12,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:49:12,2024-01-09 10:49:12,"0,633s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.12,Chrome 120.0.0.0,,,2024-01-09 10:49:12,2024-01-09 10:49:23,"10,624s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:49:12,2024-01-09 10:49:14,"1,118s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:49:14,2024-01-09 10:49:14,"0,628s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.12/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:49:14,2024-01-09 10:49:16,"1,989s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.12/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:49:16,2024-01-09 10:49:18,"1,924s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.12/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:49:18,2024-01-09 10:49:20,"1,463s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.12/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:49:20,2024-01-09 10:49:21,"1,007s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.12/html_Create a new liability                _4aeb42""))",Chrome 120.0.0.0,,,2024-01-09 10:49:21,2024-01-09 10:49:21,"0,511s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.12/input_Account number_account_number""), ""513-549-0132"")",Chrome 120.0.0.0,,,2024-01-09 10:49:21,2024-01-09 10:49:22,"0,708s",PASSED
+"actual_account_number = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.12/input_Account number_account_number""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:49:22,2024-01-09 10:49:22,"0,348s",PASSED
+"verifyEqual(actual_account_number, expected_account_number)",Chrome 120.0.0.0,,,2024-01-09 10:49:22,2024-01-09 10:49:22,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:49:22,2024-01-09 10:49:23,"0,648s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.13,Chrome 120.0.0.0,,,2024-01-09 10:49:23,2024-01-09 10:49:33,"9,737s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:49:23,2024-01-09 10:49:24,"1,143s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:49:24,2024-01-09 10:49:25,"0,673s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.13/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:49:25,2024-01-09 10:49:27,"2,044s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.13/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:49:27,2024-01-09 10:49:29,"1,575s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.13/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:49:29,2024-01-09 10:49:30,"1,450s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.13/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:49:30,2024-01-09 10:49:31,"0,986s",PASSED
+"doubleClick(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.13/input_Include in net worth_include_net_worth""))",Chrome 120.0.0.0,,,2024-01-09 10:49:31,2024-01-09 10:49:32,"0,597s",PASSED
+"actual_value = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.13/input_Include in net worth_include_net_worth""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:49:32,2024-01-09 10:49:32,"0,341s",PASSED
+"verifyEqual(actual_value, expected_value)",Chrome 120.0.0.0,,,2024-01-09 10:49:32,2024-01-09 10:49:32,"0,002s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:49:32,2024-01-09 10:49:33,"0,647s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.14,Chrome 120.0.0.0,,,2024-01-09 10:49:33,2024-01-09 10:49:42,"9,755s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:49:33,2024-01-09 10:49:34,"1,191s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:49:34,2024-01-09 10:49:35,"0,631s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.14/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:49:35,2024-01-09 10:49:36,"1,544s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.14/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:49:36,2024-01-09 10:49:38,"1,819s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.14/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:49:38,2024-01-09 10:49:40,"1,566s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.14/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:49:40,2024-01-09 10:49:41,"0,913s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.14/textarea_Notes_notes""), ""Little blue penguin"")",Chrome 120.0.0.0,,,2024-01-09 10:49:41,2024-01-09 10:49:41,"0,839s",PASSED
+"actual_notes = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.14/textarea_Notes_notes""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:49:41,2024-01-09 10:49:42,"0,346s",PASSED
+"verifyEqual(actual_notes, expected_notes)",Chrome 120.0.0.0,,,2024-01-09 10:49:42,2024-01-09 10:49:42,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:49:42,2024-01-09 10:49:42,"0,635s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.15,Chrome 120.0.0.0,,,2024-01-09 10:49:42,2024-01-09 10:49:52,"9,573s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:49:43,2024-01-09 10:49:44,"1,147s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:49:44,2024-01-09 10:49:44,"0,697s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.15/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:49:44,2024-01-09 10:49:46,"1,827s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.15/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:49:46,2024-01-09 10:49:48,"1,483s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.15/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:49:48,2024-01-09 10:49:49,"1,470s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.15/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:49:49,2024-01-09 10:49:50,"0,933s",PASSED
+"setText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.15/input_Attachments_attachments""), ""D:\db.sql"")",Chrome 120.0.0.0,,,2024-01-09 10:49:50,2024-01-09 10:49:51,"0,795s",PASSED
+"actual_file = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.15/input_Attachments_attachments""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:49:51,2024-01-09 10:49:51,"0,329s",PASSED
+"verifyEqual(actual_file, expected_file)",Chrome 120.0.0.0,,,2024-01-09 10:49:51,2024-01-09 10:49:51,"0,002s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:49:51,2024-01-09 10:49:52,"0,619s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.16,Chrome 120.0.0.0,,,2024-01-09 10:49:52,2024-01-09 10:50:01,"9,015s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:49:52,2024-01-09 10:49:53,"1,137s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:49:53,2024-01-09 10:49:54,"0,725s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.16/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:49:54,2024-01-09 10:49:56,"1,845s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.16/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:49:56,2024-01-09 10:49:57,"1,508s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.16/a""))",Chrome 120.0.0.0,,,2024-01-09 10:49:57,2024-01-09 10:49:59,"1,137s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.16/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:49:59,2024-01-09 10:49:59,"0,924s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.16/input_After storing, return here to create _4fc2e2""))",Chrome 120.0.0.0,,,2024-01-09 10:49:59,2024-01-09 10:50:00,"0,488s",PASSED
+"actual_value = getAttribute(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.16/input_After storing, return here to create _4fc2e2""), ""value"")",Chrome 120.0.0.0,,,2024-01-09 10:50:00,2024-01-09 10:50:00,"0,328s",PASSED
+"verifyEqual(actual_value, expected_value)",Chrome 120.0.0.0,,,2024-01-09 10:50:00,2024-01-09 10:50:00,"0,001s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:50:00,2024-01-09 10:50:01,"0,648s",PASSED
+,,,,,,,
+Test Cases/GUI_Create_New_Liability/TC_10.17,Chrome 120.0.0.0,,,2024-01-09 10:50:01,2024-01-09 10:50:11,"10,480s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-09 10:50:01,2024-01-09 10:50:02,"1,137s",PASSED
+"navigateToUrl(""https://www.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-09 10:50:02,2024-01-09 10:50:03,"0,696s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.17/a_Demo""))",Chrome 120.0.0.0,,,2024-01-09 10:50:03,2024-01-09 10:50:05,"1,988s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.17/button_Sign in""))",Chrome 120.0.0.0,,,2024-01-09 10:50:05,2024-01-09 10:50:07,"1,551s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.17/span_demofirefly_fa fa-plus-circle""))",Chrome 120.0.0.0,,,2024-01-09 10:50:07,2024-01-09 10:50:08,"1,469s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.17/h4_New liability""))",Chrome 120.0.0.0,,,2024-01-09 10:50:08,2024-01-09 10:50:09,"0,955s",PASSED
+"click(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.17/button_Store new liability""))",Chrome 120.0.0.0,,,2024-01-09 10:50:09,2024-01-09 10:50:10,"1,294s",PASSED
+"verifyElementText(findTestObject(""Object Repository/GUI_Create_New_Liability/TC_10.17/p_The name field is required""), ""The name field is required."")",Chrome 120.0.0.0,,,2024-01-09 10:50:10,2024-01-09 10:50:11,"0,475s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-09 10:50:11,2024-01-09 10:50:11,"0,649s",PASSED

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC8_TC9_TC10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8513256-2e4c-4cc6-948c-282bfc377f4b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>127b569d-0f49-4efb-911a-b058cc0d703c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Functional/new transaction_withdrawals/withdrawals_sheet1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>127b569d-0f49-4efb-911a-b058cc0d703c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>account_name</value>
+      <variableId>00fcaa52-48a3-4da8-86a4-e44951a405ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>127b569d-0f49-4efb-911a-b058cc0d703c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>fe832a0b-e74d-421a-b2bd-a804e7df513f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00fcaa52-48a3-4da8-86a4-e44951a405ad</id>
+      <masked>false</masked>
+      <name>account_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fe832a0b-e74d-421a-b2bd-a804e7df513f</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

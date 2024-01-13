@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_8.03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63d4265f-a04b-44b3-ad77-16651c13b11a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c1f18c9-35f2-4f7e-9d18-2b7b4516a4c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7bd4cb59-7962-445d-8f36-677d3dc7b977</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c1f18c9-35f2-4f7e-9d18-2b7b4516a4c6</id>
+      <masked>false</masked>
+      <name>actual_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bd4cb59-7962-445d-8f36-677d3dc7b977</id>
+      <masked>false</masked>
+      <name>expected_amount</name>
+   </variable>
+</TestCaseEntity>

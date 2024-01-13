@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_7.04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bda46d11-b35b-4e4a-a0c5-217c0cd8fbad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16cb72fb-f605-4a25-a3ce-d8bc770c9628</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8f7f0bf-a5a6-4569-9aa1-c04e72e7250a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>16cb72fb-f605-4a25-a3ce-d8bc770c9628</id>
+      <masked>false</masked>
+      <name>actual_maximum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e8f7f0bf-a5a6-4569-9aa1-c04e72e7250a</id>
+      <masked>false</masked>
+      <name>expected_maximum</name>
+   </variable>
+</TestCaseEntity>

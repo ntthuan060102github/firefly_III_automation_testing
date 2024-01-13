@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9f452d5-5a9a-4d00-8f64-fc75fbe5c646</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>2943e942-0fee-477a-bff6-c3649d0c4455</id>
+      <masked>false</masked>
+      <name>expected_text</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c3464b53-87c6-4b5f-a353-e660831fbb39</id>
+      <masked>false</masked>
+      <name>actual_text</name>
+   </variable>
+</TestCaseEntity>

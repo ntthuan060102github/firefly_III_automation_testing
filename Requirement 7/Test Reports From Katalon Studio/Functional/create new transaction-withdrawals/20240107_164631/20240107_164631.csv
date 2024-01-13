@@ -1,0 +1,292 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+create new transaction-withdrawals,Chrome 120.0.0.0,,,2024-01-07 16:46:39,2024-01-07 16:53:15,"6m - 35,907s",FAILED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC1,Chrome 120.0.0.0,,,2024-01-07 16:46:40,2024-01-07 16:46:52,"11,899s",PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-07 16:46:40,2024-01-07 16:46:43,"2,720s",PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:46:43,2024-01-07 16:46:44,"1,351s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:46:44,2024-01-07 16:46:44,"0,181s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:46:44,2024-01-07 16:46:46,"1,641s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:46:46,2024-01-07 16:46:48,"1,449s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:46:48,2024-01-07 16:46:49,"1,097s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_description""), ""test"")",Chrome 120.0.0.0,,,2024-01-07 16:46:49,2024-01-07 16:46:50,"1,137s",PASSED
+"actual_text = getAttribute(findTestObject(""create_new_with_drawal/input_description""), ""value"")",Chrome 120.0.0.0,,,2024-01-07 16:46:50,2024-01-07 16:46:51,"1,030s",PASSED
+"verifyEqual(actual_text, expected_text)",Chrome 120.0.0.0,,,2024-01-07 16:46:51,2024-01-07 16:46:51,"0,031s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:46:51,2024-01-07 16:46:52,"0,710s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC2_TC3_TC4,Chrome 120.0.0.0,,,2024-01-07 16:46:52,2024-01-07 16:47:04,"12,007s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:46:52,2024-01-07 16:46:54,"2,522s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:46:54,2024-01-07 16:46:55,"0,136s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:46:55,2024-01-07 16:46:59,"4,505s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:46:59,2024-01-07 16:47:00,"0,515s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:47:00,2024-01-07 16:47:01,"1,241s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:47:01,2024-01-07 16:47:02,"1,112s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_source_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:47:02,2024-01-07 16:47:03,"0,957s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:47:03,2024-01-07 16:47:04,"0,704s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC2_TC3_TC4,Chrome 120.0.0.0,,,2024-01-07 16:47:04,2024-01-07 16:47:14,"9,999s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:47:04,2024-01-07 16:47:06,"2,509s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:47:06,2024-01-07 16:47:06,"0,135s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:47:06,2024-01-07 16:47:08,"1,664s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:47:08,2024-01-07 16:47:09,"1,326s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:47:09,2024-01-07 16:47:11,"1,501s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:47:11,2024-01-07 16:47:12,"1,127s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_source_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:47:12,2024-01-07 16:47:13,"1,014s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:47:13,2024-01-07 16:47:14,"0,710s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC2_TC3_TC4,Chrome 120.0.0.0,,,2024-01-07 16:47:14,2024-01-07 16:47:23,"9,392s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:47:14,2024-01-07 16:47:16,"2,474s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:47:16,2024-01-07 16:47:16,"0,150s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:47:16,2024-01-07 16:47:18,"1,574s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:47:18,2024-01-07 16:47:19,"1,355s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:47:19,2024-01-07 16:47:20,"1,068s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:47:20,2024-01-07 16:47:21,"1,134s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_source_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:47:21,2024-01-07 16:47:22,"0,922s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:47:22,2024-01-07 16:47:23,"0,701s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC2_TC3_TC4,Chrome 120.0.0.0,,,2024-01-07 16:47:23,2024-01-07 16:47:33,"9,712s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:47:23,2024-01-07 16:47:26,"2,779s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:47:26,2024-01-07 16:47:26,"0,145s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:47:26,2024-01-07 16:47:28,"1,610s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:47:28,2024-01-07 16:47:29,"1,289s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:47:29,2024-01-07 16:47:30,"1,067s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:47:30,2024-01-07 16:47:31,"1,190s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_source_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:47:31,2024-01-07 16:47:32,"0,928s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:47:32,2024-01-07 16:47:33,"0,694s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC2_TC3_TC4,Chrome 120.0.0.0,,,2024-01-07 16:47:33,2024-01-07 16:47:44,"11,653s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:47:33,2024-01-07 16:47:37,"3,884s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:47:37,2024-01-07 16:47:37,"0,145s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:47:37,2024-01-07 16:47:40,"3,294s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:47:40,2024-01-07 16:47:41,"0,610s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:47:41,2024-01-07 16:47:42,"1,073s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:47:42,2024-01-07 16:47:43,"1,090s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_source_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:47:43,2024-01-07 16:47:44,"0,811s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:47:44,2024-01-07 16:47:44,"0,722s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC6_TC7_TC12_TC13_TC16_TC18,Chrome 120.0.0.0,,,2024-01-07 16:48:34,2024-01-07 16:48:49,"15,055s",FAILED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:48:34,2024-01-07 16:48:37,"3,181s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:48:37,2024-01-07 16:48:37,"0,167s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:48:37,2024-01-07 16:48:39,"1,531s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:48:39,2024-01-07 16:48:40,"1,276s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:48:40,2024-01-07 16:48:41,"1,103s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_description""), description)",Chrome 120.0.0.0,,,2024-01-07 16:48:41,2024-01-07 16:48:42,"1,164s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), source_account)",Chrome 120.0.0.0,,,2024-01-07 16:48:42,2024-01-07 16:48:43,"1,073s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_source""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:48:43,2024-01-07 16:48:44,"0,940s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount""), ammount)",Chrome 120.0.0.0,,,2024-01-07 16:48:44,2024-01-07 16:48:45,"0,801s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), destination_account)",Chrome 120.0.0.0,,,2024-01-07 16:48:45,2024-01-07 16:48:46,"0,745s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_destination""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:48:46,2024-01-07 16:48:47,"0,932s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount_foreign_amount""), foreign_account)",Chrome 120.0.0.0,,,2024-01-07 16:48:47,2024-01-07 16:48:48,"0,774s",PASSED
+"click(findTestObject(""create_new_with_drawal/button_Submit""))",Chrome 120.0.0.0,,,2024-01-07 16:48:48,2024-01-07 16:48:48,"0,377s",PASSED
+"verifyTextPresent(expected_message, true)",Chrome 120.0.0.0,,,2024-01-07 16:48:48,2024-01-07 16:48:49,"0,976s",FAILED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC6_TC7_TC12_TC13_TC16_TC18,Chrome 120.0.0.0,,,2024-01-07 16:48:49,2024-01-07 16:49:08,"19,049s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:48:49,2024-01-07 16:48:53,"4,124s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:48:53,2024-01-07 16:48:53,"0,150s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:48:53,2024-01-07 16:48:55,"1,608s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:48:55,2024-01-07 16:48:56,"1,280s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:48:56,2024-01-07 16:48:59,"2,281s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_description""), description)",Chrome 120.0.0.0,,,2024-01-07 16:48:59,2024-01-07 16:49:00,"1,056s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), source_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:00,2024-01-07 16:49:01,"1,042s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_source""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:49:01,2024-01-07 16:49:02,"1,024s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount""), ammount)",Chrome 120.0.0.0,,,2024-01-07 16:49:02,2024-01-07 16:49:02,"0,777s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), destination_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:02,2024-01-07 16:49:03,"0,756s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_destination""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:49:03,2024-01-07 16:49:04,"0,944s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount_foreign_amount""), foreign_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:04,2024-01-07 16:49:05,"0,792s",PASSED
+"click(findTestObject(""create_new_with_drawal/button_Submit""))",Chrome 120.0.0.0,,,2024-01-07 16:49:05,2024-01-07 16:49:05,"0,362s",PASSED
+"verifyTextPresent(expected_message, true)",Chrome 120.0.0.0,,,2024-01-07 16:49:05,2024-01-07 16:49:07,"2,134s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:49:07,2024-01-07 16:49:08,"0,707s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC6_TC7_TC12_TC13_TC16_TC18,Chrome 120.0.0.0,,,2024-01-07 16:49:08,2024-01-07 16:49:23,"14,706s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:49:08,2024-01-07 16:49:11,"2,437s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:49:11,2024-01-07 16:49:11,"0,149s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:49:11,2024-01-07 16:49:12,"1,518s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:49:12,2024-01-07 16:49:14,"1,324s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:49:14,2024-01-07 16:49:15,"1,081s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_description""), description)",Chrome 120.0.0.0,,,2024-01-07 16:49:15,2024-01-07 16:49:16,"1,062s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), source_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:16,2024-01-07 16:49:17,"1,059s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_source""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:49:17,2024-01-07 16:49:18,"0,916s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount""), ammount)",Chrome 120.0.0.0,,,2024-01-07 16:49:18,2024-01-07 16:49:19,"0,769s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), destination_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:19,2024-01-07 16:49:19,"0,739s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_destination""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:49:19,2024-01-07 16:49:20,"0,931s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount_foreign_amount""), foreign_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:20,2024-01-07 16:49:21,"0,803s",PASSED
+"click(findTestObject(""create_new_with_drawal/button_Submit""))",Chrome 120.0.0.0,,,2024-01-07 16:49:21,2024-01-07 16:49:21,"0,377s",PASSED
+"verifyTextPresent(expected_message, true)",Chrome 120.0.0.0,,,2024-01-07 16:49:21,2024-01-07 16:49:22,"0,836s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:49:22,2024-01-07 16:49:23,"0,689s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC6_TC7_TC12_TC13_TC16_TC18,Chrome 120.0.0.0,,,2024-01-07 16:49:23,2024-01-07 16:49:39,"16,450s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:49:23,2024-01-07 16:49:25,"2,421s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:49:25,2024-01-07 16:49:26,"0,142s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:49:26,2024-01-07 16:49:27,"1,590s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:49:27,2024-01-07 16:49:28,"1,303s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:49:28,2024-01-07 16:49:30,"1,165s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_description""), description)",Chrome 120.0.0.0,,,2024-01-07 16:49:30,2024-01-07 16:49:31,"1,143s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), source_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:31,2024-01-07 16:49:32,"1,045s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_source""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:49:32,2024-01-07 16:49:33,"1,031s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount""), ammount)",Chrome 120.0.0.0,,,2024-01-07 16:49:33,2024-01-07 16:49:34,"0,796s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), destination_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:34,2024-01-07 16:49:34,"0,746s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_destination""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:49:34,2024-01-07 16:49:35,"1,026s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount_foreign_amount""), foreign_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:35,2024-01-07 16:49:36,"0,774s",PASSED
+"click(findTestObject(""create_new_with_drawal/button_Submit""))",Chrome 120.0.0.0,,,2024-01-07 16:49:36,2024-01-07 16:49:37,"0,374s",PASSED
+"verifyTextPresent(expected_message, true)",Chrome 120.0.0.0,,,2024-01-07 16:49:37,2024-01-07 16:49:39,"2,165s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:49:39,2024-01-07 16:49:39,"0,717s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC6_TC7_TC12_TC13_TC16_TC18,Chrome 120.0.0.0,,,2024-01-07 16:49:39,2024-01-07 16:49:56,"16,573s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:49:39,2024-01-07 16:49:42,"2,498s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:49:42,2024-01-07 16:49:42,"0,139s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:49:42,2024-01-07 16:49:44,"1,749s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:49:44,2024-01-07 16:49:45,"1,324s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:49:45,2024-01-07 16:49:46,"1,055s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_description""), description)",Chrome 120.0.0.0,,,2024-01-07 16:49:46,2024-01-07 16:49:47,"1,173s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), source_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:47,2024-01-07 16:49:48,"1,012s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_source""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:49:48,2024-01-07 16:49:49,"0,937s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount""), ammount)",Chrome 120.0.0.0,,,2024-01-07 16:49:49,2024-01-07 16:49:50,"0,774s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), destination_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:50,2024-01-07 16:49:51,"0,739s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_destination""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:49:51,2024-01-07 16:49:52,"1,019s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount_foreign_amount""), foreign_account)",Chrome 120.0.0.0,,,2024-01-07 16:49:52,2024-01-07 16:49:53,"0,790s",PASSED
+"click(findTestObject(""create_new_with_drawal/button_Submit""))",Chrome 120.0.0.0,,,2024-01-07 16:49:53,2024-01-07 16:49:53,"0,375s",PASSED
+"verifyTextPresent(expected_message, true)",Chrome 120.0.0.0,,,2024-01-07 16:49:53,2024-01-07 16:49:55,"2,279s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:49:55,2024-01-07 16:49:56,"0,697s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC6_TC7_TC12_TC13_TC16_TC18,Chrome 120.0.0.0,,,2024-01-07 16:49:56,2024-01-07 16:50:12,"15,794s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:49:56,2024-01-07 16:49:59,"2,714s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:49:59,2024-01-07 16:49:59,"0,136s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:49:59,2024-01-07 16:50:01,"2,471s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:50:01,2024-01-07 16:50:02,"0,502s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:50:02,2024-01-07 16:50:03,"1,198s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_description""), description)",Chrome 120.0.0.0,,,2024-01-07 16:50:03,2024-01-07 16:50:05,"1,463s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_source""), source_account)",Chrome 120.0.0.0,,,2024-01-07 16:50:05,2024-01-07 16:50:06,"1,035s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_source""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:50:06,2024-01-07 16:50:07,"1,037s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount""), ammount)",Chrome 120.0.0.0,,,2024-01-07 16:50:07,2024-01-07 16:50:07,"0,786s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), destination_account)",Chrome 120.0.0.0,,,2024-01-07 16:50:07,2024-01-07 16:50:08,"0,740s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_account_destination""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,2024-01-07 16:50:08,2024-01-07 16:50:09,"1,027s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount_foreign_amount""), foreign_account)",Chrome 120.0.0.0,,,2024-01-07 16:50:09,2024-01-07 16:50:10,"0,777s",PASSED
+"click(findTestObject(""create_new_with_drawal/button_Submit""))",Chrome 120.0.0.0,,,2024-01-07 16:50:10,2024-01-07 16:50:10,"0,368s",PASSED
+"verifyTextPresent(expected_message, true)",Chrome 120.0.0.0,,,2024-01-07 16:50:10,2024-01-07 16:50:11,"0,829s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:50:11,2024-01-07 16:50:12,"0,700s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC8_TC9_TC10,Chrome 120.0.0.0,,,2024-01-07 16:50:12,2024-01-07 16:50:23,"10,575s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:50:12,2024-01-07 16:50:15,"2,743s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:50:15,2024-01-07 16:50:15,"0,137s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:50:15,2024-01-07 16:50:17,"1,762s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:50:17,2024-01-07 16:50:18,"1,228s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:50:18,2024-01-07 16:50:19,"1,102s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:50:19,2024-01-07 16:50:20,"1,237s",PASSED
+delay(1),Chrome 120.0.0.0,,,2024-01-07 16:50:20,2024-01-07 16:50:21,"1,026s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_destination_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:50:21,2024-01-07 16:50:22,"0,350s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:50:22,2024-01-07 16:50:23,"0,693s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC8_TC9_TC10,Chrome 120.0.0.0,,,2024-01-07 16:50:23,2024-01-07 16:50:33,"10,291s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:50:23,2024-01-07 16:50:25,"2,841s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:50:25,2024-01-07 16:50:26,"0,139s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:50:26,2024-01-07 16:50:27,"1,682s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:50:27,2024-01-07 16:50:28,"1,209s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:50:28,2024-01-07 16:50:30,"1,114s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:50:30,2024-01-07 16:50:31,"1,208s",PASSED
+delay(1),Chrome 120.0.0.0,,,2024-01-07 16:50:31,2024-01-07 16:50:32,"1,012s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_destination_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:50:32,2024-01-07 16:50:32,"0,362s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:50:32,2024-01-07 16:50:33,"0,712s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC8_TC9_TC10,Chrome 120.0.0.0,,,2024-01-07 16:50:33,2024-01-07 16:50:44,"11,330s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:50:33,2024-01-07 16:50:36,"3,521s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:50:36,2024-01-07 16:50:37,"0,139s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:50:37,2024-01-07 16:50:39,"2,600s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:50:39,2024-01-07 16:50:40,"0,743s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:50:40,2024-01-07 16:50:41,"1,133s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:50:41,2024-01-07 16:50:42,"1,122s",PASSED
+delay(1),Chrome 120.0.0.0,,,2024-01-07 16:50:42,2024-01-07 16:50:43,"1,014s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_destination_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:50:43,2024-01-07 16:50:43,"0,343s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:50:43,2024-01-07 16:50:44,"0,707s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC8_TC9_TC10,Chrome 120.0.0.0,,,2024-01-07 16:50:44,2024-01-07 16:50:54,"9,940s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:50:44,2024-01-07 16:50:47,"2,660s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:50:47,2024-01-07 16:50:47,"0,136s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:50:47,2024-01-07 16:50:49,"1,999s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:50:49,2024-01-07 16:50:50,"0,723s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:50:50,2024-01-07 16:50:51,"1,135s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:50:51,2024-01-07 16:50:52,"1,171s",PASSED
+delay(1),Chrome 120.0.0.0,,,2024-01-07 16:50:52,2024-01-07 16:50:53,"1,006s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_destination_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:50:53,2024-01-07 16:50:53,"0,392s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:50:53,2024-01-07 16:50:54,"0,708s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC8_TC9_TC10,Chrome 120.0.0.0,,,2024-01-07 16:50:54,2024-01-07 16:51:04,"10,261s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:50:54,2024-01-07 16:50:57,"2,743s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:50:57,2024-01-07 16:50:57,"0,137s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:50:57,2024-01-07 16:50:59,"1,938s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:50:59,2024-01-07 16:51:00,"1,059s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:51:00,2024-01-07 16:51:01,"1,155s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_account_destination""), account_name)",Chrome 120.0.0.0,,,2024-01-07 16:51:01,2024-01-07 16:51:02,"1,160s",PASSED
+delay(1),Chrome 120.0.0.0,,,2024-01-07 16:51:02,2024-01-07 16:51:03,"1,008s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/dropdown_destination_account""), ""class"", expected_value, 0)",Chrome 120.0.0.0,,,2024-01-07 16:51:03,2024-01-07 16:51:04,"0,348s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:51:04,2024-01-07 16:51:04,"0,694s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC15,Chrome 120.0.0.0,,,2024-01-07 16:51:04,2024-01-07 16:51:18,"13,321s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:51:05,2024-01-07 16:51:09,"3,850s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:51:09,2024-01-07 16:51:09,"0,128s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:51:09,2024-01-07 16:51:11,"2,407s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:51:11,2024-01-07 16:51:12,"0,972s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:51:12,2024-01-07 16:51:13,"1,155s",PASSED
+"click(findTestObject(""create_new_with_drawal/input_date""))",Chrome 120.0.0.0,,,2024-01-07 16:51:13,2024-01-07 16:51:14,"0,826s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), month)",Chrome 120.0.0.0,,,2024-01-07 16:51:14,2024-01-07 16:51:14,"0,400s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), day)",Chrome 120.0.0.0,,,2024-01-07 16:51:14,2024-01-07 16:51:15,"0,371s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), year)",Chrome 120.0.0.0,,,2024-01-07 16:51:15,2024-01-07 16:51:15,"0,370s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), Keys.chord(RIGHT))",Chrome 120.0.0.0,,,2024-01-07 16:51:15,2024-01-07 16:51:16,"0,382s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), hour)",Chrome 120.0.0.0,,,2024-01-07 16:51:16,2024-01-07 16:51:16,"0,395s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), minute)",Chrome 120.0.0.0,,,2024-01-07 16:51:16,2024-01-07 16:51:16,"0,369s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), am_pm)",Chrome 120.0.0.0,,,2024-01-07 16:51:16,2024-01-07 16:51:17,"0,367s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/input_date""), ""value"", expected_result, 0)",Chrome 120.0.0.0,,,2024-01-07 16:51:17,2024-01-07 16:51:17,"0,356s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:51:17,2024-01-07 16:51:18,"0,689s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC15,Chrome 120.0.0.0,,,2024-01-07 16:51:18,2024-01-07 16:51:29,"11,590s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:51:18,2024-01-07 16:51:21,"2,619s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:51:21,2024-01-07 16:51:21,"0,142s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:51:21,2024-01-07 16:51:23,"2,132s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:51:23,2024-01-07 16:51:24,"1,067s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:51:24,2024-01-07 16:51:25,"1,139s",PASSED
+"click(findTestObject(""create_new_with_drawal/input_date""))",Chrome 120.0.0.0,,,2024-01-07 16:51:25,2024-01-07 16:51:26,"0,736s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), month)",Chrome 120.0.0.0,,,2024-01-07 16:51:26,2024-01-07 16:51:26,"0,425s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), day)",Chrome 120.0.0.0,,,2024-01-07 16:51:26,2024-01-07 16:51:27,"0,367s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), year)",Chrome 120.0.0.0,,,2024-01-07 16:51:27,2024-01-07 16:51:27,"0,382s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), Keys.chord(RIGHT))",Chrome 120.0.0.0,,,2024-01-07 16:51:27,2024-01-07 16:51:27,"0,381s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), hour)",Chrome 120.0.0.0,,,2024-01-07 16:51:27,2024-01-07 16:51:28,"0,391s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), minute)",Chrome 120.0.0.0,,,2024-01-07 16:51:28,2024-01-07 16:51:28,"0,368s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), am_pm)",Chrome 120.0.0.0,,,2024-01-07 16:51:28,2024-01-07 16:51:28,"0,383s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/input_date""), ""value"", expected_result, 0)",Chrome 120.0.0.0,,,2024-01-07 16:51:28,2024-01-07 16:51:29,"0,352s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:51:29,2024-01-07 16:51:29,"0,694s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC15,Chrome 120.0.0.0,,,2024-01-07 16:51:30,2024-01-07 16:51:41,"11,589s",PASSED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:51:30,2024-01-07 16:51:32,"2,757s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:51:32,2024-01-07 16:51:32,"0,142s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:51:32,2024-01-07 16:51:34,"1,689s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:51:34,2024-01-07 16:51:35,"1,311s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:51:35,2024-01-07 16:51:37,"1,142s",PASSED
+"click(findTestObject(""create_new_with_drawal/input_date""))",Chrome 120.0.0.0,,,2024-01-07 16:51:37,2024-01-07 16:51:37,"0,820s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), month)",Chrome 120.0.0.0,,,2024-01-07 16:51:37,2024-01-07 16:51:38,"0,396s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), day)",Chrome 120.0.0.0,,,2024-01-07 16:51:38,2024-01-07 16:51:38,"0,366s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), year)",Chrome 120.0.0.0,,,2024-01-07 16:51:38,2024-01-07 16:51:39,"0,405s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), Keys.chord(RIGHT))",Chrome 120.0.0.0,,,2024-01-07 16:51:39,2024-01-07 16:51:39,"0,380s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), hour)",Chrome 120.0.0.0,,,2024-01-07 16:51:39,2024-01-07 16:51:39,"0,393s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), minute)",Chrome 120.0.0.0,,,2024-01-07 16:51:39,2024-01-07 16:51:40,"0,372s",PASSED
+"sendKeys(findTestObject(""create_new_with_drawal/input_date""), am_pm)",Chrome 120.0.0.0,,,2024-01-07 16:51:40,2024-01-07 16:51:40,"0,359s",PASSED
+"verifyElementAttributeValue(findTestObject(""create_new_with_drawal/input_date""), ""value"", expected_result, 0)",Chrome 120.0.0.0,,,2024-01-07 16:51:40,2024-01-07 16:51:40,"0,343s",PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2024-01-07 16:51:40,2024-01-07 16:51:41,"0,705s",PASSED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC17,Chrome 120.0.0.0,,,2024-01-07 16:52:13,2024-01-07 16:52:23,"10,016s",FAILED
+"openBrowser(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:52:13,2024-01-07 16:52:16,"3,408s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:52:16,2024-01-07 16:52:16,"0,142s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:52:16,2024-01-07 16:52:19,"2,308s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:52:19,2024-01-07 16:52:20,"1,050s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:52:20,2024-01-07 16:52:21,"1,146s",PASSED
+"click(findTestObject(""create_new_with_drawal/button_Submit""))",Chrome 120.0.0.0,,,2024-01-07 16:52:21,2024-01-07 16:52:22,"0,862s",PASSED
+"verifyTextPresent(""Error! There was something wrong with your submission. Please check out the errors."", false)",Chrome 120.0.0.0,,,2024-01-07 16:52:22,2024-01-07 16:52:23,"1,091s",FAILED
+,,,,,,,
+Test Cases/Functional/create new transaction-withdrawals/TC19,Chrome 120.0.0.0,,,2024-01-07 16:53:02,2024-01-07 16:53:15,"13,129s",FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-07 16:53:02,2024-01-07 16:53:04,"1,815s",PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/"")",Chrome 120.0.0.0,,,2024-01-07 16:53:04,2024-01-07 16:53:06,"1,649s",PASSED
+maximizeWindow(),Chrome 120.0.0.0,,,2024-01-07 16:53:06,2024-01-07 16:53:06,"0,142s",PASSED
+"click(findTestObject(""Object Repository/login/button_login""))",Chrome 120.0.0.0,,,2024-01-07 16:53:06,2024-01-07 16:53:08,"2,259s",PASSED
+"click(findTestObject(""Object Repository/sidebar/button_sidebar""))",Chrome 120.0.0.0,,,2024-01-07 16:53:08,2024-01-07 16:53:09,"1,080s",PASSED
+"click(findTestObject(""sidebar/button_new_drawal""))",Chrome 120.0.0.0,,,2024-01-07 16:53:09,2024-01-07 16:53:10,"1,120s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_description""), ""jmunhqgowhehsfajwvaydmcpsxpfdvmfqcyccfrzsndhmloqfscatfyuxtbxheeoozubmsxznqirsahgcpkrdurrxbhflnoojfkhmucbfckgwbmvgfguyiewbrljdymnakjyamryabjuhuxtlsogyfnneoipxotzheoghdvecvjxsfdmaoartfuvygpkjsudkmszasitnhceqttjtllclpvzjegjhrmrkgttanieundkvjvuaofiigzlslfmkyqjcbuirbznyxesrpwannbkkohbjhtcwbgztbqguhmmmlzcgfnlhfadllrkmvhtymnjhxyjrnkmdgkxxzhuuhzgahchujylybntelonpvuyqjndydsourkezxbvppxymltxiegfpdcfvvqqyytpygcwogchteeaqlyiiipgxpoyzdvpdrsievnjdbulrhqdrwpdwkwuemmdycaucbevegwlkyrybesstqadvigxhvnqgotfaizcglloxoigqixlzwqzoxlvurmrximuyluuospxundqiedxdemrejwvmmazazghqyovgrpsextogfhrdsozjymaxfbeadtxykubvfioajlnccwczakftxlsrqornvlnjzlgevihctuyaiesbrsabmqsvbyqlmvjyxopoiudidqtbiujxwtstlvynbtkxwgwymvtzcbmhysczhnnhgljyruxbzcmuuwoofocrdcuszyebtubajrgwqxocgfwsebllnzrckyzrvxqsiknxlbpsrdilmlebkyjbakdivvjvkuhjddgyrryzphnjrrwvuxulgsoxnzcgqirfzimtgdcwqtbckifxkxosniahilqlbmrwqueuxqzlagnavrapkoyvudiekmolmyozjqoyhtjguildfokrnvqqntyopndfuvrlaourwfzbxxkcnwhrbdvozkcthfqlrhctjlupweaayigbevvdxgorkritelebpvmlrbkozmwvugesafmwxwlvsqmoyepsoapxqjelwivntlksilqvirovjbobhkrpltxpz"")",Chrome 120.0.0.0,,,2024-01-07 16:53:10,2024-01-07 16:53:13,"3,008s",PASSED
+"setText(findTestObject(""create_new_with_drawal/input_amount""), ""1"")",Chrome 120.0.0.0,,,2024-01-07 16:53:13,2024-01-07 16:53:14,"0,691s",PASSED
+"click(findTestObject(""create_new_with_drawal/button_Submit""))",Chrome 120.0.0.0,,,2024-01-07 16:53:14,2024-01-07 16:53:14,"0,390s",PASSED
+"verifyTextPresent(""The transactions description may not be greater than 1000 characters."", false)",Chrome 120.0.0.0,,,2024-01-07 16:53:14,2024-01-07 16:53:15,"0,969s",FAILED

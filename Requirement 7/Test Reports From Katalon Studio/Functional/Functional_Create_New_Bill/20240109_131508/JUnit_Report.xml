@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Functional_Create_New_Bill" time="310.86" tests="13" failures="3" errors="0">
+   <testsuite name="Functional_Create_New_Bill" tests="13" failures="3" errors="0" time="310.86" skipped="0" timestamp="2024-01-09 13:15:16" hostname="qui7d - MSI" id="Test Suites/Functional_Create_New_Bill">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508"/>
+         <property name="logFiles" value="C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704780967731.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704780977235.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704780985970.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704780995115.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704781075648.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704781075735.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704781185708.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704781185791.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704781199395.png, C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704781199485.png"/>
+         <property name="hostName" value="qui7d - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.237.1"/>
+         <property name="sessionId" value="6724b428991f70a46b0508fb4479cb10"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.01" time="23.927" classname="Test Cases/Functional_Create_New_Bill/TC_7.01" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:15:16 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.01: Test Cases/Functional_Create_New_Bill/TC_7.01
+
+2024-01-09 13:15:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:15:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:15:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:15:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:15:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:15:20 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/a_Demo' is clicked on
+
+2024-01-09 13:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/a_Demo' is clicked on
+
+2024-01-09 13:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/button_Sign in' is clicked on
+
+2024-01-09 13:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/button_Sign in' is clicked on
+
+2024-01-09 13:15:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/h4_New bill' is clicked on
+
+2024-01-09 13:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/h4_New bill' is clicked on
+
+2024-01-09 13:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_Name_name"), "Mercury Chigas2"): Text 'Mercury Chigas2' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Name_name'
+
+2024-01-09 13:15:26 - [MESSAGE][PASSED] - Text 'Mercury Chigas2' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Name_name'
+
+2024-01-09 13:15:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/select_Euro ()US Dollar ()"), "1", true): All options with value '1' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.1/select_Euro ()US Dollar ()'  using regular expression
+
+2024-01-09 13:15:28 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.1/select_Euro ()US Dollar ()'  using regular expression
+
+2024-01-09 13:15:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/select_Euro ()US Dollar ()"), "8", true): All options with value '8' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.1/select_Euro ()US Dollar ()'  using regular expression
+
+2024-01-09 13:15:29 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.1/select_Euro ()US Dollar ()'  using regular expression
+
+2024-01-09 13:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_Minimum amount_amount_min"), "3"): Text '3' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Minimum amount_amount_min'
+
+2024-01-09 13:15:29 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Minimum amount_amount_min'
+
+2024-01-09 13:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_Maximum amount_amount_max"), "17"): Text '17' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Maximum amount_amount_max'
+
+2024-01-09 13:15:30 - [MESSAGE][PASSED] - Text '17' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Maximum amount_amount_max'
+
+2024-01-09 13:15:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_Date_date"), "01/08/2023"): Text '01/08/2023' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Date_date'
+
+2024-01-09 13:15:31 - [MESSAGE][PASSED] - Text '01/08/2023' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Date_date'
+
+2024-01-09 13:15:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/select_dailyweeklymonthlyquarterlyevery hal_79c7c6"), "weekly", true): All options with value 'weekly' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.1/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'  using regular expression
+
+2024-01-09 13:15:32 - [MESSAGE][PASSED] - All options with value 'weekly' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.1/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'  using regular expression
+
+2024-01-09 13:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_Skip_skip"), "1"): Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Skip_skip'
+
+2024-01-09 13:15:32 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Skip_skip'
+
+2024-01-09 13:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_End date_bill_end_date"), "18/06/2023"): Text '18/06/2023' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_End date_bill_end_date'
+
+2024-01-09 13:15:33 - [MESSAGE][PASSED] - Text '18/06/2023' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_End date_bill_end_date'
+
+2024-01-09 13:15:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_Extension date_extension_date"), "19/05/2023"): Text '19/05/2023' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Extension date_extension_date'
+
+2024-01-09 13:15:34 - [MESSAGE][PASSED] - Text '19/05/2023' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Extension date_extension_date'
+
+2024-01-09 13:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/div_Optional field. The bill must be extend_15f049")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/div_Optional field. The bill must be extend_15f049' is clicked on
+
+2024-01-09 13:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/div_Optional field. The bill must be extend_15f049' is clicked on
+
+2024-01-09 13:15:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/textarea_Notes_notes"), "Yellow-brown sungazer"): Text 'Yellow-brown sungazer' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/textarea_Notes_notes'
+
+2024-01-09 13:15:35 - [MESSAGE][PASSED] - Text 'Yellow-brown sungazer' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/textarea_Notes_notes'
+
+2024-01-09 13:15:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_Attachments_attachments"), "D:\db.sql"): Text 'D:\db.sql' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Attachments_attachments'
+
+2024-01-09 13:15:35 - [MESSAGE][PASSED] - Text 'D:\db.sql' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Attachments_attachments'
+
+2024-01-09 13:15:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_Group_object_group"), "5"): Text '5' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Group_object_group'
+
+2024-01-09 13:15:36 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_Group_object_group'
+
+2024-01-09 13:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/input_After storing, return here to create _4fc2e2")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_After storing, return here to create _4fc2e2' is clicked on
+
+2024-01-09 13:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/input_After storing, return here to create _4fc2e2' is clicked on
+
+2024-01-09 13:15:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/button_Store new bill"), "Store new bill"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.1/button_Store new bill' are matched.
+
+2024-01-09 13:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.1/button_Store new bill' are matched.
+
+2024-01-09 13:15:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/button_Store new bill' is clicked on
+
+2024-01-09 13:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.1/button_Store new bill' is clicked on
+
+2024-01-09 13:15:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.1/strong_Success"), "Success!"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.1/strong_Success' are matched.
+
+2024-01-09 13:15:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.1/strong_Success' are matched.
+
+2024-01-09 13:15:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:15:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.02" time="19.139" classname="Test Cases/Functional_Create_New_Bill/TC_7.02" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:15:40 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.02: Test Cases/Functional_Create_New_Bill/TC_7.02
+
+2024-01-09 13:15:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:15:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:15:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:15:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:15:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:15:42 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/a_Demo' is clicked on
+
+2024-01-09 13:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/a_Demo' is clicked on
+
+2024-01-09 13:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/button_Sign in' is clicked on
+
+2024-01-09 13:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/button_Sign in' is clicked on
+
+2024-01-09 13:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/h4_New bill' is clicked on
+
+2024-01-09 13:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/h4_New bill' is clicked on
+
+2024-01-09 13:15:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/input_Name_name"), "Nissan Mue21"): Text 'Nissan Mue21' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Name_name'
+
+2024-01-09 13:15:51 - [MESSAGE][PASSED] - Text 'Nissan Mue21' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Name_name'
+
+2024-01-09 13:15:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/select_Euro ()US Dollar ()"), "1", true): All options with value '1' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.2/select_Euro ()US Dollar ()'  using regular expression
+
+2024-01-09 13:15:52 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.2/select_Euro ()US Dollar ()'  using regular expression
+
+2024-01-09 13:15:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/input_Minimum amount_amount_min"), "10"): Text '10' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Minimum amount_amount_min'
+
+2024-01-09 13:15:53 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Minimum amount_amount_min'
+
+2024-01-09 13:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/input_Maximum amount_amount_max"), "11"): Text '11' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Maximum amount_amount_max'
+
+2024-01-09 13:15:53 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Maximum amount_amount_max'
+
+2024-01-09 13:15:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/input_Date_date"), "12/12/2023"): Text '12/12/2023' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Date_date'
+
+2024-01-09 13:15:54 - [MESSAGE][PASSED] - Text '12/12/2023' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Date_date'
+
+2024-01-09 13:15:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/select_dailyweeklymonthlyquarterlyevery hal_79c7c6"), "weekly", true): All options with value 'weekly' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.2/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'  using regular expression
+
+2024-01-09 13:15:55 - [MESSAGE][PASSED] - All options with value 'weekly' are selected in object 'Object Repository/Functional_Create_New_Bill/TC_7.2/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'  using regular expression
+
+2024-01-09 13:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/input_Skip_skip"), "7"): Text '7' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Skip_skip'
+
+2024-01-09 13:15:56 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.2/input_Skip_skip'
+
+2024-01-09 13:15:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/button_Store new bill"), "Store new bill"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.2/button_Store new bill' are matched.
+
+2024-01-09 13:15:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.2/button_Store new bill' are matched.
+
+2024-01-09 13:15:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/button_Store new bill' is clicked on
+
+2024-01-09 13:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.2/button_Store new bill' is clicked on
+
+2024-01-09 13:15:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.2/strong_Success"), "Success!"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.2/strong_Success' are matched.
+
+2024-01-09 13:15:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.2/strong_Success' are matched.
+
+2024-01-09 13:15:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:15:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.03" time="9.144" classname="Test Cases/Functional_Create_New_Bill/TC_7.03" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Functional_Create_New_Bill/TC_7.03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at TC_7.03.run(TC_7.03:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-01-09 13:16:26 - [TEST_CASE][FAILED] - Test Cases/Functional_Create_New_Bill/TC_7.03: Test Cases/Functional_Create_New_Bill/TC_7.03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at TC_7.03.run(TC_7.03:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-01-09 13:16:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:16:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-09 13:16:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:16:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:16:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:16:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:16:28 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:16:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.3/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.3/a_Demo' is clicked on
+
+2024-01-09 13:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.3/a_Demo' is clicked on
+
+2024-01-09 13:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.3/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.3/button_Sign in' is clicked on
+
+2024-01-09 13:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.3/button_Sign in' is clicked on
+
+2024-01-09 13:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.3/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.3/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.3/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.3/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.3/h4_New bill' is clicked on
+
+2024-01-09 13:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.3/h4_New bill' is clicked on
+
+2024-01-09 13:16:35 - [TEST_STEP][FAILED] - setText(findTestObject("Page_Create new bill  Bills  Firefly III/input_Maximum amount_amount_max"), "abc"): Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at TC_7.03.run(TC_7.03:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1704538161592.run(Script1704538161592.groovy:32)
+	... 16 more
+)
+
+2024-01-09 13:16:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Create new bill  Bills  Firefly III/input_Maximum amount_amount_max' does not exist
+
+2024-01-09 13:16:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2024-01-09 13:16:35 - [MESSAGE][FAILED] - Unable to set text (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at TC_7.03.run(TC_7.03:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1704538161592.run(Script1704538161592.groovy:32)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_131508\\Functional_Create_New_Bill\\20240109_131508\\1704780995115.png]]]]></system-out>
+         <system-err><![CDATA[2024-01-09 13:16:26 - [TEST_CASE][FAILED] - Test Cases/Functional_Create_New_Bill/TC_7.03: Test Cases/Functional_Create_New_Bill/TC_7.03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at TC_7.03.run(TC_7.03:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.04" time="11.144" classname="Test Cases/Functional_Create_New_Bill/TC_7.04" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:16:39 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.04: Test Cases/Functional_Create_New_Bill/TC_7.04
+
+2024-01-09 13:16:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:16:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-09 13:16:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:16:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:16:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:16:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:16:41 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.4/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.4/a_Demo' is clicked on
+
+2024-01-09 13:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.4/a_Demo' is clicked on
+
+2024-01-09 13:16:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.4/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.4/button_Sign in' is clicked on
+
+2024-01-09 13:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.4/button_Sign in' is clicked on
+
+2024-01-09 13:16:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.4/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.4/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.4/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.4/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.4/h4_New bill' is clicked on
+
+2024-01-09 13:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.4/h4_New bill' is clicked on
+
+2024-01-09 13:16:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.4/input_Maximum amount_amount_max"), "abc"): Text 'abc' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.4/input_Maximum amount_amount_max'
+
+2024-01-09 13:16:49 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.4/input_Maximum amount_amount_max'
+
+2024-01-09 13:16:49 - [TEST_STEP][PASSED] - actual_maximum = getAttribute(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.4/input_Maximum amount_amount_max"), "value"): Attribute 'value' of object 'Object Repository/Functional_Create_New_Bill/TC_7.4/input_Maximum amount_amount_max' is: ''
+
+2024-01-09 13:16:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Functional_Create_New_Bill/TC_7.4/input_Maximum amount_amount_max' is: ''
+
+2024-01-09 13:16:49 - [TEST_STEP][PASSED] - verifyEqual(actual_maximum, expected_maximum): Actual object '' and expected object '' are equal
+
+2024-01-09 13:16:49 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2024-01-09 13:16:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:16:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.05" time="10.21" classname="Test Cases/Functional_Create_New_Bill/TC_7.05" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:16:50 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.05: Test Cases/Functional_Create_New_Bill/TC_7.05
+
+2024-01-09 13:16:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:16:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:16:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:16:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:16:51 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:16:52 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:16:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.5/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.5/a_Demo' is clicked on
+
+2024-01-09 13:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.5/a_Demo' is clicked on
+
+2024-01-09 13:16:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.5/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.5/button_Sign in' is clicked on
+
+2024-01-09 13:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.5/button_Sign in' is clicked on
+
+2024-01-09 13:16:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.5/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.5/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.5/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.5/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.5/h4_New bill' is clicked on
+
+2024-01-09 13:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.5/h4_New bill' is clicked on
+
+2024-01-09 13:16:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.5/input_Skip_skip"), "abc"): Text 'abc' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.5/input_Skip_skip'
+
+2024-01-09 13:16:59 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.5/input_Skip_skip'
+
+2024-01-09 13:16:59 - [TEST_STEP][PASSED] - actual_skips = getAttribute(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.5/input_Skip_skip"), "value"): Attribute 'value' of object 'Object Repository/Functional_Create_New_Bill/TC_7.5/input_Skip_skip' is: ''
+
+2024-01-09 13:16:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Functional_Create_New_Bill/TC_7.5/input_Skip_skip' is: ''
+
+2024-01-09 13:16:59 - [TEST_STEP][PASSED] - verifyEqual(actual_skips, expected_skips): Actual object '' and expected object '' are equal
+
+2024-01-09 13:16:59 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2024-01-09 13:16:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:17:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.06" time="11.192" classname="Test Cases/Functional_Create_New_Bill/TC_7.06" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:17:00 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.06: Test Cases/Functional_Create_New_Bill/TC_7.06
+
+2024-01-09 13:17:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:17:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:17:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:17:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:17:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:17:02 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:17:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.6/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/a_Demo' is clicked on
+
+2024-01-09 13:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/a_Demo' is clicked on
+
+2024-01-09 13:17:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.6/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/button_Sign in' is clicked on
+
+2024-01-09 13:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/button_Sign in' is clicked on
+
+2024-01-09 13:17:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.6/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:17:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.6/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/h4_New bill' is clicked on
+
+2024-01-09 13:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/h4_New bill' is clicked on
+
+2024-01-09 13:17:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.6/input_Attachments_attachments"), "D:\KTPM_Test.jpg"): Text 'D:\KTPM_Test.jpg' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.6/input_Attachments_attachments'
+
+2024-01-09 13:17:09 - [MESSAGE][PASSED] - Text 'D:\KTPM_Test.jpg' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.6/input_Attachments_attachments'
+
+2024-01-09 13:17:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.6/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/button_Store new bill' is clicked on
+
+2024-01-09 13:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.6/button_Store new bill' is clicked on
+
+2024-01-09 13:17:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.6/h1_413 Request Entity Too Large"), "413 Request Entity Too Large"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.6/h1_413 Request Entity Too Large' are matched.
+
+2024-01-09 13:17:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.6/h1_413 Request Entity Too Large' are matched.
+
+2024-01-09 13:17:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:17:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.07" time="14.37" classname="Test Cases/Functional_Create_New_Bill/TC_7.07" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Functional_Create_New_Bill/TC_7.07 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$8.call(Unknown Source)
+	at TC_7.07.run(TC_7.07:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85eaa5219f3652d000a8075f13a03d05
+*** Element info: {Using=xpath, value=//div[@id='app']/div/section[2]/div[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-01-09 13:18:18 - [TEST_CASE][FAILED] - Test Cases/Functional_Create_New_Bill/TC_7.07: Test Cases/Functional_Create_New_Bill/TC_7.07 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$8.call(Unknown Source)
+	at TC_7.07.run(TC_7.07:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85eaa5219f3652d000a8075f13a03d05
+*** Element info: {Using=xpath, value=//div[@id='app']/div/section[2]/div[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-01-09 13:18:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:18:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-09 13:18:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:18:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:18:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:18:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:18:21 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/a_Demo' is clicked on
+
+2024-01-09 13:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/a_Demo' is clicked on
+
+2024-01-09 13:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/button_Sign in' is clicked on
+
+2024-01-09 13:18:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/button_Sign in' is clicked on
+
+2024-01-09 13:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:18:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/h4_New bill' is clicked on
+
+2024-01-09 13:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/h4_New bill' is clicked on
+
+2024-01-09 13:18:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/input_Minimum amount_amount_min"), "21"): Text '21' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.7/input_Minimum amount_amount_min'
+
+2024-01-09 13:18:28 - [MESSAGE][PASSED] - Text '21' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.7/input_Minimum amount_amount_min'
+
+2024-01-09 13:18:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/input_Maximum amount_amount_max"), "10"): Text '10' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.7/input_Maximum amount_amount_max'
+
+2024-01-09 13:18:28 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.7/input_Maximum amount_amount_max'
+
+2024-01-09 13:18:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/button_Store new bill"), "Store new bill"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.7/button_Store new bill' are matched.
+
+2024-01-09 13:18:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.7/button_Store new bill' are matched.
+
+2024-01-09 13:18:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/input_Name_name"), "Hoe Nhinho112"): Text 'Hoe Nhinho112' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.7/input_Name_name'
+
+2024-01-09 13:18:29 - [MESSAGE][PASSED] - Text 'Hoe Nhinho112' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.7/input_Name_name'
+
+2024-01-09 13:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/button_Store new bill' is clicked on
+
+2024-01-09 13:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.7/button_Store new bill' is clicked on
+
+2024-01-09 13:18:31 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/strong_Success"), 0): Web element with id: 'Object Repository/Functional_Create_New_Bill/TC_7.7/strong_Success' located by 'By.xpath: //div[@id='app']/div/section[2]/div[2]/strong' is not present after '30' second(s)
+
+2024-01-09 13:18:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-09 13:18:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Functional_Create_New_Bill/TC_7.7/strong_Success' located by 'By.xpath: //div[@id='app']/div/section[2]/div[2]/strong' is not present after '30' second(s)
+
+2024-01-09 13:18:31 - [TEST_STEP][FAILED] - verifyElementNotVisible(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh")): Unable to verify object 'Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$8.call(Unknown Source)
+	at TC_7.07.run(TC_7.07:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85eaa5219f3652d000a8075f13a03d05
+*** Element info: {Using=xpath, value=//div[@id='app']/div/section[2]/div[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$8.call(Unknown Source)
+	at Script1704538177341.run(Script1704538177341.groovy:44)
+	... 16 more
+)
+
+2024-01-09 13:18:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh'. Try using Self-healing.
+
+2024-01-09 13:18:33 - [MESSAGE][WARNING] - [SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85eaa5219f3652d000a8075f13a03d05
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='this page'])[1]/following::div[1]}
+
+2024-01-09 13:18:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2024-01-09 13:18:33 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$8.call(Unknown Source)
+	at TC_7.07.run(TC_7.07:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85eaa5219f3652d000a8075f13a03d05
+*** Element info: {Using=xpath, value=//div[@id='app']/div/section[2]/div[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$8.call(Unknown Source)
+	at Script1704538177341.run(Script1704538177341.groovy:44)
+	... 16 more
+)]]></system-out>
+         <system-err><![CDATA[2024-01-09 13:18:18 - [TEST_CASE][FAILED] - Test Cases/Functional_Create_New_Bill/TC_7.07: Test Cases/Functional_Create_New_Bill/TC_7.07 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Functional_Create_New_Bill/TC_7.7/div_CloseSuccessStored new bill Hoe hanh' is NOT visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:405)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$8.call(Unknown Source)
+	at TC_7.07.run(TC_7.07:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63328}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85eaa5219f3652d000a8075f13a03d05
+*** Element info: {Using=xpath, value=//div[@id='app']/div/section[2]/div[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.doCall(VerifyElementNotVisibleKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword$_verifyElementNotVisible_closure1.call(VerifyElementNotVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.08" time="14.066" classname="Test Cases/Functional_Create_New_Bill/TC_7.08" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:18:40 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.08: Test Cases/Functional_Create_New_Bill/TC_7.08
+
+2024-01-09 13:18:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:18:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-09 13:18:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:18:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:18:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:18:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:18:42 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/a_Demo' is clicked on
+
+2024-01-09 13:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/a_Demo' is clicked on
+
+2024-01-09 13:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/button_Sign in' is clicked on
+
+2024-01-09 13:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/button_Sign in' is clicked on
+
+2024-01-09 13:18:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/h4_New bill' is clicked on
+
+2024-01-09 13:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/h4_New bill' is clicked on
+
+2024-01-09 13:18:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/input_Name_name"), "1235"): Text '1235' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.8/input_Name_name'
+
+2024-01-09 13:18:49 - [MESSAGE][PASSED] - Text '1235' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.8/input_Name_name'
+
+2024-01-09 13:18:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/input_Minimum amount_amount_min"), "1"): Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.8/input_Minimum amount_amount_min'
+
+2024-01-09 13:18:50 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.8/input_Minimum amount_amount_min'
+
+2024-01-09 13:18:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/input_Maximum amount_amount_max"), "2"): Text '2' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.8/input_Maximum amount_amount_max'
+
+2024-01-09 13:18:51 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.8/input_Maximum amount_amount_max'
+
+2024-01-09 13:18:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/button_Store new bill"), "Store new bill"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.8/button_Store new bill' are matched.
+
+2024-01-09 13:18:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.8/button_Store new bill' are matched.
+
+2024-01-09 13:18:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/button_Store new bill' is clicked on
+
+2024-01-09 13:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.8/button_Store new bill' is clicked on
+
+2024-01-09 13:18:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.8/strong_Success"), "Success!"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.8/strong_Success' are matched.
+
+2024-01-09 13:18:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.8/strong_Success' are matched.
+
+2024-01-09 13:18:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:18:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.09" time="12.702" classname="Test Cases/Functional_Create_New_Bill/TC_7.09" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:18:54 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.09: Test Cases/Functional_Create_New_Bill/TC_7.09
+
+2024-01-09 13:18:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:18:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:18:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:18:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:18:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:18:56 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/a_Demo' is clicked on
+
+2024-01-09 13:18:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/a_Demo' is clicked on
+
+2024-01-09 13:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/button_Sign in' is clicked on
+
+2024-01-09 13:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/button_Sign in' is clicked on
+
+2024-01-09 13:19:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:19:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/h4_New bill' is clicked on
+
+2024-01-09 13:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/h4_New bill' is clicked on
+
+2024-01-09 13:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/input_Minimum amount_amount_min"), "1"): Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.9/input_Minimum amount_amount_min'
+
+2024-01-09 13:19:03 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.9/input_Minimum amount_amount_min'
+
+2024-01-09 13:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/input_Maximum amount_amount_max"), "2"): Text '2' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.9/input_Maximum amount_amount_max'
+
+2024-01-09 13:19:04 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.9/input_Maximum amount_amount_max'
+
+2024-01-09 13:19:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/button_Store new bill"), "Store new bill"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.9/button_Store new bill' are matched.
+
+2024-01-09 13:19:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.9/button_Store new bill' are matched.
+
+2024-01-09 13:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/button_Store new bill' is clicked on
+
+2024-01-09 13:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.9/button_Store new bill' is clicked on
+
+2024-01-09 13:19:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.9/p_The name field is required"), "The name field is required."): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.9/p_The name field is required' are matched.
+
+2024-01-09 13:19:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.9/p_The name field is required' are matched.
+
+2024-01-09 13:19:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:19:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.10" time="12.564" classname="Test Cases/Functional_Create_New_Bill/TC_7.10" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:19:06 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.10: Test Cases/Functional_Create_New_Bill/TC_7.10
+
+2024-01-09 13:19:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:19:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:19:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:19:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:19:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:19:09 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.10/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/a_Demo' is clicked on
+
+2024-01-09 13:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/a_Demo' is clicked on
+
+2024-01-09 13:19:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.10/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/button_Sign in' is clicked on
+
+2024-01-09 13:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/button_Sign in' is clicked on
+
+2024-01-09 13:19:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.10/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:19:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.10/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/h4_New bill' is clicked on
+
+2024-01-09 13:19:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/h4_New bill' is clicked on
+
+2024-01-09 13:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.10/input_Name_name"), "joe thanh"): Text 'joe thanh' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.10/input_Name_name'
+
+2024-01-09 13:19:16 - [MESSAGE][PASSED] - Text 'joe thanh' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.10/input_Name_name'
+
+2024-01-09 13:19:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.10/input_Maximum amount_amount_max"), "3"): Text '3' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.10/input_Maximum amount_amount_max'
+
+2024-01-09 13:19:17 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.10/input_Maximum amount_amount_max'
+
+2024-01-09 13:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.10/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/button_Store new bill' is clicked on
+
+2024-01-09 13:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.10/button_Store new bill' is clicked on
+
+2024-01-09 13:19:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.10/p_The minimum amount field is required"), "The minimum amount field is required."): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.10/p_The minimum amount field is required' are matched.
+
+2024-01-09 13:19:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.10/p_The minimum amount field is required' are matched.
+
+2024-01-09 13:19:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:19:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.11" time="12.292" classname="Test Cases/Functional_Create_New_Bill/TC_7.11" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:19:19 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.11: Test Cases/Functional_Create_New_Bill/TC_7.11
+
+2024-01-09 13:19:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:19:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:19:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:19:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:19:20 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:19:21 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:19:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/a_Demo' is clicked on
+
+2024-01-09 13:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/a_Demo' is clicked on
+
+2024-01-09 13:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/button_Sign in' is clicked on
+
+2024-01-09 13:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/button_Sign in' is clicked on
+
+2024-01-09 13:19:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/h4_New bill' is clicked on
+
+2024-01-09 13:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/h4_New bill' is clicked on
+
+2024-01-09 13:19:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/input_Name_name"), "Joe gia lanh"): Text 'Joe gia lanh' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.11/input_Name_name'
+
+2024-01-09 13:19:28 - [MESSAGE][PASSED] - Text 'Joe gia lanh' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.11/input_Name_name'
+
+2024-01-09 13:19:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/input_Minimum amount_amount_min"), "1"): Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.11/input_Minimum amount_amount_min'
+
+2024-01-09 13:19:29 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.11/input_Minimum amount_amount_min'
+
+2024-01-09 13:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/button_Store new bill' is clicked on
+
+2024-01-09 13:19:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.11/button_Store new bill' is clicked on
+
+2024-01-09 13:19:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/p_The maximum amount field is required"), "The maximum amount field is required."): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.11/p_The maximum amount field is required' are matched.
+
+2024-01-09 13:19:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.11/p_The maximum amount field is required' are matched.
+
+2024-01-09 13:19:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.11/small_Create new bill"), "Create new bill"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.11/small_Create new bill' are matched.
+
+2024-01-09 13:19:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.11/small_Create new bill' are matched.
+
+2024-01-09 13:19:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:19:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.12" time="2.67" classname="Test Cases/Functional_Create_New_Bill/TC_7.12" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Functional_Create_New_Bill/TC_7.12 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_7.12.run(TC_7.12:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3622fba61f3a93790aa2f7973ebd78d
+*** Element info: {Using=xpath, value=//div[@id='navbarResponsive']/ul/li/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2024-01-09 13:20:03 - [TEST_CASE][FAILED] - Test Cases/Functional_Create_New_Bill/TC_7.12: Test Cases/Functional_Create_New_Bill/TC_7.12 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_7.12.run(TC_7.12:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3622fba61f3a93790aa2f7973ebd78d
+*** Element info: {Using=xpath, value=//div[@id='navbarResponsive']/ul/li/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2024-01-09 13:20:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:20:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-09 13:20:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:20:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:20:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:20:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:20:05 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:20:05 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo")): Unable to click on object 'Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_7.12.run(TC_7.12:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3622fba61f3a93790aa2f7973ebd78d
+*** Element info: {Using=xpath, value=//div[@id='navbarResponsive']/ul/li/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1704538432113.run(Script1704538432113.groovy:24)
+	... 16 more
+)
+
+2024-01-09 13:20:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo'. Try using Self-healing.
+
+2024-01-09 13:20:05 - [MESSAGE][WARNING] - [SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3622fba61f3a93790aa2f7973ebd78d
+*** Element info: {Using=xpath, value=//div[@id='navbarResponsive']/ul/li/a}
+
+2024-01-09 13:20:05 - [MESSAGE][WARNING] - [SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3622fba61f3a93790aa2f7973ebd78d
+*** Element info: {Using=xpath, value=//*[@href = 'https://demo.firefly-iii.org/' and (text() = 'Demo' or . = 'Demo')]}
+
+2024-01-09 13:20:05 - [MESSAGE][WARNING] - [SELF-HEALING] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3622fba61f3a93790aa2f7973ebd78d
+*** Element info: {Using=css selector, value=a.nav-link.me-lg-3}
+
+2024-01-09 13:20:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2024-01-09 13:20:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_7.12.run(TC_7.12:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3622fba61f3a93790aa2f7973ebd78d
+*** Element info: {Using=xpath, value=//div[@id='navbarResponsive']/ul/li/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1704538432113.run(Script1704538432113.groovy:24)
+	... 16 more
+)]]></system-out>
+         <system-err><![CDATA[2024-01-09 13:20:03 - [TEST_CASE][FAILED] - Test Cases/Functional_Create_New_Bill/TC_7.12: Test Cases/Functional_Create_New_Bill/TC_7.12 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Functional_Create_New_Bill/TC_7.12/a_Demo'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_7.12.run(TC_7.12:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.200)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'MSI', ip: '192.168.237.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.200, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\qui7d\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3622fba61f3a93790aa2f7973ebd78d
+*** Element info: {Using=xpath, value=//div[@id='navbarResponsive']/ul/li/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Functional_Create_New_Bill/TC_7.13" time="15.613" classname="Test Cases/Functional_Create_New_Bill/TC_7.13" status="PASSED">
+         <system-out><![CDATA[2024-01-09 13:20:11 - [TEST_CASE][PASSED] - Test Cases/Functional_Create_New_Bill/TC_7.13: Test Cases/Functional_Create_New_Bill/TC_7.13
+
+2024-01-09 13:20:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 13:20:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-09 13:20:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 13:20:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 13:20:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 13:20:13 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:20:14 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 13:20:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/a_Demo")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/a_Demo' is clicked on
+
+2024-01-09 13:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/a_Demo' is clicked on
+
+2024-01-09 13:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/button_Sign in")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/button_Sign in' is clicked on
+
+2024-01-09 13:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/button_Sign in' is clicked on
+
+2024-01-09 13:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 13:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/h4_New bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/h4_New bill' is clicked on
+
+2024-01-09 13:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/h4_New bill' is clicked on
+
+2024-01-09 13:20:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/input_Name_name"), "chikagos mikoli"): Text 'chikagos mikoli' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.13/input_Name_name'
+
+2024-01-09 13:20:21 - [MESSAGE][PASSED] - Text 'chikagos mikoli' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.13/input_Name_name'
+
+2024-01-09 13:20:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/input_Minimum amount_amount_min"), "1"): Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.13/input_Minimum amount_amount_min'
+
+2024-01-09 13:20:22 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.13/input_Minimum amount_amount_min'
+
+2024-01-09 13:20:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/input_Maximum amount_amount_max"), "2"): Text '2' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.13/input_Maximum amount_amount_max'
+
+2024-01-09 13:20:22 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Functional_Create_New_Bill/TC_7.13/input_Maximum amount_amount_max'
+
+2024-01-09 13:20:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/input_After storing, return here to create _4fc2e2"), ""): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.13/input_After storing, return here to create _4fc2e2' are matched.
+
+2024-01-09 13:20:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.13/input_After storing, return here to create _4fc2e2' are matched.
+
+2024-01-09 13:20:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/button_Store new bill"), "Store new bill"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.13/button_Store new bill' are matched.
+
+2024-01-09 13:20:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.13/button_Store new bill' are matched.
+
+2024-01-09 13:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/button_Store new bill")): Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/button_Store new bill' is clicked on
+
+2024-01-09 13:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Functional_Create_New_Bill/TC_7.13/button_Store new bill' is clicked on
+
+2024-01-09 13:20:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/small_Make a new rule"), "Make a new rule"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.13/small_Make a new rule' are matched.
+
+2024-01-09 13:20:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.13/small_Make a new rule' are matched.
+
+2024-01-09 13:20:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Functional_Create_New_Bill/TC_7.13/strong_Success"), "Success!"): Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.13/strong_Success' are matched.
+
+2024-01-09 13:20:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Functional_Create_New_Bill/TC_7.13/strong_Success' are matched.
+
+2024-01-09 13:20:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 13:20:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-09 13:15:16 - [TEST_SUITE][FAILED] - Functional_Create_New_Bill: Test Cases/Functional_Create_New_Bill/TC_7.03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at TC_7.03.run(TC_7.03:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-01-09 13:15:16 - [TEST_SUITE][FAILED] - Functional_Create_New_Bill: Test Cases/Functional_Create_New_Bill/TC_7.03 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at TC_7.03.run(TC_7.03:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1704780908525.run(TempTestSuite1704780908525.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:45)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

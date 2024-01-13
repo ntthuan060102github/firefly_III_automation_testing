@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_10.11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1dab78d-95aa-4cfa-97b4-921bf5996f79</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ef63971-7faf-4114-b457-4ed277efa811</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36de85d7-8d2d-4479-8bee-2875fa8c2e76</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ef63971-7faf-4114-b457-4ed277efa811</id>
+      <masked>false</masked>
+      <name>actual_BIC</name>
+   </variable>
+   <variable>
+      <defaultValue>'0.254.112.210'</defaultValue>
+      <description></description>
+      <id>36de85d7-8d2d-4479-8bee-2875fa8c2e76</id>
+      <masked>false</masked>
+      <name>expected_BIC</name>
+   </variable>
+</TestCaseEntity>

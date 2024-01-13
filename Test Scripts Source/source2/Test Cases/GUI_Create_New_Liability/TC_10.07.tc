@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_10.07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55791348-0280-499e-87dd-662b1abab431</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65b7760f-fe25-4d88-975b-c4817402b150</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f783129f-281e-4030-8fbf-3391c4856333</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65b7760f-fe25-4d88-975b-c4817402b150</id>
+      <masked>false</masked>
+      <name>actual_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'2023-07-06'</defaultValue>
+      <description></description>
+      <id>f783129f-281e-4030-8fbf-3391c4856333</id>
+      <masked>false</masked>
+      <name>expected_date</name>
+   </variable>
+</TestCaseEntity>

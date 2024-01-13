@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_TC3_TC4</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e542921e-918a-4a9b-b954-5404bb9a96c3</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c248a485-8f93-4564-9be3-68d3181bdb79</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Functional/new transaction_transfer/transfer_sheet1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>c248a485-8f93-4564-9be3-68d3181bdb79</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>account_name</value>
+      <variableId>84a9a37b-c387-4055-83d3-2543baa1edd8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c248a485-8f93-4564-9be3-68d3181bdb79</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>bf4ebf35-9711-4963-8608-bc2680aaf097</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84a9a37b-c387-4055-83d3-2543baa1edd8</id>
+      <masked>false</masked>
+      <name>account_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf4ebf35-9711-4963-8608-bc2680aaf097</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

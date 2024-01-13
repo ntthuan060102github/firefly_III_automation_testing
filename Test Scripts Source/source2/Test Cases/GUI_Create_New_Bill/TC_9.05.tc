@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_9.05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c65e5599-6a6d-4bf1-b741-f6d18dc1ac1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0dcbf0b9-7faa-4b82-ab6b-aa75736c9148</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>942e1384-8836-4dcc-8042-3f8f2a4ff32a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0dcbf0b9-7faa-4b82-ab6b-aa75736c9148</id>
+      <masked>false</masked>
+      <name>actual_maximum_amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'13'</defaultValue>
+      <description></description>
+      <id>942e1384-8836-4dcc-8042-3f8f2a4ff32a</id>
+      <masked>false</masked>
+      <name>expected_maximum_amount</name>
+   </variable>
+</TestCaseEntity>

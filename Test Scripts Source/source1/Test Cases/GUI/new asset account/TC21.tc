@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4966b39-3997-4387-be09-d5cbda7f012f</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e6f3ff7e-3f0d-47cf-aa9e-e7848e85dece</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/GUI_Usability/new asset account/input_note</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e6f3ff7e-3f0d-47cf-aa9e-e7848e85dece</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>bcbc6684-58b0-4e7b-9291-ba8c5a2bedf8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ff739b0-f485-45c3-998f-c5f49862eab3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e6f3ff7e-3f0d-47cf-aa9e-e7848e85dece</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>test_value</value>
+      <variableId>eace1ce1-4edb-4017-9229-2c28d504d35e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bcbc6684-58b0-4e7b-9291-ba8c5a2bedf8</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ff739b0-f485-45c3-998f-c5f49862eab3</id>
+      <masked>false</masked>
+      <name>actual_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eace1ce1-4edb-4017-9229-2c28d504d35e</id>
+      <masked>false</masked>
+      <name>test_value</name>
+   </variable>
+</TestCaseEntity>

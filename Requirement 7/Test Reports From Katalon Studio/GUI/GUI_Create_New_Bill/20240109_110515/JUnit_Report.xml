@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GUI_Create_New_Bill" time="153.215" tests="15" failures="0" errors="0">
+   <testsuite name="GUI_Create_New_Bill" tests="15" failures="0" errors="0" time="153.215" skipped="0" timestamp="2024-01-09 11:05:23" hostname="qui7d - MSI" id="Test Suites/GUI_Create_New_Bill">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_110515\\GUI_Create_New_Bill\\20240109_110515"/>
+         <property name="logFiles" value="C:\\Users\\qui7d\\Katalon Studio\\Katalon_Bill_Liability\\Reports\\20240109_110515\\GUI_Create_New_Bill\\20240109_110515\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="qui7d - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.237.1"/>
+         <property name="sessionId" value="cd1cb94c06767e76af3c4483a092ba45"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.01" time="11.432" classname="Test Cases/GUI_Create_New_Bill/TC_9.01" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:05:23 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.01: Test Cases/GUI_Create_New_Bill/TC_9.01
+
+2024-01-09 11:05:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:05:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:05:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:05:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:05:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:05:27 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:05:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.01/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/a_Demo' is clicked on
+
+2024-01-09 11:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/a_Demo' is clicked on
+
+2024-01-09 11:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.01/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/button_Sign in' is clicked on
+
+2024-01-09 11:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/button_Sign in' is clicked on
+
+2024-01-09 11:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.01/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:05:32 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill' is right clicked on
+
+2024-01-09 11:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill' is right clicked on
+
+2024-01-09 11:05:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill"), "New bill"): Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill' are matched.
+
+2024-01-09 11:05:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill' are matched.
+
+2024-01-09 11:05:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill' is clicked on
+
+2024-01-09 11:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.01/h4_New bill' is clicked on
+
+2024-01-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.01/small_Create new bill"), "Create new bill"): Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.01/small_Create new bill' are matched.
+
+2024-01-09 11:05:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.01/small_Create new bill' are matched.
+
+2024-01-09 11:05:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:05:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.02" time="9.466" classname="Test Cases/GUI_Create_New_Bill/TC_9.02" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:05:35 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.02: Test Cases/GUI_Create_New_Bill/TC_9.02
+
+2024-01-09 11:05:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:05:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:05:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:05:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:05:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:05:37 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:05:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.02/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.02/a_Demo' is clicked on
+
+2024-01-09 11:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.02/a_Demo' is clicked on
+
+2024-01-09 11:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.02/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.02/button_Sign in' is clicked on
+
+2024-01-09 11:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.02/button_Sign in' is clicked on
+
+2024-01-09 11:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.02/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.02/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.02/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:05:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.02/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.02/h4_New bill' is clicked on
+
+2024-01-09 11:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.02/h4_New bill' is clicked on
+
+2024-01-09 11:05:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.02/input_Name_name"), "Nissan"): Text 'Nissan' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.02/input_Name_name'
+
+2024-01-09 11:05:43 - [MESSAGE][PASSED] - Text 'Nissan' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.02/input_Name_name'
+
+2024-01-09 11:05:43 - [TEST_STEP][PASSED] - actual_name = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.02/input_Name_name"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.02/input_Name_name' is: 'Nissan'
+
+2024-01-09 11:05:44 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.02/input_Name_name' is: 'Nissan'
+
+2024-01-09 11:05:44 - [TEST_STEP][PASSED] - verifyEqual(actual_name, expected_name): Actual object 'Nissan' and expected object 'Nissan' are equal
+
+2024-01-09 11:05:44 - [MESSAGE][PASSED] - Actual object 'Nissan' and expected object 'Nissan' are equal
+
+2024-01-09 11:05:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:05:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.03" time="10.485" classname="Test Cases/GUI_Create_New_Bill/TC_9.03" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:05:44 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.03: Test Cases/GUI_Create_New_Bill/TC_9.03
+
+2024-01-09 11:05:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:05:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:05:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:05:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:05:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:05:47 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.03/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.03/a_Demo' is clicked on
+
+2024-01-09 11:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.03/a_Demo' is clicked on
+
+2024-01-09 11:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.03/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.03/button_Sign in' is clicked on
+
+2024-01-09 11:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.03/button_Sign in' is clicked on
+
+2024-01-09 11:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.03/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.03/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.03/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.03/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.03/h4_New bill' is clicked on
+
+2024-01-09 11:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.03/h4_New bill' is clicked on
+
+2024-01-09 11:05:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.03/select_Chinese yuan ()Euro ()"), "1", true): All options with value '1' are selected in object 'Object Repository/GUI_Create_New_Bill/TC_9.03/select_Chinese yuan ()Euro ()'  using regular expression
+
+2024-01-09 11:05:54 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/GUI_Create_New_Bill/TC_9.03/select_Chinese yuan ()Euro ()'  using regular expression
+
+2024-01-09 11:05:54 - [TEST_STEP][PASSED] - actual_currency = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.03/select_Chinese yuan ()Euro ()"), "value", STOP_ON_FAILURE): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.03/select_Chinese yuan ()Euro ()' is: '1'
+
+2024-01-09 11:05:54 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.03/select_Chinese yuan ()Euro ()' is: '1'
+
+2024-01-09 11:05:54 - [TEST_STEP][PASSED] - verifyEqual(actual_currency, expected_currency): Actual object '1' and expected object '1' are equal
+
+2024-01-09 11:05:54 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2024-01-09 11:05:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:05:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.04" time="9.983" classname="Test Cases/GUI_Create_New_Bill/TC_9.04" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:05:55 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.04: Test Cases/GUI_Create_New_Bill/TC_9.04
+
+2024-01-09 11:05:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:05:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:05:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:05:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:05:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:05:57 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.04/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.04/a_Demo' is clicked on
+
+2024-01-09 11:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.04/a_Demo' is clicked on
+
+2024-01-09 11:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.04/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.04/button_Sign in' is clicked on
+
+2024-01-09 11:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.04/button_Sign in' is clicked on
+
+2024-01-09 11:06:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.04/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.04/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.04/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.04/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.04/h4_New bill' is clicked on
+
+2024-01-09 11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.04/h4_New bill' is clicked on
+
+2024-01-09 11:06:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.04/input_Minimum amount_amount_min"), "7"): Text '7' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.04/input_Minimum amount_amount_min'
+
+2024-01-09 11:06:04 - [MESSAGE][PASSED] - Text '7' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.04/input_Minimum amount_amount_min'
+
+2024-01-09 11:06:04 - [TEST_STEP][PASSED] - actual_minimum_amount = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.04/input_Minimum amount_amount_min"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.04/input_Minimum amount_amount_min' is: '7'
+
+2024-01-09 11:06:04 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.04/input_Minimum amount_amount_min' is: '7'
+
+2024-01-09 11:06:04 - [TEST_STEP][PASSED] - verifyEqual(actual_minimum_amount, expected_minimum_amount): Actual object '7' and expected object '7' are equal
+
+2024-01-09 11:06:04 - [MESSAGE][PASSED] - Actual object '7' and expected object '7' are equal
+
+2024-01-09 11:06:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:06:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.05" time="9.537" classname="Test Cases/GUI_Create_New_Bill/TC_9.05" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:06:05 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.05: Test Cases/GUI_Create_New_Bill/TC_9.05
+
+2024-01-09 11:06:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:06:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:06:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:06:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:06:06 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:07 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.05/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.05/a_Demo' is clicked on
+
+2024-01-09 11:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.05/a_Demo' is clicked on
+
+2024-01-09 11:06:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.05/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.05/button_Sign in' is clicked on
+
+2024-01-09 11:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.05/button_Sign in' is clicked on
+
+2024-01-09 11:06:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.05/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.05/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.05/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.05/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.05/h4_New bill' is clicked on
+
+2024-01-09 11:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.05/h4_New bill' is clicked on
+
+2024-01-09 11:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.05/input_Maximum amount_amount_max"), "13"): Text '13' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.05/input_Maximum amount_amount_max'
+
+2024-01-09 11:06:13 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.05/input_Maximum amount_amount_max'
+
+2024-01-09 11:06:13 - [TEST_STEP][PASSED] - actual_maximum_amount = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.05/input_Maximum amount_amount_max"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.05/input_Maximum amount_amount_max' is: '13'
+
+2024-01-09 11:06:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.05/input_Maximum amount_amount_max' is: '13'
+
+2024-01-09 11:06:14 - [TEST_STEP][PASSED] - verifyEqual(actual_maximum_amount, expected_maximum_amount): Actual object '13' and expected object '13' are equal
+
+2024-01-09 11:06:14 - [MESSAGE][PASSED] - Actual object '13' and expected object '13' are equal
+
+2024-01-09 11:06:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:06:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.06" time="9.622" classname="Test Cases/GUI_Create_New_Bill/TC_9.06" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:06:14 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.06: Test Cases/GUI_Create_New_Bill/TC_9.06
+
+2024-01-09 11:06:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:06:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:06:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:06:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:06:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:16 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.06/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/a_Demo' is clicked on
+
+2024-01-09 11:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/a_Demo' is clicked on
+
+2024-01-09 11:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.06/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/button_Sign in' is clicked on
+
+2024-01-09 11:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/button_Sign in' is clicked on
+
+2024-01-09 11:06:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.06/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.06/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/h4_New bill' is clicked on
+
+2024-01-09 11:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/h4_New bill' is clicked on
+
+2024-01-09 11:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.06/label_Date")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/label_Date' is clicked on
+
+2024-01-09 11:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.06/label_Date' is clicked on
+
+2024-01-09 11:06:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.06/input_Date_date"), ""07/07/2023""): Text '"07/07/2023"' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.06/input_Date_date'
+
+2024-01-09 11:06:23 - [MESSAGE][PASSED] - Text '"07/07/2023"' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.06/input_Date_date'
+
+2024-01-09 11:06:23 - [TEST_STEP][PASSED] - actual_date = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.06/input_Date_date"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.06/input_Date_date' is: '2023-07-07'
+
+2024-01-09 11:06:23 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.06/input_Date_date' is: '2023-07-07'
+
+2024-01-09 11:06:23 - [TEST_STEP][PASSED] - verifyEqual(actual_date, expected_date): Actual object '2023-07-07' and expected object '2023-07-07' are equal
+
+2024-01-09 11:06:23 - [MESSAGE][PASSED] - Actual object '2023-07-07' and expected object '2023-07-07' are equal
+
+2024-01-09 11:06:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:06:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.07" time="10.272" classname="Test Cases/GUI_Create_New_Bill/TC_9.07" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:06:24 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.07: Test Cases/GUI_Create_New_Bill/TC_9.07
+
+2024-01-09 11:06:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:06:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:06:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:06:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:06:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:26 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.07/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.07/a_Demo' is clicked on
+
+2024-01-09 11:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.07/a_Demo' is clicked on
+
+2024-01-09 11:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.07/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.07/button_Sign in' is clicked on
+
+2024-01-09 11:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.07/button_Sign in' is clicked on
+
+2024-01-09 11:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.07/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.07/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.07/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.07/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.07/h4_New bill' is clicked on
+
+2024-01-09 11:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.07/h4_New bill' is clicked on
+
+2024-01-09 11:06:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.07/select_dailyweeklymonthlyquarterlyevery hal_79c7c6"), "half-year", true): All options with value 'half-year' are selected in object 'Object Repository/GUI_Create_New_Bill/TC_9.07/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'  using regular expression
+
+2024-01-09 11:06:33 - [MESSAGE][PASSED] - All options with value 'half-year' are selected in object 'Object Repository/GUI_Create_New_Bill/TC_9.07/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'  using regular expression
+
+2024-01-09 11:06:33 - [TEST_STEP][PASSED] - actual_repeats = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.07/select_dailyweeklymonthlyquarterlyevery hal_79c7c6"), "value", STOP_ON_FAILURE): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.07/select_dailyweeklymonthlyquarterlyevery hal_79c7c6' is: 'half-year'
+
+2024-01-09 11:06:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.07/select_dailyweeklymonthlyquarterlyevery hal_79c7c6' is: 'half-year'
+
+2024-01-09 11:06:34 - [TEST_STEP][PASSED] - verifyEqual(actual_repeats, expected_repeats): Actual object 'half-year' and expected object 'half-year' are equal
+
+2024-01-09 11:06:34 - [MESSAGE][PASSED] - Actual object 'half-year' and expected object 'half-year' are equal
+
+2024-01-09 11:06:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:06:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.08" time="9.716" classname="Test Cases/GUI_Create_New_Bill/TC_9.08" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:06:34 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.08: Test Cases/GUI_Create_New_Bill/TC_9.08
+
+2024-01-09 11:06:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:06:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:06:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:06:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:06:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:36 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.08/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.08/a_Demo' is clicked on
+
+2024-01-09 11:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.08/a_Demo' is clicked on
+
+2024-01-09 11:06:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.08/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.08/button_Sign in' is clicked on
+
+2024-01-09 11:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.08/button_Sign in' is clicked on
+
+2024-01-09 11:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.08/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.08/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.08/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.08/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.08/h4_New bill' is clicked on
+
+2024-01-09 11:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.08/h4_New bill' is clicked on
+
+2024-01-09 11:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.08/input_Skip_skip"), "1"): Text '1' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.08/input_Skip_skip'
+
+2024-01-09 11:06:43 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.08/input_Skip_skip'
+
+2024-01-09 11:06:43 - [TEST_STEP][PASSED] - actual_skips = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.08/input_Skip_skip"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.08/input_Skip_skip' is: '1'
+
+2024-01-09 11:06:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.08/input_Skip_skip' is: '1'
+
+2024-01-09 11:06:43 - [TEST_STEP][PASSED] - verifyEqual(actual_skips, expected_skips): Actual object '1' and expected object '1' are equal
+
+2024-01-09 11:06:43 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2024-01-09 11:06:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:06:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.09" time="10.159" classname="Test Cases/GUI_Create_New_Bill/TC_9.09" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:06:44 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.09: Test Cases/GUI_Create_New_Bill/TC_9.09
+
+2024-01-09 11:06:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:06:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:06:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:06:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:06:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:46 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.09/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.09/a_Demo' is clicked on
+
+2024-01-09 11:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.09/a_Demo' is clicked on
+
+2024-01-09 11:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.09/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.09/button_Sign in' is clicked on
+
+2024-01-09 11:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.09/button_Sign in' is clicked on
+
+2024-01-09 11:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.09/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.09/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.09/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.09/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.09/h4_New bill' is clicked on
+
+2024-01-09 11:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.09/h4_New bill' is clicked on
+
+2024-01-09 11:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.09/input_End date_bill_end_date"), "07/06/2023"): Text '07/06/2023' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.09/input_End date_bill_end_date'
+
+2024-01-09 11:06:53 - [MESSAGE][PASSED] - Text '07/06/2023' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.09/input_End date_bill_end_date'
+
+2024-01-09 11:06:53 - [TEST_STEP][PASSED] - actual_end_date = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.09/input_End date_bill_end_date"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.09/input_End date_bill_end_date' is: '2023-07-06'
+
+2024-01-09 11:06:53 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.09/input_End date_bill_end_date' is: '2023-07-06'
+
+2024-01-09 11:06:53 - [TEST_STEP][PASSED] - verifyEqual(actual_end_date, expected_end_date): Actual object '2023-07-06' and expected object '2023-07-06' are equal
+
+2024-01-09 11:06:53 - [MESSAGE][PASSED] - Actual object '2023-07-06' and expected object '2023-07-06' are equal
+
+2024-01-09 11:06:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:06:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.10" time="12.159" classname="Test Cases/GUI_Create_New_Bill/TC_9.10" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:06:54 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.10: Test Cases/GUI_Create_New_Bill/TC_9.10
+
+2024-01-09 11:06:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:06:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:06:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:06:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:06:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:57 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.10/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.10/a_Demo' is clicked on
+
+2024-01-09 11:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.10/a_Demo' is clicked on
+
+2024-01-09 11:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.10/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.10/button_Sign in' is clicked on
+
+2024-01-09 11:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.10/button_Sign in' is clicked on
+
+2024-01-09 11:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.10/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.10/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.10/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.10/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.10/h4_New bill' is clicked on
+
+2024-01-09 11:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.10/h4_New bill' is clicked on
+
+2024-01-09 11:07:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.10/input_Extension date_extension_date"), "11/06/2023"): Text '11/06/2023' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.10/input_Extension date_extension_date'
+
+2024-01-09 11:07:05 - [MESSAGE][PASSED] - Text '11/06/2023' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.10/input_Extension date_extension_date'
+
+2024-01-09 11:07:05 - [TEST_STEP][PASSED] - actual_extension_date = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.10/input_Extension date_extension_date"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.10/input_Extension date_extension_date' is: '2023-11-06'
+
+2024-01-09 11:07:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.10/input_Extension date_extension_date' is: '2023-11-06'
+
+2024-01-09 11:07:06 - [TEST_STEP][PASSED] - verifyEqual(actual_extension_date, expected_extension_date): Actual object '2023-11-06' and expected object '2023-11-06' are equal
+
+2024-01-09 11:07:06 - [MESSAGE][PASSED] - Actual object '2023-11-06' and expected object '2023-11-06' are equal
+
+2024-01-09 11:07:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:07:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.11" time="9.487" classname="Test Cases/GUI_Create_New_Bill/TC_9.11" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:07:06 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.11: Test Cases/GUI_Create_New_Bill/TC_9.11
+
+2024-01-09 11:07:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:07:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:07:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:07:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:07:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:08 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.11/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.11/a_Demo' is clicked on
+
+2024-01-09 11:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.11/a_Demo' is clicked on
+
+2024-01-09 11:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.11/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.11/button_Sign in' is clicked on
+
+2024-01-09 11:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.11/button_Sign in' is clicked on
+
+2024-01-09 11:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.11/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.11/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.11/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.11/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.11/h4_New bill' is clicked on
+
+2024-01-09 11:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.11/h4_New bill' is clicked on
+
+2024-01-09 11:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.11/textarea_Notes_notes"), "Blacksmith plover"): Text 'Blacksmith plover' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.11/textarea_Notes_notes'
+
+2024-01-09 11:07:15 - [MESSAGE][PASSED] - Text 'Blacksmith plover' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.11/textarea_Notes_notes'
+
+2024-01-09 11:07:15 - [TEST_STEP][PASSED] - actual_notes = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.11/textarea_Notes_notes"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.11/textarea_Notes_notes' is: 'Blacksmith plover'
+
+2024-01-09 11:07:15 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.11/textarea_Notes_notes' is: 'Blacksmith plover'
+
+2024-01-09 11:07:15 - [TEST_STEP][PASSED] - verifyEqual(actual_notes, expected_notes): Actual object 'Blacksmith plover' and expected object 'Blacksmith plover' are equal
+
+2024-01-09 11:07:15 - [MESSAGE][PASSED] - Actual object 'Blacksmith plover' and expected object 'Blacksmith plover' are equal
+
+2024-01-09 11:07:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:07:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.12" time="9.412" classname="Test Cases/GUI_Create_New_Bill/TC_9.12" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:07:16 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.12: Test Cases/GUI_Create_New_Bill/TC_9.12
+
+2024-01-09 11:07:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:07:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:07:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:07:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:07:17 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:18 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.12/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.12/a_Demo' is clicked on
+
+2024-01-09 11:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.12/a_Demo' is clicked on
+
+2024-01-09 11:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.12/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.12/button_Sign in' is clicked on
+
+2024-01-09 11:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.12/button_Sign in' is clicked on
+
+2024-01-09 11:07:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.12/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.12/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.12/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.12/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.12/h4_New bill' is clicked on
+
+2024-01-09 11:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.12/h4_New bill' is clicked on
+
+2024-01-09 11:07:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.12/input_Attachments_attachments"), "D:\db.sql"): Text 'D:\db.sql' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.12/input_Attachments_attachments'
+
+2024-01-09 11:07:24 - [MESSAGE][PASSED] - Text 'D:\db.sql' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.12/input_Attachments_attachments'
+
+2024-01-09 11:07:24 - [TEST_STEP][PASSED] - actual_file = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.12/input_Attachments_attachments"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.12/input_Attachments_attachments' is: 'C:\fakepath\db.sql'
+
+2024-01-09 11:07:25 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.12/input_Attachments_attachments' is: 'C:\fakepath\db.sql'
+
+2024-01-09 11:07:25 - [TEST_STEP][PASSED] - verifyEqual(actual_file, expected_file): Actual object 'C:\fakepath\db.sql' and expected object 'C:\fakepath\db.sql' are equal
+
+2024-01-09 11:07:25 - [MESSAGE][PASSED] - Actual object 'C:\fakepath\db.sql' and expected object 'C:\fakepath\db.sql' are equal
+
+2024-01-09 11:07:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:07:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.13" time="9.998" classname="Test Cases/GUI_Create_New_Bill/TC_9.13" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:07:25 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.13: Test Cases/GUI_Create_New_Bill/TC_9.13
+
+2024-01-09 11:07:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:07:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:07:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:07:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:07:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:27 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.13/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.13/a_Demo' is clicked on
+
+2024-01-09 11:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.13/a_Demo' is clicked on
+
+2024-01-09 11:07:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.13/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.13/button_Sign in' is clicked on
+
+2024-01-09 11:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.13/button_Sign in' is clicked on
+
+2024-01-09 11:07:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.13/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.13/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.13/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.13/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.13/h4_New bill' is clicked on
+
+2024-01-09 11:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.13/h4_New bill' is clicked on
+
+2024-01-09 11:07:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.13/input_Group_object_group"), "2"): Text '2' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.13/input_Group_object_group'
+
+2024-01-09 11:07:34 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/GUI_Create_New_Bill/TC_9.13/input_Group_object_group'
+
+2024-01-09 11:07:34 - [TEST_STEP][PASSED] - actual_groups = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.13/input_Group_object_group"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.13/input_Group_object_group' is: '2'
+
+2024-01-09 11:07:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.13/input_Group_object_group' is: '2'
+
+2024-01-09 11:07:35 - [TEST_STEP][PASSED] - verifyEqual(actual_groups, expected_groups): Actual object '2' and expected object '2' are equal
+
+2024-01-09 11:07:35 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2024-01-09 11:07:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:07:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.14" time="10.138" classname="Test Cases/GUI_Create_New_Bill/TC_9.14" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:07:35 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.14: Test Cases/GUI_Create_New_Bill/TC_9.14
+
+2024-01-09 11:07:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:07:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:07:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:07:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:07:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:38 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.14/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/a_Demo' is clicked on
+
+2024-01-09 11:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/a_Demo' is clicked on
+
+2024-01-09 11:07:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.14/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/button_Sign in' is clicked on
+
+2024-01-09 11:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/button_Sign in' is clicked on
+
+2024-01-09 11:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.14/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.14/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/h4_New bill' is clicked on
+
+2024-01-09 11:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/h4_New bill' is clicked on
+
+2024-01-09 11:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.14/input_After storing, return here to create _4fc2e2")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/input_After storing, return here to create _4fc2e2' is clicked on
+
+2024-01-09 11:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.14/input_After storing, return here to create _4fc2e2' is clicked on
+
+2024-01-09 11:07:44 - [TEST_STEP][PASSED] - actual_return_here = getAttribute(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.14/input_After storing, return here to create _4fc2e2"), "value"): Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.14/input_After storing, return here to create _4fc2e2' is: '1'
+
+2024-01-09 11:07:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/GUI_Create_New_Bill/TC_9.14/input_After storing, return here to create _4fc2e2' is: '1'
+
+2024-01-09 11:07:45 - [TEST_STEP][PASSED] - verifyEqual(actual_return_here, expected_return_here): Actual object '1' and expected object '1' are equal
+
+2024-01-09 11:07:45 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2024-01-09 11:07:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:07:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI_Create_New_Bill/TC_9.15" time="11.067" classname="Test Cases/GUI_Create_New_Bill/TC_9.15" status="PASSED">
+         <system-out><![CDATA[2024-01-09 11:07:45 - [TEST_CASE][PASSED] - Test Cases/GUI_Create_New_Bill/TC_9.15: Test Cases/GUI_Create_New_Bill/TC_9.15
+
+2024-01-09 11:07:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-09 11:07:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-09 11:07:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-09 11:07:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-09 11:07:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.firefly-iii.org/"): Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:47 - [MESSAGE][PASSED] - Navigate to 'https://www.firefly-iii.org/' successfully
+
+2024-01-09 11:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/a_Demo")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/a_Demo' is clicked on
+
+2024-01-09 11:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/a_Demo' is clicked on
+
+2024-01-09 11:07:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/button_Sign in")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/button_Sign in' is clicked on
+
+2024-01-09 11:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/button_Sign in' is clicked on
+
+2024-01-09 11:07:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/span_demofirefly_fa fa-plus-circle")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/span_demofirefly_fa fa-plus-circle' is clicked on
+
+2024-01-09 11:07:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/h4_New bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/h4_New bill' is clicked on
+
+2024-01-09 11:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/h4_New bill' is clicked on
+
+2024-01-09 11:07:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/button_Store new bill"), "Store new bill"): Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.15/button_Store new bill' are matched.
+
+2024-01-09 11:07:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.15/button_Store new bill' are matched.
+
+2024-01-09 11:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/button_Store new bill")): Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/button_Store new bill' is clicked on
+
+2024-01-09 11:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/GUI_Create_New_Bill/TC_9.15/button_Store new bill' is clicked on
+
+2024-01-09 11:07:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/p_The name field is required"), "The name field is required."): Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.15/p_The name field is required' are matched.
+
+2024-01-09 11:07:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.15/p_The name field is required' are matched.
+
+2024-01-09 11:07:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/p_The minimum amount field is required"), "The minimum amount field is required."): Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.15/p_The minimum amount field is required' are matched.
+
+2024-01-09 11:07:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.15/p_The minimum amount field is required' are matched.
+
+2024-01-09 11:07:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/GUI_Create_New_Bill/TC_9.15/p_The maximum amount field is required"), "The maximum amount field is required."): Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.15/p_The maximum amount field is required' are matched.
+
+2024-01-09 11:07:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GUI_Create_New_Bill/TC_9.15/p_The maximum amount field is required' are matched.
+
+2024-01-09 11:07:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-09 11:07:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-09 11:05:23 - [TEST_SUITE][PASSED] - GUI_Create_New_Bill: Test Cases/GUI_Create_New_Bill/TC_9.15]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

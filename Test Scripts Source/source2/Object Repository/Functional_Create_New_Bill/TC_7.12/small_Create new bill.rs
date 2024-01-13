@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>small_Create new bill</name>
+   <tag></tag>
+   <elementGuidId>fbd8c875-f1cd-45fa-b99d-ea3480eb54af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#subTitle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//small[@id='subTitle']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>5ca775e7-bcb8-4efd-87af-60cc607e3ba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>subTitle</value>
+      <webElementGuid>76eb960f-43d4-4cc6-af64-12dcb0bd3450</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+Create new bill
+</value>
+      <webElementGuid>29ecf34e-17e5-43a3-a30d-84c5601dcc4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;subTitle&quot;)</value>
+      <webElementGuid>0048d17e-6b7a-49c1-a2db-cd2d65729656</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//small[@id='subTitle']</value>
+      <webElementGuid>2bcedd52-4adf-4af9-a811-cfd4a0220cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/section/h1/small</value>
+      <webElementGuid>bc876646-da46-4d6f-8d05-27eb8167bc4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::small[1]</value>
+      <webElementGuid>1938d4cf-8226-4a2c-87cb-be6fea77ec65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::small[1]</value>
+      <webElementGuid>04fbf847-e9da-4de7-a51d-d3a1044f1b0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bills'])[2]/preceding::small[1]</value>
+      <webElementGuid>317b7f6c-e664-482e-a2cd-982a8b4ea40e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create new bill']/parent::*</value>
+      <webElementGuid>2ab00694-73d1-4e37-9d8c-1da5f83558c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//small</value>
+      <webElementGuid>6bf10e1f-1dbc-4d04-944f-249945f95829</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//small[@id = 'subTitle' and (text() = '
+Create new bill
+' or . = '
+Create new bill
+')]</value>
+      <webElementGuid>68d95b9b-a59c-44aa-83c6-05ac1d66f2aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

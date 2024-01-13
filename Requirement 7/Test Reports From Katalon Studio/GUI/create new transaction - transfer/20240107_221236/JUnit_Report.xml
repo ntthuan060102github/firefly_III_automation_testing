@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create new transaction - transfer" time="283.207" tests="29" failures="0" errors="0">
+   <testsuite name="create new transaction - transfer" tests="29" failures="0" errors="0" time="283.207" skipped="0" timestamp="2024-01-07 22:12:46" hostname="Thuan - Revision-PC.mshome.net" id="Test Suites/GUI/create new transaction - transfer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_221235\\GUI\\create new transaction - transfer\\20240107_221236"/>
+         <property name="logFiles" value="C:\\Users\\Thuan\\Desktop\\Workspace\\software_testing_katalon\\Reports\\20240107_221235\\GUI\\create new transaction - transfer\\20240107_221236\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thuan - Revision-PC.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="172.31.80.1"/>
+         <property name="sessionId" value="91f143441af74ac20f9a1ad937f553d9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC1" time="11.567" classname="Test Cases/GUI/create new transaction - transfer/TC1" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:12:46 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC1: Test Cases/GUI/create new transaction - transfer/TC1
+
+2024-01-07 22:12:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:12:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:12:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:12:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:12:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:12:51 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:12:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:12:51 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:12:54 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:12:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_description"), "this is test value"): Keys 'this is test value' sent to object: 'Object Repository/create_new_transfer/input_description'
+
+2024-01-07 22:12:57 - [MESSAGE][PASSED] - Keys 'this is test value' sent to object: 'Object Repository/create_new_transfer/input_description'
+
+2024-01-07 22:12:57 - [TEST_STEP][PASSED] - actual_value = getAttribute(findTestObject("create_new_transfer/input_description"), "value"): Attribute 'value' of object 'Object Repository/create_new_transfer/input_description' is: 'this is test value'
+
+2024-01-07 22:12:57 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/create_new_transfer/input_description' is: 'this is test value'
+
+2024-01-07 22:12:57 - [TEST_STEP][PASSED] - verifyEqual(actual_value, expected_value): Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 22:12:57 - [MESSAGE][PASSED] - Actual object 'this is test value' and expected object 'this is test value' are equal
+
+2024-01-07 22:12:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:12:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" time="10.963" classname="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:12:58 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation
+
+2024-01-07 22:12:58 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:12:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:12:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:13:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:13:02 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:13:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:05 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:05 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), account_name): Keys 'Checking Account' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:07 - [MESSAGE][PASSED] - Keys 'Checking Account' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:07 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:13:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:13:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:13:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" time="9.481" classname="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:13:09 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation
+
+2024-01-07 22:13:09 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:13:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:13:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:13:12 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:15 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), account_name): Keys 'The house' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:17 - [MESSAGE][PASSED] - Keys 'The house' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:17 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:13:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:13:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:13:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" time="9.667" classname="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:13:19 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation
+
+2024-01-07 22:13:19 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:13:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:13:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:13:22 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:13:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:24 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:25 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), account_name): Keys 'asdsadasdsadasdasdcasdasd' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:27 - [MESSAGE][PASSED] - Keys 'asdsadasdsadasdasdcasdasd' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:27 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown'
+
+2024-01-07 22:13:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:13:28 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown'
+
+2024-01-07 22:13:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:13:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" time="8.656" classname="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:13:28 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation
+
+2024-01-07 22:13:28 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:13:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:13:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:13:31 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:33 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), account_name): Keys ' ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:35 - [MESSAGE][PASSED] - Keys ' ' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:35 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:13:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:13:36 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:13:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:13:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" time="8.801" classname="Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:13:37 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC2_choice_recommendation
+
+2024-01-07 22:13:37 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:13:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:13:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:13:40 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:42 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), account_name): Keys '' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:44 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_source_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:13:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:13:45 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_source_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:13:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:13:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC2_only_input" time="9.902" classname="Test Cases/GUI/create new transaction - transfer/TC2_only_input" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:13:46 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC2_only_input: Test Cases/GUI/create new transaction - transfer/TC2_only_input
+
+2024-01-07 22:13:46 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:13:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:13:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:13:49 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:13:52 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:13:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_source"), "this is test text"): Keys 'this is test text' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:54 - [MESSAGE][PASSED] - Keys 'this is test text' sent to object: 'Object Repository/create_new_transfer/input_account_source'
+
+2024-01-07 22:13:54 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_account_source"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_account_source' has attribute 'value' with value 'this is test text'
+
+2024-01-07 22:13:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:13:55 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_account_source' has attribute 'value' with value 'this is test text'
+
+2024-01-07 22:13:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:13:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" time="9.6" classname="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:13:56 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation
+
+2024-01-07 22:13:56 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:13:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:13:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:13:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:13:59 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:01 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:02 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), account_name): Keys 'Checking Account' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:04 - [MESSAGE][PASSED] - Keys 'Checking Account' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:14:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:14:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:14:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" time="9.303" classname="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:14:05 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation
+
+2024-01-07 22:14:05 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:14:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:14:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:14:08 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:14:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:11 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), account_name): Keys 'The house' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:13 - [MESSAGE][PASSED] - Keys 'The house' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:13 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:14:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:14:14 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:14:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:14:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" time="11.532" classname="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:14:15 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation
+
+2024-01-07 22:14:15 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:14:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:14:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:14:19 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:22 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), account_name): Keys 'asdsadasdsadasdasdcasdasd' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:24 - [MESSAGE][PASSED] - Keys 'asdsadasdsadasdasdcasdasd' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown'
+
+2024-01-07 22:14:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:14:25 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown'
+
+2024-01-07 22:14:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:14:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" time="9.103" classname="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:14:26 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation
+
+2024-01-07 22:14:26 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:14:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:14:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:14:29 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:14:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:32 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), account_name): Keys ' ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:34 - [MESSAGE][PASSED] - Keys ' ' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:34 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:14:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:14:35 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:14:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:14:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" time="9.084" classname="Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:14:35 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation: Test Cases/GUI/create new transaction - transfer/TC3_choice_recommendation
+
+2024-01-07 22:14:35 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:14:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:14:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:14:38 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:14:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:41 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), account_name): Keys '' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:43 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/dropdown_destination_account"), "class", expected_value, 0): Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:14:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/dropdown_destination_account' has attribute 'class' with value 'dropdown open'
+
+2024-01-07 22:14:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:14:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC3_only_input" time="9.241" classname="Test Cases/GUI/create new transaction - transfer/TC3_only_input" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:14:44 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC3_only_input: Test Cases/GUI/create new transaction - transfer/TC3_only_input
+
+2024-01-07 22:14:45 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:14:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:14:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:14:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:14:47 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:14:50 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:14:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_account_destination"), "this is test text"): Keys 'this is test text' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:52 - [MESSAGE][PASSED] - Keys 'this is test text' sent to object: 'Object Repository/create_new_transfer/input_account_destination'
+
+2024-01-07 22:14:52 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_account_destination"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_account_destination' has attribute 'value' with value 'this is test text'
+
+2024-01-07 22:14:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:14:53 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_account_destination' has attribute 'value' with value 'this is test text'
+
+2024-01-07 22:14:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:14:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC4" time="8.965" classname="Test Cases/GUI/create new transaction - transfer/TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:14:54 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC4: Test Cases/GUI/create new transaction - transfer/TC4
+
+2024-01-07 22:14:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:14:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:14:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:14:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:14:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:14:57 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:14:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:14:57 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:00 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount"), test_value): Keys '100' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:02 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:02 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value '100'
+
+2024-01-07 22:15:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value '100'
+
+2024-01-07 22:15:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:15:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC4" time="9.432" classname="Test Cases/GUI/create new transaction - transfer/TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:15:03 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC4: Test Cases/GUI/create new transaction - transfer/TC4
+
+2024-01-07 22:15:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:15:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:15:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:15:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:15:04 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:05 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:15:05 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:09 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount"), test_value): Keys '0' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:11 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:11 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value '0'
+
+2024-01-07 22:15:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:15:11 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value '0'
+
+2024-01-07 22:15:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:15:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC4" time="8.56" classname="Test Cases/GUI/create new transaction - transfer/TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:15:12 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC4: Test Cases/GUI/create new transaction - transfer/TC4
+
+2024-01-07 22:15:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:15:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:15:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:15:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:15:13 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:14 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:15:15 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:15:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:18 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount"), test_value): Keys '-150' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:20 - [MESSAGE][PASSED] - Keys '-150' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value '-150'
+
+2024-01-07 22:15:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:15:20 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value '-150'
+
+2024-01-07 22:15:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:15:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC4" time="8.668" classname="Test Cases/GUI/create new transaction - transfer/TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:15:21 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC4: Test Cases/GUI/create new transaction - transfer/TC4
+
+2024-01-07 22:15:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:15:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:15:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:15:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:15:22 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:23 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:15:24 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:26 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount"), test_value): Keys '' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:28 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value ''
+
+2024-01-07 22:15:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value ''
+
+2024-01-07 22:15:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:15:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC4" time="8.785" classname="Test Cases/GUI/create new transaction - transfer/TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:15:29 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC4: Test Cases/GUI/create new transaction - transfer/TC4
+
+2024-01-07 22:15:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:15:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:15:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:15:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:15:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:32 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:15:32 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:15:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:35 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount"), test_value): Keys ' ' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:37 - [MESSAGE][PASSED] - Keys ' ' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:37 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value ''
+
+2024-01-07 22:15:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:15:38 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value ''
+
+2024-01-07 22:15:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:15:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC4" time="8.231" classname="Test Cases/GUI/create new transaction - transfer/TC4" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:15:38 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC4: Test Cases/GUI/create new transaction - transfer/TC4
+
+2024-01-07 22:15:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:15:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:15:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:15:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:15:39 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:41 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:15:41 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:43 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount"), test_value): Keys 'abc' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:45 - [MESSAGE][PASSED] - Keys 'abc' sent to object: 'Object Repository/create_new_transfer/input_amount'
+
+2024-01-07 22:15:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value ''
+
+2024-01-07 22:15:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:15:46 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount' has attribute 'value' with value ''
+
+2024-01-07 22:15:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:15:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC5" time="11.344" classname="Test Cases/GUI/create new transaction - transfer/TC5" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:15:46 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC5: Test Cases/GUI/create new transaction - transfer/TC5
+
+2024-01-07 22:15:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:15:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:15:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:15:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:15:48 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:49 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:15:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:15:50 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:15:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:15:54 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:15:55 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("create_new_transfer/dropdown_foreign_amount_unit"), "Euro", false): All options with label 'Euro' are selected in object 'Object Repository/create_new_transfer/dropdown_foreign_amount_unit' 
+
+2024-01-07 22:15:56 - [MESSAGE][PASSED] - All options with label 'Euro' are selected in object 'Object Repository/create_new_transfer/dropdown_foreign_amount_unit' 
+
+2024-01-07 22:15:56 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("create_new_transfer/dropdown_foreign_amount_unit"), "Euro", false, 0): All options with label 'Euro' are selected in object 'Object Repository/create_new_transfer/dropdown_foreign_amount_unit' 
+
+2024-01-07 22:15:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:15:57 - [MESSAGE][PASSED] - All options with label 'Euro' are selected in object 'Object Repository/create_new_transfer/dropdown_foreign_amount_unit' 
+
+2024-01-07 22:15:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:15:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC6" time="9.197" classname="Test Cases/GUI/create new transaction - transfer/TC6" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:15:58 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC6: Test Cases/GUI/create new transaction - transfer/TC6
+
+2024-01-07 22:15:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:15:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:15:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:15:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:15:59 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:01 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:16:01 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:04 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount_foreign_amount"), test_value): Keys '100' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:06 - [MESSAGE][PASSED] - Keys '100' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount_foreign_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value '100'
+
+2024-01-07 22:16:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:16:06 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value '100'
+
+2024-01-07 22:16:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:16:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC6" time="11.058" classname="Test Cases/GUI/create new transaction - transfer/TC6" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:16:07 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC6: Test Cases/GUI/create new transaction - transfer/TC6
+
+2024-01-07 22:16:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:16:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:16:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:16:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:16:08 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:09 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:16:09 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:15 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount_foreign_amount"), test_value): Keys '0' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:17 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:17 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount_foreign_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value '0'
+
+2024-01-07 22:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value '0'
+
+2024-01-07 22:16:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:16:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC6" time="9.706" classname="Test Cases/GUI/create new transaction - transfer/TC6" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:16:18 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC6: Test Cases/GUI/create new transaction - transfer/TC6
+
+2024-01-07 22:16:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:16:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:16:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:16:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:16:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:21 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:16:21 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:16:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:25 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount_foreign_amount"), test_value): Keys '-150' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:27 - [MESSAGE][PASSED] - Keys '-150' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:27 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount_foreign_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value '-150'
+
+2024-01-07 22:16:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:16:27 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value '-150'
+
+2024-01-07 22:16:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:16:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC6" time="8.586" classname="Test Cases/GUI/create new transaction - transfer/TC6" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:16:28 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC6: Test Cases/GUI/create new transaction - transfer/TC6
+
+2024-01-07 22:16:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:16:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:16:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:16:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:16:29 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:30 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:16:31 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:33 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount_foreign_amount"), test_value): Keys '' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:35 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:35 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount_foreign_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value ''
+
+2024-01-07 22:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:16:36 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value ''
+
+2024-01-07 22:16:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:16:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC6" time="8.757" classname="Test Cases/GUI/create new transaction - transfer/TC6" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:16:36 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC6: Test Cases/GUI/create new transaction - transfer/TC6
+
+2024-01-07 22:16:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:16:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:16:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:16:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:16:38 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:39 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:16:39 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:42 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount_foreign_amount"), test_value): Keys ' ' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:44 - [MESSAGE][PASSED] - Keys ' ' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount_foreign_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value ''
+
+2024-01-07 22:16:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:16:45 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value ''
+
+2024-01-07 22:16:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:16:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC6" time="8.555" classname="Test Cases/GUI/create new transaction - transfer/TC6" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:16:45 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC6: Test Cases/GUI/create new transaction - transfer/TC6
+
+2024-01-07 22:16:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-07 22:16:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:16:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:16:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-07 22:16:46 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/"): Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:48 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/' successfully
+
+2024-01-07 22:16:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:16:48 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:16:51 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:16:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_amount_foreign_amount"), test_value): Keys 'abc' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:53 - [MESSAGE][PASSED] - Keys 'abc' sent to object: 'Object Repository/create_new_transfer/input_amount_foreign_amount'
+
+2024-01-07 22:16:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_amount_foreign_amount"), "value", expected_value, 0): Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value ''
+
+2024-01-07 22:16:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_amount_foreign_amount' has attribute 'value' with value ''
+
+2024-01-07 22:16:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:16:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC7" time="11.819" classname="Test Cases/GUI/create new transaction - transfer/TC7" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:16:54 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC7: Test Cases/GUI/create new transaction - transfer/TC7
+
+2024-01-07 22:16:54 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:16:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:16:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:16:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:16:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:16:57 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:17:00 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:17:01 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/input_date")): Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 22:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 22:17:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), month): Keys '12' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:02 - [MESSAGE][PASSED] - Keys '12' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), day): Keys '15' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:03 - [MESSAGE][PASSED] - Keys '15' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), year): Keys '2023' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:03 - [MESSAGE][PASSED] - Keys '2023' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), Keys.chord(RIGHT)): Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:03 - [MESSAGE][PASSED] - Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), hour): Keys '16' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:04 - [MESSAGE][PASSED] - Keys '16' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), minute): Keys '20' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:04 - [MESSAGE][PASSED] - Keys '20' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), am_pm): Keys 'PM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:05 - [MESSAGE][PASSED] - Keys 'PM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:05 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_date"), "value", expected_result, 0): Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2023-12-15T16:20'
+
+2024-01-07 22:17:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:17:05 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2023-12-15T16:20'
+
+2024-01-07 22:17:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:17:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC7" time="11.168" classname="Test Cases/GUI/create new transaction - transfer/TC7" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:17:06 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC7: Test Cases/GUI/create new transaction - transfer/TC7
+
+2024-01-07 22:17:06 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:17:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:17:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:17:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:17:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:17:08 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:17:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:17:11 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:17:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:17:12 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/input_date")): Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 22:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 22:17:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), month): Keys '11' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:14 - [MESSAGE][PASSED] - Keys '11' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), day): Keys '26' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:14 - [MESSAGE][PASSED] - Keys '26' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), year): Keys '2024' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:14 - [MESSAGE][PASSED] - Keys '2024' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), Keys.chord(RIGHT)): Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:15 - [MESSAGE][PASSED] - Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), hour): Keys '07' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:15 - [MESSAGE][PASSED] - Keys '07' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), minute): Keys '15' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:16 - [MESSAGE][PASSED] - Keys '15' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), am_pm): Keys 'AM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:16 - [MESSAGE][PASSED] - Keys 'AM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_date"), "value", expected_result, 0): Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2024-11-26T07:15'
+
+2024-01-07 22:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2024-11-26T07:15'
+
+2024-01-07 22:17:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:17:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GUI/create new transaction - transfer/TC7" time="12.23" classname="Test Cases/GUI/create new transaction - transfer/TC7" status="PASSED">
+         <system-out><![CDATA[2024-01-07 22:17:17 - [TEST_CASE][PASSED] - Test Cases/GUI/create new transaction - transfer/TC7: Test Cases/GUI/create new transaction - transfer/TC7
+
+2024-01-07 22:17:17 - [TEST_STEP][PASSED] - openBrowser("https://demo.firefly-iii.org/"): Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:17:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-07 22:17:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-07 22:17:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.firefly-iii.org/'
+
+2024-01-07 22:17:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-01-07 22:17:20 - [MESSAGE][PASSED] - Current window maximized
+
+2024-01-07 22:17:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login/button_login")): Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button_login' is clicked on
+
+2024-01-07 22:17:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sidebar/button_sidebar")): Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/button_sidebar' is clicked on
+
+2024-01-07 22:17:24 - [TEST_STEP][PASSED] - click(findTestObject("sidebar/sidebar_item_new_transfer")): Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/sidebar/sidebar_item_new_transfer' is clicked on
+
+2024-01-07 22:17:25 - [TEST_STEP][PASSED] - click(findTestObject("create_new_transfer/input_date")): Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 22:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/create_new_transfer/input_date' is clicked on
+
+2024-01-07 22:17:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), month): Keys '5' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:26 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), day): Keys '5' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:26 - [MESSAGE][PASSED] - Keys '5' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), year): Keys '2000' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:27 - [MESSAGE][PASSED] - Keys '2000' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), Keys.chord(RIGHT)): Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:27 - [MESSAGE][PASSED] - Keys 'RIGHT + ' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), hour): Keys '4' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:27 - [MESSAGE][PASSED] - Keys '4' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), minute): Keys '19' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:28 - [MESSAGE][PASSED] - Keys '19' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("create_new_transfer/input_date"), am_pm): Keys 'PM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:28 - [MESSAGE][PASSED] - Keys 'PM' sent to object: 'Object Repository/create_new_transfer/input_date'
+
+2024-01-07 22:17:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("create_new_transfer/input_date"), "value", expected_result, 0): Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2000-05-05T16:19'
+
+2024-01-07 22:17:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-01-07 22:17:29 - [MESSAGE][PASSED] - Object 'Object Repository/create_new_transfer/input_date' has attribute 'value' with value '2000-05-05T16:19'
+
+2024-01-07 22:17:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-07 22:17:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-07 22:12:46 - [TEST_SUITE][PASSED] - create new transaction - transfer: Test Cases/GUI/create new transaction - transfer/TC7]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

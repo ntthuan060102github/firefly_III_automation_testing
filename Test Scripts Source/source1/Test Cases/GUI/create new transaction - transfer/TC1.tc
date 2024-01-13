@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c47da217-8c6c-4a64-97ea-981cf204a5f6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>efa03398-71aa-4b57-ae7c-4c9b1bb5d92f</id>
+      <masked>false</masked>
+      <name>actual_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'this is test value'</defaultValue>
+      <description></description>
+      <id>2e0a8d16-ae92-4839-b61a-d9b96eb73190</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

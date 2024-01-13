@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34bf399d-0c80-4b09-a830-6b1385ad268e</testCaseGuid>
+   <variable>
+      <defaultValue>'this is test value'</defaultValue>
+      <description></description>
+      <id>57e1237b-ecf4-4e28-a2ae-a3af350a8e5e</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5293874d-0992-4289-8bd0-aa9c73b08fb6</id>
+      <masked>false</masked>
+      <name>actual_value</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_only_input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc490e98-d842-423e-828e-466e8b7e3abb</testCaseGuid>
+   <variable>
+      <defaultValue>'this is test text'</defaultValue>
+      <description></description>
+      <id>ae6080ba-02ac-4a2d-ae15-3ce5bc4d8b29</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

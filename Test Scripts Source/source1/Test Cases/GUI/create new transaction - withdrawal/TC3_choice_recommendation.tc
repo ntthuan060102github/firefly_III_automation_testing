@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_choice_recommendation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7876dcc2-550c-4148-92c9-a94b9688af34</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>69fde2a3-f240-4ae7-a346-7f56ec44f1bf</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/GUI_Usability/new transaction - withdrawal/source_destination_recommendation</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>69fde2a3-f240-4ae7-a346-7f56ec44f1bf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>account_name</value>
+      <variableId>64543dca-2f13-49e0-9ecb-2dddaad97c2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>69fde2a3-f240-4ae7-a346-7f56ec44f1bf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>5d0ee781-0d2d-45d8-9936-363dfb07993f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64543dca-2f13-49e0-9ecb-2dddaad97c2b</id>
+      <masked>false</masked>
+      <name>account_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5d0ee781-0d2d-45d8-9936-363dfb07993f</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

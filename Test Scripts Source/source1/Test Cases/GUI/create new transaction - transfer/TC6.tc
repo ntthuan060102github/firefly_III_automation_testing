@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC6</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8395523f-e4c7-4cdc-95c9-10e05561ada4</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>13f1ca45-c30b-4214-9075-758edd700ec6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/GUI_Usability/new transaction - transfer/input_foreign_amount</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>13f1ca45-c30b-4214-9075-758edd700ec6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>test_value</value>
+      <variableId>06c0636e-71ed-4b4d-95b5-438092695005</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>13f1ca45-c30b-4214-9075-758edd700ec6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>735580cc-642f-4356-af6d-77473ea3be9d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>06c0636e-71ed-4b4d-95b5-438092695005</id>
+      <masked>false</masked>
+      <name>test_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>735580cc-642f-4356-af6d-77473ea3be9d</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

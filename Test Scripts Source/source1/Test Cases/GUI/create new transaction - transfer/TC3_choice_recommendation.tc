@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3_choice_recommendation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52b1703a-991e-4c0c-8593-d9dfe1cf4d74</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9f87db22-3a3f-4cbd-b470-f9f6cdfcbfb4</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/GUI_Usability/new transaction - transfer/source_destination_recommendation</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>9f87db22-3a3f-4cbd-b470-f9f6cdfcbfb4</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>account_name</value>
+      <variableId>fc93fd71-15a0-45e4-bf3c-c1db3b9b6f14</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9f87db22-3a3f-4cbd-b470-f9f6cdfcbfb4</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>c5b0b764-f4b9-4649-a0e8-35b55cc56294</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc93fd71-15a0-45e4-bf3c-c1db3b9b6f14</id>
+      <masked>false</masked>
+      <name>account_name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5b0b764-f4b9-4649-a0e8-35b55cc56294</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>

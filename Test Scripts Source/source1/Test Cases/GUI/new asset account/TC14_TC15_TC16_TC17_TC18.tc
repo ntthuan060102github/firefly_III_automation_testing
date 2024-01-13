@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_TC15_TC16_TC17_TC18</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a6a0095-5fa6-4905-98b7-a8cb1024377e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7991630c-871a-4adb-ae0d-26ce85d38453</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/GUI_Usability/new asset account/dropdown_account_role</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>7991630c-871a-4adb-ae0d-26ce85d38453</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>test_value</value>
+      <variableId>57dd854b-aec1-4631-83e6-c9bc888adbbc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>7991630c-871a-4adb-ae0d-26ce85d38453</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_value</value>
+      <variableId>016f509f-1adb-467a-bb62-6f8398d39ffa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57dd854b-aec1-4631-83e6-c9bc888adbbc</id>
+      <masked>false</masked>
+      <name>test_value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>016f509f-1adb-467a-bb62-6f8398d39ffa</id>
+      <masked>false</masked>
+      <name>expected_value</name>
+   </variable>
+</TestCaseEntity>
